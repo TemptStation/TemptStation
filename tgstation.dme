@@ -4520,5 +4520,8 @@
 #include "modular_splurt\code\modules\vending\kinkmate.dm"
 #include "modular_splurt\code\modules\vending\security.dm"
 #include "modular_splurt\code\modules\vending\wardrobes.dm"
+#include "modular_tempt\code\modules\ashwalkers\clothing.dm"
+#include "modular_tempt\code\modules\ashwalkers\spawner.dm"
+#include "modular_tempt\code\modules\ashwalkers\tendrils.dm"
 #include "tools\Redirector\textprocs.dm"
 // END_INCLUDE
