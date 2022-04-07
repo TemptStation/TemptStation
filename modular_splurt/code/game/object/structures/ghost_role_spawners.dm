@@ -1,5 +1,6 @@
+/* moved to modular tempt
 /obj/effect/mob_spawn/human/ash_walker
-	var/gender_bias
+	var/gender_bias //gg mos you broke it
 
 /obj/effect/mob_spawn/human/ash_walker/equip(mob/living/carbon/human/H)
 	if(!isnull(gender_bias) && prob(90))
@@ -24,6 +25,7 @@
 	Ensure the safety of your nest, let no abomination even graze your home."
 	mob_species = /datum/species/lizard/ashwalker/eastern
 	gender_bias = MALE
+*/
 
 //Portable dangerous-environment sleepers: Spawns in exposed to ash storms shelter.
 //Characters in this role could have been conscious for a long time, surviving on the planet. They may also know Draconic language by contacting with ashwalkers.

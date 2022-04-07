@@ -36,6 +36,7 @@
 
 //Ash walker eggs: Spawns in ash walker dens in lavaland. Ghosts become unbreathing lizards that worship the Necropolis and are advised to retrieve corpses to create more ash walkers.
 
+/* tempt edit - moved to modular to avoid mosley's fuckery
 /obj/structure/ash_walker_eggshell
 	name = "ash walker egg"
 	desc = "A man-sized yellow egg, spawned from some unfathomable creature. A humanoid silhouette lurks within. The egg shell looks resistant to temperature but otherwise rather brittle."
@@ -141,6 +142,7 @@
 	name ="Ashwalker"
 	head = /obj/item/clothing/head/helmet/gladiator
 	uniform = /obj/item/clothing/under/costume/gladiator/ash_walker
+*/
 
 
 //Timeless prisons: Spawns in Wish Granter prisons in lavaland. Ghosts become age-old users of the Wish Granter and are advised to seek repentance for their past.
@@ -903,3 +905,6 @@
 	new /obj/item/clothing/mask/chameleon(src)
 	new /obj/item/storage/backpack/chameleon(src)
 	new /obj/item/clothing/neck/cloak/chameleon(src)
+
+//tempt edit
+#undef spawnOverride //mosley i will slap you
