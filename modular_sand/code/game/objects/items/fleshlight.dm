@@ -239,6 +239,7 @@
  * # Hyperstation 13 portal underwear
  * Wear it, cannot be worn if not pointing to the bits you have.
 */
+
 /obj/item/clothing/underwear/briefs/panties/portalpanties
 	name = "portal panties"
 	desc = "A silver love(TM) pair of portal underwear, with bluespace tech allows lovers to hump at a distance. Needs to be paired with a portal fleshlight before use."
@@ -345,7 +346,7 @@
 // portal fleshlight box
 /obj/item/storage/box/portallight/PopulateContents()
 	new /obj/item/portallight/(src)
-	new /obj/item/clothing/underwear/briefs/panties/portalpanties/(src)
+	//new /obj/item/clothing/underwear/briefs/panties/portalpanties/(src)
 	new /obj/item/paper/fluff/portallight(src)
 
 /obj/item/paper/fluff/portallight
