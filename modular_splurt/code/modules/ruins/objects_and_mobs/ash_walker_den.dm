@@ -1,3 +1,4 @@
+/*
 /obj/structure/lavaland/ash_walker/remake_walker(datum/mind/oldmind, oldname, oldgender)
 	. = ..()
 	var/mob/living/carbon/human/M = oldmind.current
@@ -18,3 +19,4 @@
 /obj/structure/lavaland/ash_walker/eastern
 	spawned_obj = /obj/effect/mob_spawn/human/ash_walker/eastern
 	species = /datum/species/lizard/ashwalker/eastern
+*/
