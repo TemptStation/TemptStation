@@ -44,7 +44,8 @@
 
 /datum/config_entry/flag/allow_cross_server_bunker_override
 	protection = CONFIG_ENTRY_LOCKED
-	
+
+//Redbot TGStatus cog functionality
 /datum/config_entry/string/medal_hub_password
 	protection = CONFIG_ENTRY_HIDDEN
 
