@@ -247,7 +247,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 
 /obj/effect/landmark/start/wizard/Initialize()
 	..()
-	GLOB.wizardstart += get_turf(src)
+	GLOB.wizardstart += loc
 	return INITIALIZE_HINT_QDEL
 
 /obj/effect/landmark/start/nukeop
@@ -257,7 +257,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 
 /obj/effect/landmark/start/nukeop/Initialize()
 	..()
-	GLOB.nukeop_start += get_turf(src)
+	GLOB.nukeop_start += loc
 	return INITIALIZE_HINT_QDEL
 
 /obj/effect/landmark/start/nukeop_leader
@@ -267,7 +267,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 
 /obj/effect/landmark/start/nukeop_leader/Initialize()
 	..()
-	GLOB.nukeop_leader_start += get_turf(src)
+	GLOB.nukeop_leader_start += loc
 	return INITIALIZE_HINT_QDEL
 
 // Must be immediate because players will
@@ -279,7 +279,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 
 /obj/effect/landmark/start/new_player/Initialize()
 	..()
-	GLOB.newplayer_start += get_turf(src)
+	GLOB.newplayer_start += loc
 	return INITIALIZE_HINT_QDEL
 
 /obj/effect/landmark/start/nuclear_equipment
@@ -309,7 +309,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 
 /obj/effect/landmark/latejoin/Initialize(mapload)
 	..()
-	SSjob.latejoin_trackers += get_turf(src)
+	SSjob.latejoin_trackers += loc
 	return INITIALIZE_HINT_QDEL
 
 // carp.
@@ -334,7 +334,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 
 /obj/effect/landmark/xeno_spawn/Initialize(mapload)
 	..()
-	GLOB.xeno_spawn += get_turf(src)
+	GLOB.xeno_spawn += loc
 	return INITIALIZE_HINT_QDEL
 
 // blobs.
@@ -344,7 +344,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 
 /obj/effect/landmark/blobstart/Initialize(mapload)
 	..()
-	GLOB.blobstart += get_turf(src)
+	GLOB.blobstart += loc
 	return INITIALIZE_HINT_QDEL
 
 /obj/effect/landmark/secequipment
@@ -353,7 +353,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 
 /obj/effect/landmark/secequipment/Initialize(mapload)
 	..()
-	GLOB.secequipment += get_turf(src)
+	GLOB.secequipment += loc
 	return INITIALIZE_HINT_QDEL
 
 /obj/effect/landmark/prisonwarp
@@ -362,7 +362,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 
 /obj/effect/landmark/prisonwarp/Initialize(mapload)
 	..()
-	GLOB.prisonwarp += get_turf(src)
+	GLOB.prisonwarp += loc
 	return INITIALIZE_HINT_QDEL
 
 /obj/effect/landmark/ert_spawn
@@ -371,7 +371,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 
 /obj/effect/landmark/ert_spawn/Initialize(mapload)
 	..()
-	GLOB.emergencyresponseteamspawn += get_turf(src)
+	GLOB.emergencyresponseteamspawn += loc
 	return INITIALIZE_HINT_QDEL
 
 /obj/effect/landmark/holding_facility
@@ -380,7 +380,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 
 /obj/effect/landmark/holding_facility/Initialize(mapload)
 	..()
-	GLOB.holdingfacility += get_turf(src)
+	GLOB.holdingfacility += loc
 	return INITIALIZE_HINT_QDEL
 
 /obj/effect/landmark/thunderdome/observe
@@ -389,7 +389,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 
 /obj/effect/landmark/thunderdome/observe/Initialize(mapload)
 	..()
-	GLOB.tdomeobserve += get_turf(src)
+	GLOB.tdomeobserve += loc
 	return INITIALIZE_HINT_QDEL
 
 /obj/effect/landmark/thunderdome/one
@@ -398,7 +398,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 
 /obj/effect/landmark/thunderdome/one/Initialize(mapload)
 	..()
-	GLOB.tdome1	+= get_turf(src)
+	GLOB.tdome1	+= loc
 	return INITIALIZE_HINT_QDEL
 
 /obj/effect/landmark/thunderdome/two
@@ -407,7 +407,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 
 /obj/effect/landmark/thunderdome/two/Initialize(mapload)
 	..()
-	GLOB.tdome2 += get_turf(src)
+	GLOB.tdome2 += loc
 	return INITIALIZE_HINT_QDEL
 
 /obj/effect/landmark/thunderdome/admin
@@ -416,7 +416,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 
 /obj/effect/landmark/thunderdome/admin/Initialize(mapload)
 	..()
-	GLOB.tdomeadmin += get_turf(src)
+	GLOB.tdomeadmin += loc
 	return INITIALIZE_HINT_QDEL
 
 //Servant spawn locations
@@ -427,7 +427,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 
 /obj/effect/landmark/servant_of_ratvar/Initialize(mapload)
 	..()
-	GLOB.servant_spawns += get_turf(src)
+	GLOB.servant_spawns += loc
 	return INITIALIZE_HINT_QDEL
 
 //City of Cogs entrances
@@ -437,7 +437,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 
 /obj/effect/landmark/city_of_cogs/Initialize(mapload)
 	..()
-	GLOB.city_of_cogs_spawns += get_turf(src)
+	GLOB.city_of_cogs_spawns += loc
 	return INITIALIZE_HINT_QDEL
 
 //generic event spawns
