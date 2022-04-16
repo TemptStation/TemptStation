@@ -13,7 +13,7 @@
 	maxHealth = TONGUE_MAX_HEALTH
 	var/list/initial_accents //the ones the tongue starts with, not what it currently has
 	var/list/accents = list() //done in order of priority (please always apply abductor accent and stuttering last)
-	/* tempt edit - moved to modular
+	/* tempt edit
 	var/static/list/languages_possible_base = typecacheof(list(
 		/datum/language/common,
 		/datum/language/draconic,
@@ -39,6 +39,30 @@
 		/datum/language/modular_sand/sergal, //Sandstorm change
 	))
 	*/
+	var/static/list/languages_possible_base = typecacheof(list(
+		/datum/language/common,
+		/datum/language/draconic,
+		/datum/language/codespeak,
+		/datum/language/monkey,
+		/datum/language/narsie,
+		/datum/language/beachbum,
+		/datum/language/ratvar,
+		/datum/language/aphasia,
+		/datum/language/slime,
+		/datum/language/vampiric,
+		/datum/language/dwarf,
+		/datum/language/signlanguage,
+		/datum/language/neokanji,
+		/datum/language/sylvan,
+		/datum/language/machine,
+		/datum/language/modular_sand/calcic,
+		/datum/language/modular_sand/moffic,
+		/datum/language/modular_sand/shadowtongue,
+		/datum/language/modular_sand/solcommon,
+		/datum/language/modular_sand/technorussian
+	))
+	//this needs to be here because linter errors.
+	//tempt edit end
 	healing_factor = STANDARD_ORGAN_HEALING*5 //Fast!!
 	decay_factor = STANDARD_ORGAN_DECAY/2
 
