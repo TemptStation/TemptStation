@@ -310,6 +310,7 @@ Key procs
 							/datum/language/sylvan = list(LANGUAGE_ATOM))
 
 
+/* tempt edit - moved to modular
 /datum/language_holder/synthetic
 	understood_languages = list(/datum/language/common = list(LANGUAGE_ATOM),
 								/datum/language/machine = list(LANGUAGE_ATOM),
@@ -333,6 +334,7 @@ Key procs
 							/datum/language/modular_sand/technorussian = list(LANGUAGE_ATOM),
 							/datum/language/modular_sand/dunmeri = list(LANGUAGE_ATOM),
 							/datum/language/modular_sand/sergal = list(LANGUAGE_ATOM))
+*/
 
 /datum/language_holder/venus
 	understood_languages = list(/datum/language/common = list(LANGUAGE_ATOM),

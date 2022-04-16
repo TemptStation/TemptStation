@@ -4,6 +4,7 @@
 	icon = 'modular_sand/icons/misc/language.dmi'
 	icon_state = null
 
+/* tempt edit
 /datum/language/modular_sand/sergal
 	name = LANGUAGE_SERGAL
 	desc = "The dominant language of the Sergal homeworld, Tal. It consists of aggressive low-pitched hissing and throaty growling."
@@ -16,6 +17,7 @@
 	icon_state = "cheese"
 	flags = TONGUELESS_SPEECH
 	restricted = FALSE
+*/
 
 /datum/language/modular_sand/buggy
 	name = "Buggy"
@@ -55,6 +57,7 @@
 	default_priority = 89
 	restricted = FALSE
 
+/* tempt edit
 /datum/language/modular_sand/dunmeri
 	name = "Dunmeri"
 	desc = "The native language of the dark elves of lavaland."
@@ -77,6 +80,7 @@
 	icon_state = "dunmeri"
 	default_priority = 92
 	restricted = FALSE
+*/
 
 /datum/language/modular_sand/moffic
 	name = "Moffic"

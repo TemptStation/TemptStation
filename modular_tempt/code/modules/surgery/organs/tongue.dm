@@ -1,0 +1,23 @@
+/obj/item/organ/tongue
+	var/static/list/languages_possible_base = typecacheof(list(
+		/datum/language/common,
+		/datum/language/draconic,
+		/datum/language/codespeak,
+		/datum/language/monkey,
+		/datum/language/narsie,
+		/datum/language/beachbum,
+		/datum/language/ratvar,
+		/datum/language/aphasia,
+		/datum/language/slime,
+		/datum/language/vampiric,
+		/datum/language/dwarf,
+		/datum/language/signlanguage,
+		/datum/language/neokanji,
+		/datum/language/sylvan,
+		/datum/language/machine,
+		/datum/language/modular_sand/calcic,
+		/datum/language/modular_sand/moffic,
+		/datum/language/modular_sand/shadowtongue,
+		/datum/language/modular_sand/solcommon,
+		/datum/language/modular_sand/technorussian
+	))

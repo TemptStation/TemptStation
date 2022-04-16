@@ -13,6 +13,7 @@
 	maxHealth = TONGUE_MAX_HEALTH
 	var/list/initial_accents //the ones the tongue starts with, not what it currently has
 	var/list/accents = list() //done in order of priority (please always apply abductor accent and stuttering last)
+	/* tempt edit - moved to modular
 	var/static/list/languages_possible_base = typecacheof(list(
 		/datum/language/common,
 		/datum/language/draconic,
@@ -37,6 +38,7 @@
 		/datum/language/modular_sand/technorussian, //Skyrat change - russian stereotype language
 		/datum/language/modular_sand/sergal, //Sandstorm change
 	))
+	*/
 	healing_factor = STANDARD_ORGAN_HEALING*5 //Fast!!
 	decay_factor = STANDARD_ORGAN_DECAY/2
 
