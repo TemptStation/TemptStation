@@ -345,7 +345,7 @@
 		check_break(M)
 
 /obj/structure/table/glass/proc/check_break(mob/living/M)
-	if(M.has_gravity() && M.mob_size > MOB_SIZE_SMALL && !(M.movement_type & FLYING) && !M.pass_flags & PASSCRAWL) //tempt edit
+	if(M.has_gravity() && M.mob_size > MOB_SIZE_SMALL && !(M.movement_type & FLYING) && M.pass_flags & ~PASSCRAWL) //tempt edit
 		table_shatter(M)
 
 /obj/structure/table/glass/proc/table_shatter(mob/living/L)
