@@ -114,6 +114,9 @@ GLOBAL_LIST_INIT(bitflags, list(
 #define LETPASSTHROW	(1<<6)
 #define	PASSMACHINE		(1<<7)
 #define PASSSTRUCTURE	(1<<8)
+//tempt edit here for cleanness
+#define PASSCRAWL		(1<<9)
+//
 
 //Movement Types
 #define GROUND				(1<<0)

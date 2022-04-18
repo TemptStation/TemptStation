@@ -345,7 +345,7 @@
 		check_break(M)
 
 /obj/structure/table/glass/proc/check_break(mob/living/M)
-	if(M.has_gravity() && M.mob_size > MOB_SIZE_SMALL && !(M.movement_type & FLYING))
+	if(M.has_gravity() && M.mob_size > MOB_SIZE_SMALL && !(M.movement_type & FLYING) && !M.pass_flags & PASSCRAWL) //tempt edit
 		table_shatter(M)
 
 /obj/structure/table/glass/proc/table_shatter(mob/living/L)
@@ -704,7 +704,7 @@
 	. = !density
 	if(istype(caller))
 		. = . || (caller.pass_flags & PASSTABLE)
-		
+
 /obj/structure/rack/MouseDrop_T(obj/O, mob/user)
 	. = ..()
 	if ((!( istype(O, /obj/item) ) || user.get_active_held_item() != O))

@@ -1,6 +1,7 @@
 
 //Stuff like mobility flag updates, resting updates, etc.
 
+/* tempt edit - moved to modular
 //Force-set resting variable, without needing to resist/etc.
 /mob/living/proc/set_resting(new_resting, silent = FALSE, updating = TRUE)
 	if(new_resting != resting)
@@ -12,6 +13,7 @@
 		if(resting == 1)
 			SEND_SIGNAL(src, COMSIG_LIVING_RESTING)
 		update_resting(updating)
+*/
 
 /mob/living/proc/update_resting(update_mobility = TRUE)
 	if(update_mobility)
@@ -84,7 +86,8 @@
 	var/canstand_involuntary = conscious && !stat_softcrit && !knockdown && !chokehold && !paralyze && (ignore_legs || has_legs) && !(buckled && buckled.buckle_lying) && !(combat_flags & COMBAT_FLAG_HARD_STAMCRIT)
 	var/canstand = canstand_involuntary && !resting
 
-	var/should_be_lying = !canstand && !HAS_TRAIT(src, TRAIT_MOBILITY_NOREST)
+//	var/should_be_lying = !canstand && !HAS_TRAIT(src, TRAIT_MOBILITY_NOREST) //tempt edit
+	var/should_be_lying = HAS_TRAIT(src, TRAIT_FLOORED) || !(canstand || HAS_TRAIT(src, TRAIT_MOBILITY_NOREST)) //please, this looks better.
 	if(buckled)
 		if(buckled.buckle_lying != -1)
 			should_be_lying = buckled.buckle_lying
