@@ -10,4 +10,4 @@ ALERT_DELTA Destruction of the station is imminent. All crew are instructed to o
 
 ## Determines the minimum alert level for the security cyborg model to be chosen
 ## 0: Green, 1:Blue, 2:Amber, 3:Red, 4:Delta
-MINIMUM_SECBORG_ALERT 3
+MINIMUM_SECBORG_ALERT 0
