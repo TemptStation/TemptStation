@@ -1,5 +1,4 @@
-/obj/item/robot_module
-	name = "Default"
+name = "Default"
 	icon = 'icons/obj/module.dmi'
 	icon_state = "std_mod"
 	w_class = WEIGHT_CLASS_GIGANTIC
@@ -741,8 +740,9 @@
 		/obj/item/melee/baton/loaded,
 		/obj/item/gun/energy/disabler/cyborg,
 		/obj/item/clothing/mask/gas/sechailer/cyborg,
+		/obj/item/gun/energy/laser/cyborg,
 		/obj/item/pinpointer/crew)
-	emag_modules = list(/obj/item/gun/energy/laser/cyborg)
+	emag_modules = list(/obj/item/gun/ballistic/revolver/grenadelauncher/cyborg)
 	ratvar_modules = list(/obj/item/clockwork/slab/cyborg/security,
 		/obj/item/clockwork/weapon/ratvarian_spear)
 	cyborg_base_icon = "sec"
