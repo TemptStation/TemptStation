@@ -1,4 +1,5 @@
-name = "Default"
+/obj/item/robot_module
+	name = "Default"
 	icon = 'icons/obj/module.dmi'
 	icon_state = "std_mod"
 	w_class = WEIGHT_CLASS_GIGANTIC
@@ -95,41 +96,32 @@ name = "Default"
 	rad_flags |= RAD_NO_CONTAMINATE
 	if(istype(I, /obj/item/stack))
 		var/obj/item/stack/S = I
-
 		if(is_type_in_list(S, list(/obj/item/stack/sheet/metal, /obj/item/stack/rods, /obj/item/stack/tile/plasteel)))
 			if(S.custom_materials?.len && S.custom_materials[SSmaterials.GetMaterialRef(/datum/material/iron)])
 				S.cost = S.custom_materials[SSmaterials.GetMaterialRef(/datum/material/iron)] * 0.25
 			S.source = get_or_create_estorage(/datum/robot_energy_storage/metal)
-
 		else if(istype(S, /obj/item/stack/sheet/glass))
 			S.cost = 500
 			S.source = get_or_create_estorage(/datum/robot_energy_storage/glass)
-
 		else if(istype(S, /obj/item/stack/sheet/rglass/cyborg))
 			var/obj/item/stack/sheet/rglass/cyborg/G = S
 			G.source = get_or_create_estorage(/datum/robot_energy_storage/metal)
 			G.glasource = get_or_create_estorage(/datum/robot_energy_storage/glass)
-
 		else if(istype(S, /obj/item/stack/medical))
 			S.cost = 250
 			S.source = get_or_create_estorage(/datum/robot_energy_storage/medical)
-
 		else if(istype(S, /obj/item/stack/cable_coil))
 			S.cost = 1
 			S.source = get_or_create_estorage(/datum/robot_energy_storage/wire)
-
 		else if(istype(S, /obj/item/stack/marker_beacon))
 			S.cost = 1
 			S.source = get_or_create_estorage(/datum/robot_energy_storage/beacon)
-
 		else if(istype(S, /obj/item/stack/packageWrap))
 			S.cost = 1
 			S.source = get_or_create_estorage(/datum/robot_energy_storage/wrapping_paper)
-
 		if(S && S.source)
 			S.set_custom_materials(null)
 			S.is_cyborg = 1
-
 	if(I.loc != src)
 		I.forceMove(src)
 	modules += I
@@ -739,8 +731,8 @@ name = "Default"
 		/obj/item/restraints/handcuffs/cable/zipties,
 		/obj/item/melee/baton/loaded,
 		/obj/item/gun/energy/disabler/cyborg,
-		/obj/item/clothing/mask/gas/sechailer/cyborg,
 		/obj/item/gun/energy/laser/cyborg,
+		/obj/item/clothing/mask/gas/sechailer/cyborg,
 		/obj/item/pinpointer/crew)
 	emag_modules = list(/obj/item/gun/ballistic/revolver/grenadelauncher/cyborg)
 	ratvar_modules = list(/obj/item/clockwork/slab/cyborg/security,
