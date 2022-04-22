@@ -89,9 +89,10 @@
 	desc = "An energy-based laser gun that draws power from the cyborg's internal energy cell directly. So this is what freedom looks like?"
 	icon = 'icons/obj/items_cyborg.dmi'
 	icon_state = "laser_cyborg"
+	inaccuracy_modifier = 1.2
 	selfcharge = EGUN_SELFCHARGE_BORG
 	cell_type = /obj/item/stock_parts/cell/secborg
-	charge_delay = 3
+	charge_delay = 4
 
 /obj/item/gun/energy/laser/cyborg/emp_act()
 	return
