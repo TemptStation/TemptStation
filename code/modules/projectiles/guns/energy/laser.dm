@@ -92,7 +92,7 @@
 	inaccuracy_modifier = 1.2
 	selfcharge = EGUN_SELFCHARGE_BORG
 	cell_type = /obj/item/stock_parts/cell/secborg
-	charge_delay = 4
+	charge_delay = 4.5
 
 /obj/item/gun/energy/laser/cyborg/emp_act()
 	return
