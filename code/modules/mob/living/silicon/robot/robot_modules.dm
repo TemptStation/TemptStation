@@ -734,7 +734,6 @@
 		/obj/item/gun/energy/laser/cyborg,
 		/obj/item/clothing/mask/gas/sechailer/cyborg,
 		/obj/item/pinpointer/crew)
-	emag_modules = list(/obj/item/gun/ballistic/revolver/grenadelauncher/cyborg)
 	ratvar_modules = list(/obj/item/clockwork/slab/cyborg/security,
 		/obj/item/clockwork/weapon/ratvarian_spear)
 	cyborg_base_icon = "sec"
