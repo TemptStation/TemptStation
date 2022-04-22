@@ -50,4 +50,4 @@ Security Officer=5,5
 Brig Physician=1,1
 
 AI=0,1
-Cyborg=2,2
+Cyborg=0,1
