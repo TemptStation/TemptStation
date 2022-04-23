@@ -142,3 +142,6 @@
   - bugfix: ash drakes are beatable again
   - balance: vehicles can now pass through hiero walls
   - bugfix: vortex talisman works again
+2022-04-23:
+  prodso:
+  - tweak: Changelog.js
