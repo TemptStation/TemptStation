@@ -235,6 +235,7 @@
 		"flavor_text"		= "",
 		"silicon_flavor_text"		= "",
 		"naked_flavor_text" = "", //tempt edit
+		"headshot_link"			= "", //ditto
 		"meat_type"			= "Mammalian",
 		"body_model"		= body_model,
 		"body_size"			= RESIZE_DEFAULT_SIZE
