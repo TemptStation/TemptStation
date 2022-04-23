@@ -139,71 +139,17 @@
   SandPoot:
   - bugfix: Progressbars no longer stay after completing/failing their task.
 2022-04-17:
-  Putnam3145:
-  - bugfix: 'Fires are back on Linux tweak: Linux-only: plasma and trit fires work
-      as before'
-  SandPoot:
-  - bugfix: Fixes testicle shape saving.
-  - code_imp: Initialize(mapload)
-  - rscadd: Added deadminning preferences (only affects admins).
-  maxspells:
-  - expansion: Surgery steps play sound effects appropriate to the step
-2022-04-20:
-  BongaTheProto:
-  - rscadd: a lot of thing, really! it's like 1180 files changed
-  - rscadd: naked flavor text
-  - rscadd: some new character sprites wooohooo!
-  - rscadd: RBMK lavaland ruin
-  - rscadd: multi-tile poddoors...? (unused in maps still)
-  - rscadd: Size Normalizer items in loadout for big people who sometimes feel too
-      big for the big station
-  - imageadd: new gremlin sprites
-  - code_imp: Updates us with upstream's changes
-  - code_imp: Changes the way interactions work, kind of
-  - bugfix: Fixes a lot of bugs
-  - bugfix: Fixes smexi (nah jk unless????)
-2022-04-21:
-  BongaTheProto:
-  - bugfix: fixes breastfeeding interactions
-  ChungusGamer666:
-  - rscadd: added cuddling interactions
-  SandPoot:
-  - bugfix: Mobs lacking the vars in GLOB.slots won't create infinite runtimes anymore.
-2022-04-26:
-  Hideyoshi1:
-  - rscadd: Qareen antagonist
-  - imageadd: copy of revenant sprites in modular_splurt - will be modified soon
-  - code_imp: added a limit on the Tetris prizes + null and type checks for several
-      runtimes
-  - refactor: _lewd.dm - for the tgui chugging when in an interact_with menu - no
-      longer runtimes
-  - admin: message for when someone uses a Tetris machine - along with their score
-      and prizes
-2022-04-27:
-  BongaTheProto:
-  - rscadd: Rest and drag yourself into a table to crawl under it
-  - rscadd: PDA function for borgs
-  - rscadd: Tau and Smolstation updates
-  - imageadd: adds new body markings
-  - imageadd: New gremlim style
-  - bugfix: Jumpsuits no longer spawn unders... I think
-2022-04-28:
-  PurpleFenn:
-  - rscadd: Check-Out verb, acts like examine with flavor to the user you're examining
-2022-04-29:
-  AshTheDerg:
-  - bugfix: Replaced missing Ghost Role Hotel Staff suit with one that does exist.
-  Putnam3145:
-  - rscadd: 'Methane-based planetary atmospheres tweak: Advanced fire extinguishers
-      can now remove non-plasma flammable gases'
-  - rscadd: Nitric oxide (NO), with reactions associated
-  - rscadd: A maximum temperature above which all gases break down into quark matter,
-      which will break down into gases again if it goes below that temperature.
-  SandPoot:
-  - rscadd: The stasis beds can now be researched alongside being built.
-  - balance: Maps are now half stasis beds and half sleepers... only in medbay.
-  - bugfix: The stasis bed's examine now works.
-  - refactor: Generally updates stasis bed's code and adds cooldown defines (i learnt
-      how to use them)
-  timothyteakettle:
-  - spellcheck: trashcan quirk now uses correct grammar
+  CipherSnagger:
+  - tweak: Replaced metal bat with wood
+  - tweak: replace high loot toilet with low
+  - tweak: Reinforced some shit to make big gamer gear harder to grab
+  - rscadd: Organ storage
+  - bugfix: Piping error
+  NullFag:
+  - tweak: offsetted a bunch of apc's by one pixel
+  - bugfix: ash drakes are beatable again
+  - balance: vehicles can now pass through hiero walls
+  - bugfix: vortex talisman works again
+2022-04-23:
+  prodso:
+  - tweak: Changelog.js
