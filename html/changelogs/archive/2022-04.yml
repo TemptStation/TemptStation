@@ -145,5 +145,6 @@
 2022-04-23:
   NullFag:
   - bugfix: jumpsuits don't spawn unders
+  - rscadd: crawling under tables is a thing
   prodso:
   - tweak: Changelog.js
