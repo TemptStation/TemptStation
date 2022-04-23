@@ -2131,7 +2131,7 @@ GLOBAL_LIST_EMPTY(roundstart_race_names)
 		if(IS_STAMCRIT(user))
 			to_chat(user, "<span class='warning'>You're too exhausted for that.</span>")
 			return
-		if(user.IsKnockdown() || user.IsParalyzed() || user.IsStun())
+		if(user.IsKnockdown() || user.IsParalyzed() || user.IsStun() || HAS_TRAIT(user, TRAIT_FLOORED)) //tempt edit
 			to_chat(user, "<span class='warning'>You can't seem to force yourself up right now!</span>")
 			return
 		if(CHECK_MOBILITY(user, MOBILITY_STAND))
