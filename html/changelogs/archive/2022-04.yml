@@ -143,5 +143,7 @@
   - balance: vehicles can now pass through hiero walls
   - bugfix: vortex talisman works again
 2022-04-23:
+  NullFag:
+  - bugfix: jumpsuits don't spawn unders
   prodso:
   - tweak: Changelog.js
