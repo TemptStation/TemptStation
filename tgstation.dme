@@ -4531,6 +4531,7 @@
 #include "modular_tempt\code\game\turfs\simulated\floor\mineral_floor.dm"
 #include "modular_tempt\code\modules\clothing\under\_under.dm"
 #include "modular_tempt\code\modules\jobs\alt_titles.dm"
+#include "modular_tempt\code\modules\jobs\job_spawntext.dm"
 #include "modular_tempt\code\modules\mob\living\living_mobility.dm"
 #include "modular_tempt\code\modules\mob\living\living_signals.dm"
 #include "tools\Redirector\textprocs.dm"
