@@ -85,6 +85,8 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 	var/tgui_lock = TRUE
 	var/windowflashing = TRUE
 	var/toggles = TOGGLES_DEFAULT
+	/// A separate variable for deadmin toggles, only deals with those.
+	var/deadmin = NONE
 	var/db_flags
 	var/chat_toggles = TOGGLES_DEFAULT_CHAT
 	var/ghost_form = "ghost"
@@ -203,6 +205,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 "vag_shape" = DEF_VAGINA_SHAPE,
 "vag_color" = "ffffff",
 "has_womb" = FALSE,
+"womb_fluid" = /datum/reagent/consumable/semen/femcum,
 "has_butt" = FALSE,
 "butt_color" = "ffffff",
 "butt_size" = BUTT_SIZE_DEF,
@@ -218,7 +221,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 "ipc_screen" = "Sunburst",
 "ipc_antenna" = "None",
 "flavor_text" = "",
-"naked_flavor_text" = "", //tempt edit
+"naked_flavor_text" = "", //SPLURT edit
 "silicon_flavor_text" = "",
 "ooc_notes" = "",
 "meat_type" = "Mammalian",
@@ -484,7 +487,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 					dat += "[html_encode(features["flavor_text"])]<BR>" //skyrat - adds <br> and uses html_encode
 			else
 				dat += "[TextPreview(html_encode(features["flavor_text"]))]...<BR>" //skyrat edit, uses html_encode
-			//tempt edit - nekked flavor text
+			//SPLURT edit - naked flavor text
 			dat += "<h2>Naked Flavor Text</h2>"
 			dat += "<a href='?_src_=prefs;preference=naked_flavor_text;task=input'><b>Set Naked Examine Text</b></a><br>"
 			if(length(features["naked_flavor_text"]) <= 40)
@@ -494,7 +497,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 					dat += "[html_encode(features["naked_flavor_text"])]<BR>"
 			else
 				dat += "[TextPreview(html_encode(features["naked_flavor_text"]))]...<BR>"
-			//tempt edit end
+			//SPLURT edit end
 			dat += "<h2>Silicon Flavor Text</h2>"
 			dat += "<a href='?_src_=prefs;preference=silicon_flavor_text;task=input'><b>Set Silicon Examine Text</b></a><br>"
 			if(length(features["silicon_flavor_text"]) <= 40)
@@ -846,6 +849,12 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 						dat += "<b>Testicles Shape:</b> <a style='display:block;width:120px' href='?_src_=prefs;preference=balls_shape;task=input'>[features["balls_shape"]]</a>"
 						dat += "<b>Testicles Visibility:</b><a style='display:block;width:100px' href='?_src_=prefs;preference=balls_visibility;task=input'>[features["balls_visibility"]]</a>"
 						dat += "<b>Produces:</b>"
+						var/datum/reagent/balls_fluid = find_reagent_object_from_type(features["balls_fluid"])
+						if(balls_fluid && (balls_fluid in GLOB.genital_fluids_list))
+							dat += "<a style='display:block;width:50px' href='?_src_=prefs;preference=balls_fluid;task=input'>[balls_fluid.name]</a>"
+						else
+							dat += "<a style='display:block;width:50px' href='?_src_=prefs;preference=balls_fluid;task=input'>Nothing?</a>"
+						/* //Old
 						switch(features["balls_fluid"])
 							if(/datum/reagent/consumable/milk)
 								dat += "<a style='display:block;width:50px' href='?_src_=prefs;preference=balls_fluid;task=input'>Milk</a>"
@@ -859,6 +868,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 								dat += "<a style='display:block;width:50px' href='?_src_=prefs;preference=balls_fluid;task=input'>Honey</a>"
 							else
 								dat += "<a style='display:block;width:50px' href='?_src_=prefs;preference=balls_fluid;task=input'>Nothing?</a>"
+						*/
 				dat += "</td>"
 				dat += APPEARANCE_CATEGORY_COLUMN
 				dat += "<h3>Vagina</h3>"
@@ -873,6 +883,13 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 						dat += "<span style='border: 1px solid #161616; background-color: #[features["vag_color"]];'><font color='[color_hex2num(features["vag_color"]) < 200 ? "FFFFFF" : "000000"]'>#[features["vag_color"]]</font></span> <a href='?_src_=prefs;preference=vag_color;task=input'>Change</a><br>"
 					dat += "<b>Vagina Visibility:</b><a style='display:block;width:100px' href='?_src_=prefs;preference=vag_visibility;task=input'>[features["vag_visibility"]]</a>"
 					dat += "<b>Has Womb:</b><a style='display:block;width:50px' href='?_src_=prefs;preference=has_womb'>[features["has_womb"] == TRUE ? "Yes" : "No"]</a>"
+					if(features["has_womb"] == TRUE)
+						dat += "<b>Produces:</b>"
+						var/datum/reagent/womb_fluid = find_reagent_object_from_type(features["womb_fluid"])
+						if(womb_fluid && (womb_fluid in GLOB.genital_fluids_list))
+							dat += "<a style='display:block;width:50px' href='?_src_=prefs;preference=womb_fluid;task=input'>[womb_fluid.name]</a>"
+						else
+							dat += "<a style='display:block;width:50px' href='?_src_=prefs;preference=womb_fluid;task=input'>Nothing?</a>"
 				dat += "</td>"
 				dat += APPEARANCE_CATEGORY_COLUMN
 				dat += "<h3>Breasts</h3>"
@@ -890,6 +907,12 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 					dat += "<b>Lactates:</b><a style='display:block;width:50px' href='?_src_=prefs;preference=breasts_producing'>[features["breasts_producing"] == TRUE ? "Yes" : "No"]</a>"
 					if(features["breasts_producing"] == TRUE)
 						dat += "<b>Produces:</b>"
+						var/datum/reagent/breasts_fluid = find_reagent_object_from_type(features["breasts_fluid"])
+						if(breasts_fluid && (breasts_fluid in GLOB.genital_fluids_list))
+							dat += "<a style='display:block;width:50px' href='?_src_=prefs;preference=breasts_fluid;task=input'>[breasts_fluid.name]</a>"
+						else
+							dat += "<a style='display:block;width:50px' href='?_src_=prefs;preference=breasts_fluid;task=input'>Nothing?</a>"
+						/* //Old
 						switch(features["breasts_fluid"])
 							if(/datum/reagent/consumable/milk)
 								dat += "<a style='display:block;width:50px' href='?_src_=prefs;preference=breasts_fluid;task=input'>Milk</a>"
@@ -905,6 +928,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 								dat += "<a style='display:block;width:50px' href='?_src_=prefs;preference=breasts_fluid;task=input'>Nothing?</a>"
 							//This else is a safeguard for errors, and if it happened, they wouldn't be able to change this pref,
 							//DO NOT REMOVE IT UNLESS YOU HAVE A GOOD IDEA
+						*/
 				dat += "</td>"
 				dat += APPEARANCE_CATEGORY_COLUMN
 				dat += "<h3>Butt</h3>"
@@ -1050,8 +1074,36 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 				dat += "<b>Adminhelp Sounds:</b> <a href='?_src_=prefs;preference=hear_adminhelps'>[(toggles & SOUND_ADMINHELP)?"Enabled":"Disabled"]</a><br>"
 				dat += "<b>Announce Login:</b> <a href='?_src_=prefs;preference=announce_login'>[(toggles & ANNOUNCE_LOGIN)?"Enabled":"Disabled"]</a><br>"
 				dat += "<br>"
-				dat += "<b>Combo HUD Lighting:</b> <a href='?_src_=prefs;preference=combohud_lighting'>[(toggles & COMBOHUD_LIGHTING)?"Full-bright":"No Change"]</a><br>"
+				dat += "<b>Combo HUD Lighting:</b> <a href = '?_src_=prefs;preference=combohud_lighting'>[(toggles & COMBOHUD_LIGHTING)?"Full-bright":"No Change"]</a><br>"
 				dat += "<b>Use Modern Player Panel:</b> <a href='?_src_=prefs;preference=use_new_playerpanel'>[use_new_playerpanel ? "Yes" : "No"]</a><br>" // sandstorm end - moves admins prefs to the right
+
+				//deadmin
+				dat += "<h2>Deadmin While Playing</h2>"
+				if(CONFIG_GET(flag/auto_deadmin_players))
+					dat += "<b>Always Deadmin:</b> FORCED</a><br>"
+				else
+					dat += "<b>Always Deadmin:</b> <a href = '?_src_=prefs;preference=toggle_deadmin_always'>[(deadmin & DEADMIN_ALWAYS)?"Enabled":"Disabled"]</a><br>"
+					if(!(deadmin & DEADMIN_ALWAYS))
+						dat += "<br>"
+						if(!CONFIG_GET(flag/auto_deadmin_antagonists))
+							dat += "<b>As Antag:</b> <a href = '?_src_=prefs;preference=toggle_deadmin_antag'>[(deadmin & DEADMIN_ANTAGONIST)?"Deadmin":"Keep Admin"]</a><br>"
+						else
+							dat += "<b>As Antag:</b> FORCED<br>"
+
+						if(!CONFIG_GET(flag/auto_deadmin_heads))
+							dat += "<b>As Command:</b> <a href = '?_src_=prefs;preference=toggle_deadmin_head'>[(deadmin & DEADMIN_POSITION_HEAD)?"Deadmin":"Keep Admin"]</a><br>"
+						else
+							dat += "<b>As Command:</b> FORCED<br>"
+
+						if(!CONFIG_GET(flag/auto_deadmin_security))
+							dat += "<b>As Security:</b> <a href = '?_src_=prefs;preference=toggle_deadmin_security'>[(deadmin & DEADMIN_POSITION_SECURITY)?"Deadmin":"Keep Admin"]</a><br>"
+						else
+							dat += "<b>As Security:</b> FORCED<br>"
+
+						if(!CONFIG_GET(flag/auto_deadmin_silicons))
+							dat += "<b>As Silicon:</b> <a href = '?_src_=prefs;preference=toggle_deadmin_silicon'>[(deadmin & DEADMIN_POSITION_SILICON)?"Deadmin":"Keep Admin"]</a><br>"
+						else
+							dat += "<b>As Silicon:</b> FORCED<br>"
 
 			dat += "<h2>Citadel Preferences</h2>" //Because fuck me if preferences can't be fucking modularized and expected to update in a reasonable timeframe.
 			dat += "<b>Widescreen:</b> <a href='?_src_=prefs;preference=widescreenpref'>[widescreenpref ? "Enabled ([CONFIG_GET(string/default_view)])" : "Disabled (15x15)"]</a><br>"
@@ -1938,12 +1990,12 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 					if(!isnull(msg))
 						features["flavor_text"] = strip_html_simple(msg, MAX_FLAVOR_LEN, TRUE) //Skyrat edit, removed strip_html_simple()
 
-				//tempt edit
+				//SPLURT edit
 				if("naked_flavor_text")
 					var/msg = input(usr, "Set the naked flavor text in your 'examine' verb. This should be IC, describing how your character would look like if naked.", "Naked Flavor Text", features["naked_flavor_text"]) as message|null
 					if(!isnull(msg))
 						features["naked_flavor_text"] = strip_html_simple(msg, MAX_FLAVOR_LEN, TRUE)
-				//tempt edit end
+				//SPLURT edit end
 				if("silicon_flavor_text")
 					var/msg = input(usr, "Set the silicon flavor text in your 'examine' verb. This can also be used for OOC notes and preferences!", "Silicon Flavor Text", features["silicon_flavor_text"]) as message|null //Skyrat edit, removed stripped_multiline_input()
 					if(!isnull(msg))
@@ -2575,19 +2627,14 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 						features["balls_visibility"] = n_vis
 
 				if("balls_fluid")
-					var/new_fluid
-					new_fluid = input(user, "Balls Fluid", "Character Preference") as null|anything in GLOB.genital_fluids_list
-					switch(new_fluid)
-						if("Milk")
-							features["balls_fluid"] = /datum/reagent/consumable/milk
-						if("Water")
-							features["balls_fluid"] = /datum/reagent/water
-						if("Semen")
-							features["balls_fluid"] = /datum/reagent/consumable/semen
-						if("Femcum")
-							features["balls_fluid"] = /datum/reagent/consumable/semen/femcum
-						if("Honey")
-							features["balls_fluid"] = /datum/reagent/consumable/alienhoney
+					var/datum/reagent/new_fluid
+					var/list/full_options = list()
+					LAZYADD(full_options, GLOB.genital_fluids_list)
+					LAZYREMOVE(full_options, find_reagent_object_from_type(/datum/reagent/consumable/semen))
+					full_options = list(find_reagent_object_from_type(/datum/reagent/consumable/semen)) + full_options
+					new_fluid = tgui_input_list(user, "Balls Fluid", "Character Preference", full_options)
+					if(new_fluid)
+						features["balls_fluid"] = new_fluid.type
 
 				if("breasts_size")
 					var/new_size = input(user, "Breast Size", "Character Preference") as null|anything in CONFIG_GET(keyed_list/breasts_cups_prefs)
@@ -2617,19 +2664,14 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 						features["breasts_visibility"] = n_vis
 
 				if("breasts_fluid")
-					var/new_shape
-					new_shape = input(user, "Breast Fluid", "Character Preference") as null|anything in GLOB.genital_fluids_list
-					switch(new_shape)
-						if("Milk")
-							features["breasts_fluid"] = /datum/reagent/consumable/milk
-						if("Water")
-							features["breasts_fluid"] = /datum/reagent/water
-						if("Semen")
-							features["breasts_fluid"] = /datum/reagent/consumable/semen
-						if("Femcum")
-							features["breasts_fluid"] = /datum/reagent/consumable/semen/femcum
-						if("Honey")
-							features["breasts_fluid"] = /datum/reagent/consumable/alienhoney
+					var/datum/reagent/new_fluid
+					var/list/full_options = list()
+					LAZYADD(full_options, GLOB.genital_fluids_list)
+					LAZYREMOVE(full_options, find_reagent_object_from_type(/datum/reagent/consumable/milk))
+					full_options = list(find_reagent_object_from_type(/datum/reagent/consumable/milk)) + full_options
+					new_fluid = tgui_input_list(user, "Breast Fluid", "Character Preference", full_options)
+					if(new_fluid)
+						features["breasts_fluid"] = new_fluid.type
 
 				if("vag_shape")
 					var/new_shape
@@ -2652,6 +2694,16 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 					var/n_vis = input(user, "Vagina Visibility", "Character Preference") as null|anything in CONFIG_GET(keyed_list/safe_visibility_toggles)
 					if(n_vis)
 						features["vag_visibility"] = n_vis
+
+				if("womb_fluid")
+					var/datum/reagent/new_fluid
+					var/list/full_options = list()
+					LAZYADD(full_options, GLOB.genital_fluids_list)
+					LAZYREMOVE(full_options, find_reagent_object_from_type(/datum/reagent/consumable/semen/femcum))
+					full_options = list(find_reagent_object_from_type(/datum/reagent/consumable/semen/femcum)) + full_options
+					new_fluid = tgui_input_list(user, "Womb Fluid", "Character Preference", full_options)
+					if(new_fluid)
+						features["womb_fluid"] = new_fluid.type
 
 				if("belly_color")
 					var/new_bellycolor = input(user, "Belly Color:", "Character Preference", "#"+features["belly_color"]) as color|null
@@ -3203,6 +3255,19 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 					toggles ^= COMBOHUD_LIGHTING
 				if("use_new_playerpanel")
 					use_new_playerpanel = !use_new_playerpanel
+
+				// Deadmin preferences
+				if("toggle_deadmin_always")
+					deadmin ^= DEADMIN_ALWAYS
+				if("toggle_deadmin_antag")
+					deadmin ^= DEADMIN_ANTAGONIST
+				if("toggle_deadmin_head")
+					deadmin ^= DEADMIN_POSITION_HEAD
+				if("toggle_deadmin_security")
+					deadmin ^= DEADMIN_POSITION_SECURITY
+				if("toggle_deadmin_silicon")
+					deadmin ^= DEADMIN_POSITION_SILICON
+				//
 
 				if("be_special")
 					var/be_special_type = href_list["be_special_type"]

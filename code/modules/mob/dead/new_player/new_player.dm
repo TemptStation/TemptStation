@@ -19,7 +19,7 @@
 	//is there a result we want to read from the age gate
 	var/age_gate_result
 
-/mob/dead/new_player/Initialize()
+/mob/dead/new_player/Initialize(mapload)
 	if(client && SSticker.state == GAME_STATE_STARTUP)
 		var/atom/movable/screen/splash/S = new(client, TRUE, TRUE)
 		S.Fade(TRUE)
@@ -144,6 +144,9 @@
 	return age_gate_result
 
 /mob/dead/new_player/proc/age_verify()
+	if(!client)
+		message_admins("Blocked [src] from new player panel because their client was called as null during the age_verify proc.")
+		return FALSE
 	if(CONFIG_GET(flag/age_verification) && !check_rights_for(client, R_ADMIN) && !(client.ckey in GLOB.bunker_passthrough)) //make sure they are verified
 		if(!client.set_db_player_flags())
 			message_admins("Blocked [src] from new player panel because age gate could not access player database flags.")
@@ -768,7 +771,7 @@
 
 		client.prefs.scars_list["[cur_scar_index]"] = valid_scars
 		client.prefs.save_character()
-	
+
 	client.prefs.copy_to(H, initial_spawn = TRUE)
 	H.dna.update_dna_identity()
 	if(mind)

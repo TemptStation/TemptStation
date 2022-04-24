@@ -345,7 +345,7 @@
 		check_break(M)
 
 /obj/structure/table/glass/proc/check_break(mob/living/M)
-	if(M.has_gravity() && M.mob_size > MOB_SIZE_SMALL && !(M.movement_type & FLYING))
+	if(M.has_gravity() && M.mob_size > MOB_SIZE_SMALL && !(M.movement_type & FLYING) && M.pass_flags & ~PASSCRAWL) //tempt edit
 		table_shatter(M)
 
 /obj/structure/table/glass/proc/table_shatter(mob/living/L)
@@ -482,7 +482,7 @@
 		/obj/structure/table/wood/fancy/royalblue)
 	var/smooth_icon = 'icons/obj/smooth_structures/fancy_table.dmi' // see Initialize()
 
-/obj/structure/table/wood/fancy/Initialize()
+/obj/structure/table/wood/fancy/Initialize(mapload)
 	. = ..()
 	// Needs to be set dynamically because table smooth sprites are 32x34,
 	// which the editor treats as a two-tile-tall object. The sprites are that
@@ -704,7 +704,7 @@
 	. = !density
 	if(istype(caller))
 		. = . || (caller.pass_flags & PASSTABLE)
-		
+
 /obj/structure/rack/MouseDrop_T(obj/O, mob/user)
 	. = ..()
 	if ((!( istype(O, /obj/item) ) || user.get_active_held_item() != O))

@@ -13,6 +13,9 @@
 	name = "Nitrogen"
 	powermix = -1
 	heat_penalty = -1.5
+	fire_burn_rate = 1
+	fire_temperature = 2300
+	fire_products = list(GAS_NITRIC = 2)
 	breath_alert_info = list(
 		not_enough_alert = list(
 			alert_category = "not_enough_nitro",
@@ -60,6 +63,10 @@
 	fire_products = "plasma_fire"
 	enthalpy = FIRE_PLASMA_ENERGY_RELEASED // 3000000, 3 megajoules, 3000 kj
 
+/datum/gas/plasma/New()
+	if(world.system_type == UNIX)
+		fire_temperature = null
+
 /datum/gas/water_vapor
 	id = GAS_H2O
 	specific_heat = 40
@@ -71,13 +78,6 @@
 	enthalpy = -241800 // FIRE_HYDROGEN_ENERGY_RELEASED is actually what this was supposed to be
 	powermix = 1
 	breath_reagent = /datum/reagent/water
-
-/datum/gas/hypernoblium
-	id = GAS_HYPERNOB
-	specific_heat = 2000
-	name = "Hyper-noblium"
-	gas_overlay = "freon"
-	moles_visible = MOLES_GAS_VISIBLE
 
 /datum/gas/nitrous_oxide
 	id = GAS_NITROUS
@@ -92,10 +92,18 @@
 	enthalpy = 81600
 	heat_resistance = 6
 
+/datum/gas/nitric_oxide
+	id = GAS_NITRIC
+	specific_heat = 20
+	name = "Nitric oxide"
+	fusion_power = 15
+	enthalpy = 91290
+	heat_resistance = 2
+
 /datum/gas/nitryl
 	id = GAS_NITRYL
 	specific_heat = 20
-	name = "Nitryl"
+	name = "Nitrogen dioxide"
 	gas_overlay = "nitryl"
 	moles_visible = MOLES_GAS_VISIBLE
 	flags = GAS_FLAG_DANGEROUS
@@ -103,6 +111,13 @@
 	fire_products = list(GAS_N2 = 0.5)
 	enthalpy = 33200
 	oxidation_temperature = FIRE_MINIMUM_TEMPERATURE_TO_EXIST - 50
+
+/datum/gas/hypernoblium
+	id = GAS_HYPERNOB
+	specific_heat = 2000
+	name = "Hyper-noblium"
+	gas_overlay = "freon"
+	moles_visible = MOLES_GAS_VISIBLE
 
 /datum/gas/hydrogen
 	id = GAS_HYDROGEN
@@ -134,6 +149,10 @@
 	fire_radiation_released = 50 // arbitrary number, basically 60 moles of trit burning will just barely start to harm you
 	fire_temperature = FIRE_MINIMUM_TEMPERATURE_TO_EXIST - 50
 
+/datum/gas/tritium/New()
+	if(world.system_type == UNIX)
+		fire_temperature = null
+
 /datum/gas/bz
 	id = GAS_BZ
 	specific_heat = 20
@@ -157,9 +176,9 @@
 	specific_heat = 80
 	name = "Pluoxium"
 	fusion_power = 10
-	oxidation_temperature = FIRE_MINIMUM_TEMPERATURE_TO_EXIST * 1000 // it is VERY stable
+	oxidation_temperature = FIRE_MINIMUM_TEMPERATURE_TO_EXIST * 25 // it is VERY stable
 	oxidation_rate = 8 // when it can oxidize, it can oxidize a LOT
-	enthalpy = -50000 // but it reduces the heat output a bit
+	enthalpy = -2000000 // but it reduces the heat output a great deal (plasma fires add 3000000 per mole)
 	powermix = -1
 	heat_penalty = -1
 	transmit_modifier = -5
@@ -237,3 +256,12 @@
 	fire_products = list(GAS_H2O = 1.5, GAS_N2 = 0.5)
 	fire_burn_rate = 4/3
 	fire_temperature = 924
+
+/datum/gas/quark_matter
+	id = GAS_QCD
+	specific_heat = 10
+	name = "Quark Matter"
+	flags = GAS_FLAG_DANGEROUS
+	powermix = -1
+	transmit_modifier = -10
+	heat_penalty = -10
