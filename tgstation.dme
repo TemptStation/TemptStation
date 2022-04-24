@@ -4565,5 +4565,8 @@
 #include "modular_tempt\code\game\objects\structures\beds.dm"
 #include "modular_tempt\code\game\objects\structures\tables.dm"
 #include "modular_tempt\code\modules\jobs\alt_titles.dm"
+#include "modular_tempt\code\modules\jobs\job_spawntext.dm"
+#include "modular_tempt\code\modules\mob\living\living_mobility.dm"
+#include "modular_tempt\code\modules\mob\living\living_signals.dm"
 #include "tools\Redirector\textprocs.dm"
 // END_INCLUDE
