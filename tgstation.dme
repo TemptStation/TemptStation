@@ -4256,7 +4256,6 @@
 #include "modular_splurt\code\game\object\items\cards_ids.dm"
 #include "modular_splurt\code\game\object\items\cosmetics.dm"
 #include "modular_splurt\code\game\object\items\granters.dm"
-#include "modular_splurt\code\game\object\items\manuals.dm"
 #include "modular_splurt\code\game\object\items\mesmetron.dm"
 #include "modular_splurt\code\game\object\items\milking_machine.dm"
 #include "modular_splurt\code\game\object\items\miscellaneous.dm"
@@ -4566,6 +4565,5 @@
 #include "modular_tempt\code\game\objects\structures\tables.dm"
 #include "modular_tempt\code\modules\jobs\alt_titles.dm"
 #include "modular_tempt\code\modules\jobs\job_spawntext.dm"
-#include "modular_tempt\code\modules\mob\dead\new_player\sprite_accessories\horns.dm"
 #include "tools\Redirector\textprocs.dm"
 // END_INCLUDE
