@@ -1,6 +1,7 @@
 
 //Stuff like mobility flag updates, resting updates, etc.
 
+/* tempt edit - moved to modular
 //Force-set resting variable, without needing to resist/etc.
 /mob/living/proc/set_resting(new_resting, silent = FALSE, updating = TRUE)
 	if(new_resting != resting)
@@ -12,6 +13,7 @@
 		if(resting == 1)
 			SEND_SIGNAL(src, COMSIG_LIVING_RESTING)
 		update_resting(updating)
+*/
 
 /mob/living/proc/update_resting(update_mobility = TRUE)
 	if(update_mobility)
