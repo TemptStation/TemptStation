@@ -63449,7 +63449,7 @@
 /obj/item/storage/secure/briefcase{
 	pixel_x = -2
 	},
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/cartridge/detective,
 /obj/machinery/power/apc{
 	areastring = "/area/command/heads_quarters/hos";
@@ -63616,7 +63616,7 @@
 /area/engineering/break_room)
 "ezr" = (
 /obj/structure/table/reinforced,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/radio/intercom{
 	dir = 4;
 	pixel_x = 27
@@ -63754,7 +63754,7 @@
 /area/engineering/storage)
 "eJP" = (
 /obj/structure/table,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/radio/intercom{
 	dir = 4;
 	pixel_x = 27
@@ -66556,7 +66556,7 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/red,
-/obj/item/book/manual/splurt_space_law{
+/obj/item/book/manual/local_space_law{
 	pixel_x = -4;
 	pixel_y = 4
 	},
@@ -68066,7 +68066,7 @@
 /area/hallway/primary/aft)
 "mdE" = (
 /obj/structure/table/reinforced,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
@@ -69341,7 +69341,7 @@
 /area/hallway/primary/starboard)
 "oLB" = (
 /obj/structure/table/wood,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/machinery/light/small,
 /obj/item/camera/detective,
 /turf/open/floor/plasteel/grimy,
@@ -69536,7 +69536,7 @@
 /area/commons/toilet/auxiliary)
 "pax" = (
 /obj/structure/table,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/red{
 	dir = 4
@@ -69710,7 +69710,7 @@
 	dir = 4
 	},
 /obj/structure/table/wood,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/paper/fluff/gateway,
 /obj/item/coin/plasma,
 /obj/item/melee/chainofcommand,
@@ -69992,7 +69992,7 @@
 /area/engineering/break_room)
 "pOl" = (
 /obj/structure/table/wood,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/pen/red,
 /turf/open/floor/plasteel/grimy,
 /area/service/lawoffice)
@@ -70561,15 +70561,15 @@
 /area/engineering/atmos)
 "rmX" = (
 /obj/structure/table,
-/obj/item/book/manual/splurt_space_law{
+/obj/item/book/manual/local_space_law{
 	pixel_x = -3;
 	pixel_y = 5
 	},
-/obj/item/book/manual/splurt_space_law{
+/obj/item/book/manual/local_space_law{
 	pixel_x = -3;
 	pixel_y = 5
 	},
-/obj/item/book/manual/splurt_space_law{
+/obj/item/book/manual/local_space_law{
 	pixel_x = -3;
 	pixel_y = 5
 	},
@@ -70988,7 +70988,7 @@
 	dir = 1
 	},
 /obj/structure/table,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /turf/open/floor/plasteel,
 /area/security/checkpoint/medical)
 "sgV" = (
@@ -71602,7 +71602,7 @@
 "tvR" = (
 /obj/structure/table/wood,
 /obj/item/paper/guides/jobs/security/courtroom,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
