@@ -95,14 +95,14 @@
 
 	in_use = TRUE
 	if(victim != user) //!(x == y) equals x != y except the latter is clearer
-		victim.visible_message(span_love("[user] pumps [victim]'s [genital.name] using [p_their()] [src.name]."), //ironically enough we don't need \ at the ends
-			span_userlove("[user] pumps your [genital.name] with [p_their()] [src.name]."), //dunno why cit is insistent on doing that
+		victim.visible_message(span_love("[user] pumps [victim]'s [genital.name] using [user.p_their()] [src.name]."), //ironically enough we don't need \ at the ends
+			span_userlove("[user] pumps your [genital.name] with [user.p_their()] [src.name]."), //dunno why cit is insistent on doing that
 			span_userlove("Someone is pumping your [genital.name].")
 		)
 	else
-		user.visible_message(span_love("[user] sets [src] to suck on [p_their()] [genital.name]."),
-			span_userlove("You pump your [genital] using \the [src]."),
-			span_userlove("You pump your [genital] into the machine.")
+		user.visible_message(span_love("[user] sets [src] to suck on [user.p_their()] [genital.name]."), //p_their refered to the milker, not the user
+			span_userlove("You pump your [genital.name] using \the [src]."),
+			span_userlove("You pump your [genital.name] into the machine.")
 		)
 	playsound(src, 'sound/vehicles/carrev.ogg', 30, 1, -1) //we're not changing the sound anywhere, storing the sound in a var is pointless
 	if(!do_mob(user, victim, 3 SECONDS))
@@ -150,7 +150,7 @@
 		START_PROCESSING(SSobj, src)
 	else
 		STOP_PROCESSING(SSobj, src)
-		to_chat(user, span_notice("You stop processing the fluids from the [inserted_item.name]."))
+		to_chat(user, span_notice("You stop processing the fluids from \the [inserted_item]."))
 
 /obj/item/milking_machine/pleasuremaw/process()
 	if(inserted_item.reagents.total_volume < consumption_rate)
