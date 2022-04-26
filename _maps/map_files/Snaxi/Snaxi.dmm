@@ -13235,7 +13235,7 @@
 	dir = 4
 	},
 /obj/structure/table/wood,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/pen/red,
 /turf/open/floor/plasteel/cult,
 /area/service/lawoffice)
@@ -19833,7 +19833,7 @@
 	dir = 4
 	},
 /obj/structure/table/wood,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/flashlight/lamp/green{
 	pixel_x = -7;
 	pixel_y = 1
@@ -23266,7 +23266,7 @@
 "hLM" = (
 /obj/structure/table/wood,
 /obj/item/storage/fancy/donut_box,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/structure/extinguisher_cabinet{
 	pixel_y = -31
 	},
@@ -26645,7 +26645,7 @@
 	pixel_x = -7;
 	pixel_y = 4
 	},
-/obj/item/book/manual/splurt_space_law{
+/obj/item/book/manual/local_space_law{
 	pixel_x = 6;
 	pixel_y = 2
 	},
@@ -42768,7 +42768,7 @@
 /area/ai_monitored/command/storage/eva)
 "uqn" = (
 /obj/structure/table/wood,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/flashlight/lamp/green{
 	pixel_x = -7;
 	pixel_y = 1
@@ -43424,7 +43424,7 @@
 /area/command/meeting_room)
 "uLS" = (
 /obj/structure/table/wood,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /turf/open/floor/carpet,
 /area/command/meeting_room)
 "uLV" = (
@@ -48138,7 +48138,7 @@
 /obj/structure/reagent_dispensers/peppertank{
 	pixel_y = 32
 	},
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /turf/open/floor/plasteel/dark,
 /area/security/office)
 "xOY" = (

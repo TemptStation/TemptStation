@@ -54583,7 +54583,7 @@
 /area/commons/dorms)
 "lzM" = (
 /obj/structure/table/reinforced,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/radio,
 /obj/machinery/status_display/ai{
 	pixel_y = 32
@@ -54955,7 +54955,7 @@
 /obj/item/folder/red,
 /obj/item/pen,
 /obj/item/hand_labeler,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/machinery/light{
 	dir = 8
 	},
@@ -55559,7 +55559,7 @@
 /area/maintenance/bar/cafe)
 "rDQ" = (
 /obj/structure/table/wood,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/radio/off{
 	pixel_y = 3
 	},
@@ -56239,12 +56239,12 @@
 "wmm" = (
 /obj/structure/table/wood,
 /obj/item/pen/red,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /turf/open/floor/wood,
 /area/service/lawoffice)
 "woG" = (
 /obj/structure/table/reinforced,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/radio,
 /obj/machinery/camera{
 	c_tag = "Cargo Security Post"
@@ -56412,7 +56412,7 @@
 /area/edina/street/primary/perimeter)
 "wUd" = (
 /obj/structure/table/reinforced,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/radio,
 /obj/machinery/camera{
 	c_tag = "Holodeck"

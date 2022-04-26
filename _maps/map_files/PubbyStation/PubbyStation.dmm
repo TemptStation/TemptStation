@@ -51949,7 +51949,7 @@
 /area/service/lawoffice)
 "ecZ" = (
 /obj/structure/table,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/red{
 	dir = 4
@@ -55022,7 +55022,7 @@
 /turf/closed/wall/r_wall,
 /area/security/courtroom)
 "jep" = (
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/clothing/ears/earmuffs,
 /obj/item/clothing/glasses/sunglasses,
 /obj/structure/table/reinforced,
@@ -56514,7 +56514,7 @@
 /area/security/courtroom)
 "lvz" = (
 /obj/structure/table,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /turf/open/floor/plasteel/dark,
 /area/security/courtroom)
 "lxI" = (
@@ -56732,7 +56732,7 @@
 	dir = 4;
 	network = list("ss13","rd")
 	},
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
@@ -59765,7 +59765,7 @@
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
 	},
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /turf/open/floor/plasteel,
 /area/security/courtroom)
 "qiG" = (
@@ -59784,7 +59784,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/effect/turf_decal/tile/red{
 	dir = 1
 	},
@@ -62020,7 +62020,7 @@
 /area/science/xenobiology)
 "tXq" = (
 /obj/structure/table/wood,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /turf/open/floor/carpet,
 /area/command/heads_quarters/hos)
 "tXP" = (
@@ -63619,7 +63619,7 @@
 /area/science/mixing)
 "wnY" = (
 /obj/structure/table,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/machinery/camera{
 	c_tag = "Engineering Security Post";
 	dir = 4
@@ -64419,7 +64419,7 @@
 /area/hallway/primary/central)
 "xwN" = (
 /obj/structure/table/wood,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/pen/fountain,
 /obj/item/stamp/law,
 /turf/open/floor/carpet,
