@@ -52,25 +52,25 @@
     <u>Guidelines: Small fine of 50 to 500 credits or 2 to 5 minutes Brig or appropriate alternative punishment.</u>
     <br>
     <b>101: Disorderly Conduct:</b>Any behavior that is destructive or disruptive to others. This includes damaging property, continuous shoving/fighting, and disturbing the peace with unnecessary noise/actions. <br>
-    <b>102: Trespass:</b>To be in an area which a person does not have access to without permission from a supervisor of that area. This counts for general areas of the ship, and trespass in restricted areas is a more serious crime. [Cannot stack with breaking and entry.] <br>
+    <b>102: Trespass:</b>To be in an area which a person does not have access to without permission from a supervisor of that area. This counts for general areas of the ship, and trespass in restricted areas is a more serious crime. *Cannot stack with breaking and entry. <br>
     <b>103: Disrespecting a Senior Officer:</b> Unprofessional and insulting statements or comments made against an employee's departmental head without provocation. <br>
     <b>104: Insubordination:</b> Ignoring a lawful order given to yourself by your head of staff, Head of Personnel, Captain or associated security personnel. <br>
     <b>105: Providing an unlawful order:</b> Providing an order that a crew member cannot legally carry out, or the alert does not permit such an order. <br>
-    <b>106: Possession of Recreational Narcotics:</b> To possess or be under the influence of space drugs, ambrosia, krokodil, crank, meth, bath salts, THC, or other narcotics, by unauthorized personnel. [Captain can modify.] <br>
+    <b>106: Possession of Recreational Narcotics:</b> To possess or be under the influence of space drugs, ambrosia, krokodil, crank, meth, bath salts, THC, or other narcotics, by unauthorized personnel. *Captain can modify. <br>
     <b>107: Vandalism:</b> To deface station property without permission via artistic or distasteful applications of color or spray cans. Maintenance is excluded for this charge. <br>
-    <b>108: Indecent Exposure in Public:</b> To intentionally publicly display one's genitalia or continue to display one's genitalia after notification and offered assistance. [Captain can modify.] <br>
-    <b>109: Lewd Conduct in Public:</b> Public sexual activity which includes two (or more) people engaged in sexual intercourse or other sexual contact in view of the public, or an individual displaying his or her genitals in an aroused state. [Captain can modify.] <br>
+    <b>108: Indecent Exposure in Public:</b> To intentionally publicly display one's genitalia or continue to display one's genitalia after notification and offered assistance. *Captain can modify. <br>
+    <b>109: Lewd Conduct in Public:</b> Public sexual activity which includes two (or more) people engaged in sexual intercourse or other sexual contact in view of the public, or an individual displaying his or her genitals in an aroused state. *Captain can modify. <br>
     <b>110: Sexual Harassment:</b> Behavior characterized by the making of unwelcome and inappropriate sexual remarks or physical advances in a workplace or other professional or social situation.
 
     <h2><u>2. Minor Crimes</u></h2>
     Crimes that can cause issues to the station and merit moderate confinement time, heavy fines, or removal from a position/temporary demotion.<br>
     <u>Guidelines: Large fine of 500 to 2000 credits or 5 to 10 minutes Brig or appropriate alternative punishment.</u><br>
     <b>201: Battery:</b> To use minor physical force of an insulting or provoking nature against someone without intent to seriously injure them.<br>
-    <b>202: Breaking and Entering:</b> Breaking into an area without valid reason or access, for the purpose of theft or temporary entry. [Cannot stack with Trespass.]<br>
+    <b>202: Breaking and Entering:</b> Breaking into an area without valid reason or access, for the purpose of theft or temporary entry. *Cannot stack with Trespass.<br>
     <b>203: Creating a Workplace Hazard:</b> Creating, or making a hazard that when not monitored, has the potential to harm other persons in its proximity. This does not include secure areas where tests are to take place, but public areas where such hazards are not expected.<br>
     <b>204: Petty Theft:</b> To take items from areas one does not have access to or to take items belonging to others or the station as a whole.<br>
     <b>205: Criminal Negligence:</b> Ignoring ones duty and/or a direct order from a superior officer to the point station functions are hindered and or harm is caused. Instances of criminal negligence resulting in death are applied as manslaughter.<br>
-    <b>206: Narcotics Distribution:</b> Discretely providing, forcefully providing, or otherwise intentionally providing narcotics to another crew member. [Captain can modify.]<br>
+    <b>206: Narcotics Distribution:</b> Discretely providing, forcefully providing, or otherwise intentionally providing narcotics to another crew member. *Captain can modify.<br>
     <b>207: Damage to Station Infrastructure:</b> Causing destruction to station property without the intent to fix, or remodeling an area without the supervision of an Engineer/Chief Engineer.<br>
     <b>208: Possession of a Weapon:</b> To be in possession of a dangerous item that is not part of one's job. Items capable of a high level of damage such as saws, axes, spears, stunprods, and hatchets fit into this category. If the item is part of someone's assigned duties, they are permitted to carry it.<br>
     <b>209: Rioting:</b> To partake in an unauthorized and disruptive assembly of crewmen that refuse to disperse.<br>
@@ -84,8 +84,8 @@
     Crimes that cause heavy issues for the station, punishments calling for extended confinement time and/or immediate demotion.<br>
     <u>Guidelines: 10 to 15 minutes Brig or appropriate alternative punishment.</u><br>
     <b>301: Assault:</b> To use excessive physical force against someone without the apparent intent to kill them but that would put a reasonable person in fear of their safety.<br>
-    <b>302: Major Trespass:</b> To be within a secure area such as the engineering area/research/security without valid reason or permission from a supervisor of that secure area. [Cannot stack with B&E.]<br>
-    <b>303: Breaking and Entering into a Restricted Area:</b> Breaking into a secure area such as the engineering area/research/security without valid reason, for the purpose of theft or temporary entry. [Cannot stack with Trespass.]<br>
+    <b>302: Major Trespass:</b> To be within a secure area such as the engineering area/research/security without valid reason or permission from a supervisor of that secure area. *Cannot stack with B&E.<br>
+    <b>303: Breaking and Entering into a Restricted Area:</b> Breaking into a secure area such as the engineering area/research/security without valid reason, for the purpose of theft or temporary entry. *Cannot stack with Trespass.<br>
     <b>304: Theft:</b> Stealing items or equipment in a secure area, or area without valid access. Having access does not nullify this crime if the item was one of high risk or importance to a departmental manager or other superior officer.<br>
     <b>305: Kidnapping and Unlawful Imprisonment:</b> To take a crewmember into confinement against their will and without lawful reason.<br>
     <b>306: Possession of Contraband:</b> To be in the possession of contraband items. Being in possession of dangerous-grade contraband, or committing a major crime with contraband, makes you an Enemy of the Corporation. Security's use of contraband items is also limited. See contraband section for more details.<br>
@@ -105,8 +105,8 @@
     Crimes that cause extensive issues to the station, punishments can extend from extended confinement, permanent confinement, or reconditioning by Central Command. There is a chance of parole. <br>
     <u>Guidelines: Trial, Permabrig, Labour Camp, Execution only as the result of a trial, or appropriate alternative punishment.</u><br>
     <b>401: Aggravated Assault:</b> Assault with a deadly weapon, assault against a head of staff or security officer, and/or assault with deadly or cruel intent.<br>
-    <b>402: Severe Trespass:</b> To be within a command area captain's office or head office/teleporter room without permission from an applicable command staff member. [Cannot stack with B&E.]<br>
-    <b>403: Breaking and Entering into Command:</b> Breaking into a command area such as the captain's office or head office/teleporter without valid reason, for the purpose of theft or temporary entry. [Cannot stack with Trespass.]<br>
+    <b>402: Severe Trespass:</b> To be within a command area captain's office or head office/teleporter room without permission from an applicable command staff member. *Cannot stack with B&E.<br>
+    <b>403: Breaking and Entering into Command:</b> Breaking into a command area such as the captain's office or head office/teleporter without valid reason, for the purpose of theft or temporary entry. *Cannot stack with Trespass.<br>
     <b>404: Grand Theft:</b> To steal items of high value or a sensitive nature.<br>
     <b>405: Rape:</b> Physical penetration or sexual acts performed against another crewmember's consent. This excludes any situation where both parties express a desire to keep it non-canon. This law covers any OOC unwanted actions done IC. In cases of unsuccessful attempts, security must prove the intent was there.<br>
     <b>406: Manslaughter:</b> To indirectly cause the death of another crewman via your actions or criminal negligence, typically the result of creating a workplace hazard, or to intentionally kill another crewman in the heat of passion and in response to adequate provocation.<br>
