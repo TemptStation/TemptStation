@@ -10,9 +10,7 @@ assignees: ''
 <!-- Write **BELOW** The Headers and **ABOVE** The comments else it may not be viewable -->
 ## Round ID:
 
-<!--- **INCLUDE THE ROUND ID**
-If you discovered this issue from playing tgstation hosted servers:
-[Round ID]: # (It can be found in the Status panel or retrieved from https://atlantaned.space/statbus/round.php ! The round id let's us look up valuable information and logs for the round the bug happened.)-->
+<!--- **INCLUDE THE ROUND ID** -->
 
 ## Testmerges:
 
