@@ -34,7 +34,7 @@ Based and maintained from SPLURT Station, which is (not) based and maintained fr
 * **Ko-fi:** https://ko-fi.com/splurt
 
 ## DOWNLOADING
-[Downloading](.github/DOWNLOADING.md)
+[Downloading](.github/guides/DOWNLOADING.md)
 
 There are a number of ways to download the source code. Some are described here, an alternative all-inclusive guide is also located at http://www.tgstation13.org/wiki/Downloading_the_source_code
 
