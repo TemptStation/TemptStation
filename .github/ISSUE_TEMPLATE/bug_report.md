@@ -5,12 +5,8 @@ about: Create a report to help reproduce and fix the issue
 <!-- Write **BELOW** The Headers and **ABOVE** The comments else it may not be viewable -->
 ## Round ID:
 
-<<<<<<< HEAD
 <!--- **INCLUDE THE ROUND ID** -->
 
-=======
-<!--- **INCLUDE THE ROUND ID**-->
->>>>>>> dfcc10eeac3ba8297024e59c65d3320a39fbabfb
 ## Testmerges:
 
 <!-- If you're certain the issue is to be caused by a test merge [OOC tab -> Show Server Revision], report it in the pull request's comment section rather than on the tracker(If you're unsure you can refer to the issue number by prefixing said number with #. The issue number can be found beside the title after submitting it to the tracker).If no testmerges are active, feel free to remove this section. -->
