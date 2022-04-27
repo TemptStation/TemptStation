@@ -2925,7 +2925,7 @@
 /obj/structure/cable,
 /obj/machinery/power/apc{
 	name = "Frigate Medbay APC";
-	pixel_y = -24;
+	pixel_y = -23;
 	req_access = null
 	},
 /obj/structure/spider/stickyweb,
