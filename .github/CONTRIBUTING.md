@@ -21,10 +21,11 @@ If you ever encounter a bug in-game, the best way to let a coder know about it i
 
 If you have difficulty, ask for help in the #coding-general channel on our discord.
 
-## Citadel Station 13
+## TemptStation
 Notice: We are currently using a near-copy of /tg/station's CONTRIBUTING.md file. Keep in mind which codebase you are on.
-Any questions regarding help for development/spriting/coding/etc should go on #development-discussion-main on our discord.
-https://discord.gg/fkVVfVH48n
+Eventually this file will be updated and localized and guides will be provided on the Discord directly as well.
+Any questions regarding help for development/spriting/coding/etc should be redirected to the appropritate channels in the Discord:
+https://discord.gg/VhDRKNKYmT
 
 ## Introduction
 
@@ -41,7 +42,7 @@ After setting it up, optionally navigate your git commandline to the project fol
 
 We have a [list of guides on the wiki](http://www.tgstation13.org/wiki/Guides#Development_and_Contribution_Guides) that will help you get started contributing to /tg/station with Git and Dream Maker. For beginners, it is recommended you work on small projects like bugfixes at first. If you need help learning to program in BYOND, check out this [repository of resources](http://www.byond.com/developer/articles/resources).
 
-There is an open list of approachable issues for [your inspiration here](https://github.com/Citadel-Station-13/Citadel-Station-13/issues?q=is%3Aopen+is%3Aissue+label%3A%22Good+First+Issue%22).
+There is an open list of approachable issues for [your inspiration here](https://github.com/TemptStation/TemptStation/issues?q=is%3Aopen+is%3Aissue+label%3A%22Good+First+Issue%22).
 
 You can of course, as always, ask for help on the Discord channels or the forums. We're just here to have fun and help out, so please don't expect professional support.
 
