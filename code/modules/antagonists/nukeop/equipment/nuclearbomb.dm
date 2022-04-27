@@ -83,6 +83,7 @@
 			return CINEMATIC_NUKE_FAR
 	return CINEMATIC_NUKE_FAR
 
+// tempt edit - overriden to modular
 /obj/machinery/nuclearbomb/proc/disk_check(obj/item/disk/nuclear/D)
 	if(D.fake)
 		say("Authentication failure; disk not recognised.")
@@ -672,6 +673,7 @@ This is here to make the tiles around the station mininuke change when it's arme
 				message_admins("[src] is on the move (currently in [ADMIN_VERBOSEJMP(newturf)]). The weight of Lone Operative is now [loneop.weight].")
 			log_game("[src] being on the move has reduced the weight of the Lone Operative event to [loneop.weight].")
 
+/* tempt edit - moved to modular
 /obj/item/disk/nuclear/examine(mob/user)
 	. = ..()
 	if(!fake)
@@ -679,6 +681,7 @@ This is here to make the tiles around the station mininuke change when it's arme
 
 	if(isobserver(user) || HAS_TRAIT(user.mind, TRAIT_DISK_VERIFIER))
 		. += "<span class='warning'>The serial numbers on [src] are incorrect.</span>"
+*/
 
 /*
  * You can't accidentally eat the nuke disk, bro
