@@ -31,7 +31,7 @@ Based and maintained from SPLURT Station, which is (not) based and maintained fr
 * **Patreon:** https://www.patreon.com/temptstation
 
 ## DOWNLOADING
-[Downloading](.github/guides/DOWNLOADING.md)
+[Downloading](.github/DOWNLOADING.md)
 
 [Running on the server](.github/guides/RUNNING_A_SERVER.md)
 
