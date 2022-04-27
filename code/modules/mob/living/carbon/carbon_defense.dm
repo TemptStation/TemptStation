@@ -315,6 +315,11 @@
 								"<span class='notice'>You give [src] a pat on the head to make [p_them()] feel better! They seem to like it way too much..</span>", target = src,
 								target_message = "<span class='boldnotice'>[M] gives you a pat on the head to make you feel better!</span>")
 					SEND_SIGNAL(src, COMSIG_ADD_MOOD_EVENT, "lewd_headpat", /datum/mood_event/lewd_headpat)
+					//tempt edit
+					if(prob(30))
+						new /obj/effect/temp_visual/heart(H.loc)
+						H.Paralyze(5)
+					//
 					H.add_lust(5) //Headpats are hot af
 				else
 					M.visible_message("<span class='notice'>[M] gives [src] a pat on the head to make [p_them()] feel better!</span>", \
