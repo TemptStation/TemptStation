@@ -24,7 +24,7 @@ const TAB2NAME = [
   },
   {
     title: 'Only Fun For You',
-    blurb: 'How I spent my last day adminning',
+    blurb: 'How I spent my last day administrating',
     gauge: 95,
     component: () => FunForYouTab,
   },
