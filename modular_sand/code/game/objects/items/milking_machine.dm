@@ -1,3 +1,4 @@
+/* tempt edit - moved to modular
 /obj/item/milking_machine
 	icon = 'modular_sand/icons/obj/milking_machine.dmi'
 	name = "milking machine"
@@ -113,3 +114,4 @@
 		to_chat(user, "<span class='notice'>You don't see anywhere to use this on.</span>")
 	inuse = 0
 	..()
+*/

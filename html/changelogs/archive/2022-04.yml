@@ -152,3 +152,7 @@
   NullFag:
   - tweak: adjusted several job spawn texts
   - rscadd: adds broken horns to char setup
+2022-04-27:
+  NullFag:
+  - bugfix: fixes milking machines
+  - bugfix: fixes taustation (only map errors)
