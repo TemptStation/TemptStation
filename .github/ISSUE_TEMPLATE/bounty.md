@@ -7,10 +7,14 @@ assignees: ''
 
 ---
 
+<<<<<<< HEAD
 <!-- Write **BELOW** The Headers and **ABOVE** The Comments or else it may not be viewable -->
+=======
+<!-- Write **BELOW** The Headers and **ABOVE** The comments or else it may not be viewable. -->
+>>>>>>> dfcc10eeac3ba8297024e59c65d3320a39fbabfb
 ## Contact:
 
-<!-- Where we should contact you for the bounty. Please put in your Discord username and tag -->
+<!-- Where we should contact you for the bounty. Please put in your Discord username and tag. -->
 
 ## About the Bounty
 
