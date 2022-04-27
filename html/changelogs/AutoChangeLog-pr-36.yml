@@ -1,0 +1,5 @@
+author: NullFag
+delete-after: true
+changes:
+  - bugfix: fixes milking machines
+  - bugfix: fixes taustation (only map errors)
