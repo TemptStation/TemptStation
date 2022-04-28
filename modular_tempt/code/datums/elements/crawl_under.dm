@@ -58,7 +58,7 @@
 	ADD_TRAIT(user, IGNORE_FAKE_Z_AXIS, ELEMENT_CRAWL_UNDER)
 	step(user, get_dir(user, source))
 	if(!(source in user.loc))
-		REMOVE_TRAIT(movable, IGNORE_FAKE_Z_AXIS, ELEMENT_CRAWL_UNDER)
+		REMOVE_TRAIT(user, IGNORE_FAKE_Z_AXIS, ELEMENT_CRAWL_UNDER)
 		user.pass_flags &= ~PASSCRAWL
 		return
 	ADD_TRAIT(user, TRAIT_FLOORED, ELEMENT_CRAWL_UNDER)
