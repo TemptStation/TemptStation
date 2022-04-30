@@ -556,7 +556,7 @@ GLOBAL_LIST(objective_player_choices)
 	GLOB.objective_player_choices = list()
 	var/list/allowed_types = list(
 		/datum/objective/custom,
-		/datum/objective/assassinate/once,
+		/datum/objective/assassinate,
 		/datum/objective/protect,
 		/datum/objective/escape,
 		/datum/objective/survive,
@@ -577,7 +577,6 @@ GLOBAL_LIST(objective_choices)
 	var/list/allowed_types = list(
 		/datum/objective/custom,
 		/datum/objective/assassinate,
-		/datum/objective/assassinate/once,
 		/datum/objective/maroon,
 		/datum/objective/debrain,
 		/datum/objective/protect,

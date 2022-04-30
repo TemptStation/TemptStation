@@ -45,7 +45,7 @@
 			kill_objective.find_target()
 			T.add_objective(kill_objective)
 		else
-			var/datum/objective/assassinate/once/kill_objective = new
+			var/datum/objective/assassinate/kill_objective = new
 			kill_objective.owner = T.owner
 			kill_objective.find_target()
 			T.add_objective(kill_objective)

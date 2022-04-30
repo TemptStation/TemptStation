@@ -112,7 +112,7 @@
 		var/pck = pick("assasinate")
 		switch(pck)
 			if("assasinate")
-				var/datum/objective/assassinate/once/A = new
+				var/datum/objective/assassinate/A = new
 				A.owner = owner
 				var/list/owners = A.get_owners()
 				A.find_target(owners,protection)
