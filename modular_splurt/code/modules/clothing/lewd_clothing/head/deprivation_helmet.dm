@@ -224,7 +224,7 @@
 /obj/item/clothing/head/helmet/space/deprivation_helmet/attack_hand(mob/living/carbon/human/user)
 	if(iscarbon(user) && seamless && (user.get_item_by_slot(ITEM_SLOT_HEAD) == src))
 		to_chat(user, span_purple(pick("You roam your hands around the helmet for some sort of release!",
-									"You find it impossible to leverage your fingers underneath the helmet",
+									"You find it impossible to leverage your fingers underneath the helmet!",
 									"The durable material seems to reflect your pointless force.")))
 		return
 	. = ..()
@@ -234,9 +234,11 @@
 /obj/item/clothing/head/helmet/space/deprivation_helmet/attackby(obj/item/K, mob/user, params)
 	if(istype(K, /obj/item/key/latex))
 		if(seamless != FALSE)
-			to_chat(user, span_warning("The latches suddenly loosen"))
+			to_chat(user, span_warning("The latches suddenly loosen!"))
 			seamless = FALSE
+			slot_flags |= ITEM_SLOT_HEAD //tempt
 		else
 			to_chat(user, span_warning("The latches suddenly tighten!"))
 			seamless = TRUE
+			slot_flags &= ~ITEM_SLOT_HEAD //tempt
 	return
