@@ -112,6 +112,8 @@ GLOBAL_LIST_INIT(maintenance_loot, list(
 	/obj/item/storage/box/marshmallow = 2,
 	/obj/item/clothing/gloves/tackler/offbrand = 1,
 	/obj/item/stack/sticky_tape = 1,
+	/obj/item/vending_refill/kink = 1,
+	/obj/item/circuitboard/machine/kinkmate = 2, //for the poor sods
 	"" = 3
 	))
 

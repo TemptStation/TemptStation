@@ -4336,7 +4336,7 @@
 /obj/structure/sign/poster/official/fashion{
 	pixel_y = 32
 	},
-/obj/machinery/vending/autodrobe,
+/obj/machinery/vending/clothing,
 /turf/open/floor/plasteel,
 /area/commons/locker)
 "aiC" = (
@@ -17115,13 +17115,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/commons/locker)
-"aQV" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/vending/clothing,
-/turf/open/floor/plasteel,
-/area/commons/locker)
 "aQW" = (
 /obj/structure/closet/secure_closet/personal,
 /turf/open/floor/plasteel,
@@ -17133,7 +17126,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/machinery/vending/kink,
+/obj/machinery/vending/autodrobe,
 /turf/open/floor/plasteel,
 /area/commons/locker)
 "aQY" = (
@@ -58074,9 +58067,11 @@
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "lsk" = (
-/obj/machinery/vending/kink,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/plasteel,
-/area/commons/fitness)
+/area/commons/locker)
 "lsS" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -86251,7 +86246,7 @@ aLE
 aLE
 aOl
 aPA
-pqs
+lsk
 aQN
 aTC
 dyC
@@ -86508,7 +86503,7 @@ aLE
 aLE
 aOl
 aPE
-aQV
+pqs
 aQN
 aTC
 aXv
@@ -104742,7 +104737,7 @@ hBA
 xbn
 fHG
 reA
-lsk
+fHG
 xXi
 jAN
 jEc

@@ -23011,7 +23011,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
-/obj/machinery/vending/kink,
+/obj/machinery/vending/cigarette,
 /turf/open/floor/plasteel/dark,
 /area/commons/locker)
 "aMG" = (
@@ -33195,10 +33195,14 @@
 /area/science/mixing/chamber)
 "bcB" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/item/vending_refill/kink{
+	pixel_y = 4;
+	pixel_x = 8
+	},
 /obj/structure/sign/poster/contraband/grey_tide{
 	pixel_y = 32
 	},
-/obj/machinery/vending/kink,
+/obj/structure/frame/machine,
 /turf/open/floor/plating{
 	icon_state = "platingdmg3"
 	},
@@ -83658,13 +83662,6 @@
 /turf/open/floor/wood,
 /area/commons/vacant_room/office)
 "dnB" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/delivery,
 /obj/structure/sign/poster/contraband/yes_erp{
 	pixel_y = -32
 	},

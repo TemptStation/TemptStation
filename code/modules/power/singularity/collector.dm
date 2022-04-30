@@ -78,6 +78,7 @@
 			last_push = stored_power
 			stored_power = 0
 
+//tempt edit - overriden in modular
 /obj/machinery/power/rad_collector/interact(mob/user)
 	if(anchored)
 		if(!src.locked)

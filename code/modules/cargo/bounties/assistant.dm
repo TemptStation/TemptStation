@@ -215,7 +215,7 @@
 	wanted_types = list(/obj/item/storage/belt/utility)
 
 /datum/bounty/item/assistant/gasmasks
-	name = "Gas Masks" 
+	name = "Gas Masks"
 	description = "The good news is that we have more miasma than we'll ever need. The bad news is, somone opened the release valve on the canisters. Ship us some gas masks!"
 	reward = 1250
 	required_count = 4
@@ -223,7 +223,7 @@
 
 /datum/bounty/item/assistant/pneumatic_cannon
 	name = "Pneumatic Cannons"
-	description = "Have you ever launched a tennis ball, newspaper, or ***** at someones head from across the room? No? We haven't either. Help us rectify this."
+	description = "Have you ever launched a tennis ball, newspaper, or ***** at someone's head from across the room? No? We haven't either. Help us rectify this."
 	reward = 2000
 	required_count = 2
 	wanted_types = list(/obj/item/pneumatic_cannon/ghetto)

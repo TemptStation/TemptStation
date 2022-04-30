@@ -190,7 +190,7 @@
 			W.update_icon()
 		else
 			if(!HAS_TRAIT(user, TRAIT_DUMB))
-				to_chat("<span class='danger'>That would be stupid.</span>")
+				to_chat(user, span_danger("That would be stupid."))
 				return
 			var/turf/T = get_turf(src)
 			user.visible_message("<span class='warning'>[user] catastrophically fails at refilling [user.p_their()] [W.name]!</span>", "<span class='userdanger'>That was stupid of you.</span>")

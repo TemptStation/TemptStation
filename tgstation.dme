@@ -4528,6 +4528,7 @@
 #include "modular_tempt\code\game\object\items\manuals.dm"
 #include "modular_tempt\code\datums\elements\crawl_under.dm"
 #include "modular_tempt\code\game\objects\items\milking_machine.dm"
+#include "modular_tempt\code\game\objects\items\circuitboards\machine_circuitboards.dm"
 #include "modular_tempt\code\game\objects\structures\beds.dm"
 #include "modular_tempt\code\game\objects\structures\tables.dm"
 #include "modular_tempt\code\game\turfs\simulated\floor\mineral_floor.dm"
@@ -4537,5 +4538,7 @@
 #include "modular_tempt\code\modules\mob\living\living_mobility.dm"
 #include "modular_tempt\code\modules\mob\living\living_signals.dm"
 #include "modular_tempt\code\modules\mob\dead\new_player\sprite_accessories\horns.dm"
+#include "modular_tempt\code\modules\power\singularity\collector.dm"
+#include "modular_tempt\code\modules\vending\kinkmate.dm"
 #include "tools\Redirector\textprocs.dm"
 // END_INCLUDE

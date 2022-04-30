@@ -1,6 +1,6 @@
 {
     "map_name": "Lambda Station",
-    "map_path": "map_files/LambdaStation",
+    "map_path": "_tempt_maps/map_files/LambdaStation",
     "map_file":[
         "lambda.dmm",
         "dorms.dmm"

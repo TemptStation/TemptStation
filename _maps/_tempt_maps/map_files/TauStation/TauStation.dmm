@@ -4705,6 +4705,7 @@
 /turf/open/floor/plasteel/white,
 /area/science/xenobiology)
 "bLc" = (
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood{
 	icon_state = "wood-broken"
 	},
@@ -7045,6 +7046,8 @@
 /obj/structure/chair/wood/normal{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood{
 	icon_state = "wood-broken"
 	},
@@ -10803,7 +10806,7 @@
 /turf/open/floor/engine,
 /area/science/storage)
 "dMG" = (
-/obj/machinery/vending/kink,
+/obj/machinery/vending/cigarette,
 /turf/open/floor/plasteel,
 /area/commons/dorms)
 "dMP" = (
@@ -16965,7 +16968,6 @@
 /turf/open/floor/engine,
 /area/science/xenobiology)
 "fPH" = (
-/obj/machinery/vending/kink,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
@@ -16974,6 +16976,7 @@
 	c_tag = "Locker Room West";
 	dir = 4
 	},
+/obj/machinery/vending/cigarette,
 /turf/open/floor/plasteel,
 /area/commons/dorms)
 "fPI" = (
@@ -25254,6 +25257,10 @@
 	},
 /turf/open/floor/plasteel/dark/side,
 /area/hallway/primary/starboard)
+"iKF" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/maintenance/bar)
 "iKZ" = (
 /obj/structure/chair/sofa/corp/right,
 /turf/open/floor/plasteel/dark,
@@ -26665,6 +26672,13 @@
 	dir = 1
 	},
 /area/commons/fitness)
+"jlN" = (
+/obj/structure/chair/wood/normal{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/maintenance/bar)
 "jlR" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
@@ -44981,6 +44995,7 @@
 /turf/open/floor/plasteel,
 /area/commons/dorms)
 "pHV" = (
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood{
 	icon_state = "wood-broken2"
 	},
@@ -55577,6 +55592,11 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/engineering/storage/tech)
+"tuy" = (
+/obj/structure/chair/stool/bar,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/maintenance/bar)
 "tuD" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -57842,7 +57862,12 @@
 /turf/closed/wall/r_wall,
 /area/command/blueshieldoffice)
 "uez" = (
-/obj/machinery/vending/kink,
+/obj/structure/frame/machine,
+/obj/item/circuitboard/machine/kinkmate,
+/obj/effect/decal/cleanable/cobweb{
+	icon_state = "cobweb2"
+	},
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood,
 /area/maintenance/bar)
 "ueQ" = (
@@ -95840,7 +95865,7 @@ pgG
 ohb
 bLc
 odm
-tjM
+jlN
 szF
 dIZ
 iLC
@@ -96095,7 +96120,7 @@ tGi
 dRq
 tjM
 szF
-szF
+iKF
 szF
 pHV
 szF
@@ -96354,7 +96379,7 @@ frm
 lSP
 nCK
 nCK
-nCK
+tuy
 hFO
 dIZ
 tGi
@@ -96868,7 +96893,7 @@ mwy
 szF
 jLL
 szF
-szF
+iKF
 hOK
 tGi
 bvb
