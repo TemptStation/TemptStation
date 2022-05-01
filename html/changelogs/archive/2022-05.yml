@@ -1,6 +1,5 @@
-author: CipherSnagger
-delete-after: true
-changes:
+2022-05-01:
+  CipherSnagger:
   - rscadd: Qareen antagonist
   - imageadd: copy of revenant sprites in modular_splurt - will be modified soon
   - code_imp: added a limit on the Tetris prizes + null and type checks for several
