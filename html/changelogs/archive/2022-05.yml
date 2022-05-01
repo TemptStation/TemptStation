@@ -10,6 +10,7 @@
       and prizes
   NullFag:
   - rscadd: headshot images are a thing now
+  - bugfix: fixed table undercrawl
   prodso:
   - tweak: Reformatted new space law and added it to the modular maps
   - tweak: Created a changelog bot and updated the make_changelogs workflow to use
