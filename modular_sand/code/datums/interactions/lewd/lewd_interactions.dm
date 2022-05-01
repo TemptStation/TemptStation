@@ -568,8 +568,6 @@
 		dat += "...have a vagina."
 	if(has_anus(REQUIRE_EXPOSED))
 		dat += "...have an anus."
-	if(has_belly(REQUIRE_EXPOSED))
-		dat += "...have a belly"
 	if(has_feet(REQUIRE_EXPOSED))
 		switch(has_feet(REQUIRE_EXPOSED))
 			if(2)
