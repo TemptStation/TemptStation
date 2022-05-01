@@ -36,9 +36,35 @@
     </style>
   </head>
   <body>
+    <a id="space_law">
     <h1>Space Law</h1>
+    </a>
     <br>Original Sin Edition <br>
-    <h2>NanoTrasen Employee Rights</h2>Every NanoTrasen employee has the right to an attorney and due process of law. <br>
+    <h1>Directory</h1>
+    <a href="#employee_rights">Employee Rights</a>
+    <br>
+    <a href="#infractions">Infractions</a>
+    <br>
+    <a href="#minor_crimes">Minor Crimes</a>
+    <br>
+    <a href="#major_crimes">Major Crimes</a>
+    <br>
+    <a href="#severe_crimes">Severe Crimes</a>
+    <br>
+    <a href="#capital_crimes">Capital Crimes</a>
+    <br>
+    <a href="#adjustments">Adjustments</a>
+    <br>
+    <a href="#contraband">Contraband</a>
+    <br>
+    <a href="#alt_punishments">Alternative Punishments</a>
+    <br>
+    <a href="#civil">Civil Law</a>
+
+    <a id="employee_rights">
+    <h1>NanoTrasen Employee Rights</h1>
+    </a>
+    Every NanoTrasen employee has the right to an attorney and due process of law. <br>
     <br>Every NanoTrasen employee has the right to an effective remedy through the company's legal department for acts violating the fundamental rights granted by the corporation. <br>
     <br>Every NanoTrasen employee has the right to threaten to file or file a department complaint, report a department head, or participate in a department investigation or lawsuit without being retaliated against for doing so. <br>
     <br>Every NanoTrasen employee has the right to expect a working environment within the efficiency and productivity standards of the company. <br>
@@ -46,9 +72,11 @@
     <br>No NanoTrasen employee shall be subjected to cruel, inhuman or degrading and unwarranted treatment or punishment from Command or Security. <br>
     <br>
     <h1>Crime Codes</h1>
-    <h2>
-      <u>1. Infractions</u>
-    </h2>Low issue crimes, typically related to behavior issues or comments that can lead to issues on the station. Punishments can typically vary from verbal warnings to pay cuts and fines to minimum confinement time. <br>
+
+    <a id="infractions">
+    <h2><u>1. Infractions</u></h2>
+    </a>
+    Low issue crimes, typically related to behavior issues or comments that can lead to issues on the station. Punishments can typically vary from verbal warnings to pay cuts and fines to minimum confinement time. <br>
     <u>Guidelines: Small fine of 50 to 500 credits or 2 to 5 minutes Brig or appropriate alternative punishment.</u>
     <br>
     <b>101: Disorderly Conduct:</b>Any behavior that is destructive or disruptive to others. This includes damaging property, continuous shoving/fighting, and disturbing the peace with unnecessary noise/actions. <br>
@@ -62,7 +90,9 @@
     <b>109: Lewd Conduct in Public:</b> Public sexual activity which includes two (or more) people engaged in sexual intercourse or other sexual contact in view of the public, or an individual displaying his or her genitals in an aroused state. *Captain can modify. <br>
     <b>110: Sexual Harassment:</b> Behavior characterized by the making of unwelcome and inappropriate sexual remarks or physical advances in a workplace or other professional or social situation.
 
+    <a id="minor_crimes">
     <h2><u>2. Minor Crimes</u></h2>
+    </a>
     Crimes that can cause issues to the station and merit moderate confinement time, heavy fines, or removal from a position/temporary demotion.<br>
     <u>Guidelines: Large fine of 500 to 2000 credits or 5 to 10 minutes Brig or appropriate alternative punishment.</u><br>
     <b>201: Battery:</b> To use minor physical force of an insulting or provoking nature against someone without intent to seriously injure them.<br>
@@ -80,7 +110,9 @@
     <b>213: Obstruction of Justice:</b> To act corruptly through threats, by any means of communication, or force with the intent to influence or impede the due administration of justice.<br>
     <b>214: Probation Violation:</b> To break the terms of one's probation. Can be escalated to a higher tier crime depending on the probationer's criminal record.<br>
 
+    <a id="major_crimes">
     <h2><u>3. Major Crimes</u></h2>
+    </a>
     Crimes that cause heavy issues for the station, punishments calling for extended confinement time and/or immediate demotion.<br>
     <u>Guidelines: 10 to 15 minutes Brig or appropriate alternative punishment.</u><br>
     <b>301: Assault:</b> To use excessive physical force against someone without the apparent intent to kill them but that would put a reasonable person in fear of their safety.<br>
@@ -101,9 +133,11 @@
     <b>316: Animal Cruelty:</b> To abuse in any way, physically, sexually, or otherwise, inflict injury upon, or kill a station pet or mascot.<br>
     <b>317: Advocation for Corporate Enemies:</b> To actively advocate for syndicate and/or heretical activities. Demotion and re-education should be pursued.<br>
 
+    <a id="severe_crimes">
     <h2><u>4. Severe Crimes</u></h2>
+    </a>
     Crimes that cause extensive issues to the station, punishments can extend from extended confinement, permanent confinement, or reconditioning by Central Command. There is a chance of parole. <br>
-    <u>Guidelines: Trial, Permabrig, Labour Camp, Execution only as the result of a trial, or appropriate alternative punishment.</u><br>
+    <u>Guidelines: Trial or Permabrig or Labour Camp or Execution only as the result of a trial or appropriate alternative punishment.</u><br>
     <b>401: Aggravated Assault:</b> Assault with a deadly weapon, assault against a head of staff or security officer, and/or assault with deadly or cruel intent.<br>
     <b>402: Severe Trespass:</b> To be within a command area captain's office or head office/teleporter room without permission from an applicable command staff member. *Cannot stack with B&E.<br>
     <b>403: Breaking and Entering into Command:</b> Breaking into a command area such as the captain's office or head office/teleporter without valid reason, for the purpose of theft or temporary entry. *Cannot stack with Trespass.<br>
@@ -115,7 +149,9 @@
     <b>409: Impersonating a Central Official:</b> To act as, or portray oneself as an official from Central Command without actually being such an official.<br>
     <b>410: Escaping Confinement:</b> To be exercised with discretion with crimes committed, to break out of a cell or permanent confinement. Further sentencing should include: relocation to isolation or labor camp, decreased chance of parole, and the consideration of execution if proving to be uncontainable and a continued threat to the station. <br>
 
+    <a id="capital_crimes">
     <h2><u>5. Capital Crimes</u></h2>
+    </a>
     Crimes that can potentially destroy the station and its crew. Punishment is permanent confinement for reconditioning if able or execution after approval is obtained from the Acting Captain or Central Command.<br>
     <u>Guidelines: Permabrig or Execution - Trials only to be held if the evidence is questionable and/or situation is divisive.</u><br>
     <b>501: Murder:</b> To intentionally take the life of another crewmember, regardless of the victim being revived or not. Multiple counts or an instance of mass murder, defined as four or more victims in a short timespan, influence the decision to execute instead of imprison.<br>
@@ -123,7 +159,9 @@
     <b>503: Mutiny:</b>  To act individually, or as a group, to overthrow or subvert the established Chain of Command without lawful and legitimate cause. Encompasses assaulting the Acting Captain.<br>
     <b>504: Terrorism:</b> The threat or use of ultra violence as an anti-corporate or political objective with the desire to change the status quo and the intention to spread fear by committing spectacular public acts which include the intentional targeting of employees. <br>
 
+<a id="adjustments">
 <h2><u>X. Adjustments</u></h2>
+</a>
 <u>Mitigating and Aggravating Factors:</u><br>
 
 <b>X01: Aiding and Abetting:</b> To knowingly assist a criminal or prisoner against a lawful arrest or escape. The original suspect's charges may be applied to the abettor.<br>
@@ -137,14 +175,18 @@
 <b>X09: Central Command Directive:</b> To be issued a pardon/sentence modification by Central Command in rare cases.<br>
 <b>X10: Illegal Use:</b> To use a lawfully owned weapon for criminal purposes. The weapon and permit should be revoked.
 
+<a id="contraband">
 <h2>Contraband</h2>
+</a>
 <u>Items which can be considered within the normal scope of an individual's jobs should not at any point be considered contraband.</u><br>
 Contraband items can be identified by forensic scanners, but generally any syndicate or restricted items should be considered as such.<br>
 These items can be possessed legally IF they were found in maintenance or off-station, AND the owner is authorized to have them by the Captain or HOS AND they were not used in any crime.<br>
 Security may legally use syndicate headset keys. All other dangerous-grade contraband can ONLY be used with direct permission from the Captain or Central Command or as the result of a vote by the Command Heads.<br>
 <a href="https://citadel-station.net/wikiRP/index.php?title=Guide:_Contraband">See the following article for a list of contraband items.</a>
 
+<a id="alt_punishments">
 <h2>Alternative Punishments</h2>
+</a>
 <u>In order of increasing severity:</u><br>
 Mandatory Psychologist Evaluation and Treatment<br>
 Probation (Tracking Beacon Implant and other necessary restrictions)<br>
@@ -155,7 +197,9 @@ Lobotomization<br>
 Cyborgization (colloquially: borging)<br>
 Any other creative form of appropriate punishment.<br>
 
-<h2>Civil Law:</h2>
+<a id="civil">
+<h1>Civil Law:</h1>
+</a>
 Civil offenses where one party has wronged another. Should be brought forth by hired legal representation and falls behind criminal trials/matters in terms of priority.<br>
 <u>Refusal to abide by civil sentences shall be judged as 315 - Criminal Contempt.</u><br>
 <b>Breach of Contract:</b> A failure, without legal excuse, to perform any promise that forms all or part of a contract willfully signed by two or more parties and recognized by the corporation.<br>
@@ -166,6 +210,8 @@ Civil offenses where one party has wronged another. Should be brought forth by h
 <b>Property Dispute:</b> A type of legal dispute that involves disagreements over property lines, responsibility for repairs on construction, blocked views, rightful ownership, zoning issues, or who is at fault for property damage.<br>
 <b>Restraining Order:</b> An order issued by the corporate court to protect an employee against another in a situation involving alleged violence, abuse, assault, harassment, stalking, or sexual assault which restricts the accused employee from interacting with the accuser.
     <br>
+    <br>
+    <a href=#space_law>Back to Top</a>
   </body>
 </html>
 	"}
