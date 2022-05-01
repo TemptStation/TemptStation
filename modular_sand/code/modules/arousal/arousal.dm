@@ -72,29 +72,3 @@
 								"<span class='userlove'>You feel a vacuum sucking on your [G.name] as you climax!</span>")
 	do_climax(fluid_source, container, G, FALSE, cover = TRUE)
 	emote("moan")
-
-/mob/living/carbon/human/proc/mob_climax_over(obj/item/organ/genital/G, mob/living/L, spillage = TRUE, mb_time = 30)
-	var/datum/reagents/fluid_source = G.climaxable(src)
-	if(!fluid_source)
-		return
-	if(mb_time) //Skip warning if this is an instant climax.
-		to_chat(src,"<span class='userlove'>You're about to climax over [L]!</span>")
-		to_chat(L,"<span class='userlove'>[src] is about to climax over you!</span>")
-		if(!do_after(src, mb_time, target = src) || !in_range(src, L) || !G.climaxable(src, TRUE))
-			return
-	to_chat(src,"<span class='userlove'>You climax all over [L] using your [G.name]!</span>")
-	to_chat(L, "<span class='userlove'>[src] climaxes all over you using [p_their()] [G.name]!</span>")
-	do_climax(fluid_source, L, G, spillage, cover = TRUE)
-
-/atom/proc/add_cum_overlay() //This can go in a better spot, for now its here.
-	cum_splatter_icon = icon(initial(icon), initial(icon_state), dir = 1)
-	cum_splatter_icon.Blend("#fff", ICON_ADD)
-	cum_splatter_icon.Blend(icon('modular_sand/icons/effects/cumoverlay.dmi', "cum_obj"), ICON_MULTIPLY)
-	add_overlay(cum_splatter_icon)
-
-/atom/proc/wash_cum()
-	cut_overlay(mutable_appearance('modular_sand/icons/effects/cumoverlay.dmi', "cum_normal"))
-	cut_overlay(mutable_appearance('modular_sand/icons/effects/cumoverlay.dmi', "cum_large"))
-	if(cum_splatter_icon)
-		cut_overlay(cum_splatter_icon)
-	return TRUE

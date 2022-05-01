@@ -1,6 +1,6 @@
 //sand, your code sucks and i will use this file to bash you wherever possible.
 /obj/item/milking_machine
-	icon = 'modular_sand/icons/obj/milking_machine.dmi'
+	icon = 'modular_splurt/icons/obj/milking_machine.dmi'
 	name = "milking machine"
 	icon_state = "Off"
 	item_state = "Off"
@@ -211,7 +211,7 @@
 				"Testicles" = image(icon= 'icons/obj/genitals/testicles.dmi', icon_state = "testicles"),
 				"Vagina" = image(icon= 'icons/obj/genitals/vagina.dmi', icon_state = "vagina"),
 				"Butt" = image(icon= 'icons/obj/genitals/breasts.dmi', icon_state = "butt"),
-				"Belly" = image(icon= 'modular_sand/icons/obj/genitals/belly_onmob.dmi', icon_state = "belly_pair_4_0_FRONT")
+				"Belly" = image(icon= 'modular_splurt/icons/obj/genitals/belly_onmob.dmi', icon_state = "belly_pair_4_0_FRONT")
 			))
 			var/choice = show_radial_menu(user, src, possible_choices)
 			if(!choice)

@@ -2,9 +2,6 @@
 
 #define TRAIT_HYPNOTIC_GAZE "Hypnotic Gaze"
 
-#define TRAIT_FLOORED "floored"
-#define IGNORE_FAKE_Z_AXIS "ignore_fake_z_axis"
-
 #define TRAIT_GFLUID_DETECT "genital_fluid_detect"
 
 // Hyperstation traits
