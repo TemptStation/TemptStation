@@ -8,3 +8,9 @@
       longer runtimes
   - admin: message for when someone uses a Tetris machine - along with their score
       and prizes
+  prodso:
+  - tweak: Reformatted new space law and added it to the modular maps
+  - tweak: Created a changelog bot and updated the make_changelogs workflow to use
+      it
+  - bugfix: Moved the redbot notification call to the appropriate portion of the check
+      statement
