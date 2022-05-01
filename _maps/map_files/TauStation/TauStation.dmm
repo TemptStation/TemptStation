@@ -2714,7 +2714,7 @@
 	req_access_txt = "72"
 	},
 /turf/open/floor/wood,
-/area/command/blueshielquarters)
+/area/command/blueshieldoffice)
 "aUY" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -11984,10 +11984,6 @@
 	pixel_x = -5;
 	pixel_y = 6
 	},
-/obj/item/radio/off{
-	pixel_x = 6;
-	pixel_y = 4
-	},
 /obj/machinery/newscaster{
 	pixel_x = 30
 	},
@@ -13165,17 +13161,14 @@
 	dir = 6
 	},
 /turf/open/floor/wood,
-/area/command/blueshielquarters)
+/area/command/blueshieldoffice)
 "eCD" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 8
 	},
 /obj/effect/landmark/start/blueshield,
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
-"eCI" = (
-/turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldoffice)
 "eCL" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -13216,10 +13209,6 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/science/xenobiology)
-"eDr" = (
-/obj/structure/dresser,
-/turf/open/floor/carpet,
-/area/command/blueshielquarters)
 "eEf" = (
 /obj/machinery/navbeacon{
 	codes_txt = "delivery;dir=2";
@@ -14041,8 +14030,20 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
+/obj/structure/table/wood,
+/obj/item/radio/off{
+	pixel_y = 6
+	},
+/obj/item/radio/off{
+	pixel_x = -6;
+	pixel_y = 4
+	},
+/obj/item/radio/off{
+	pixel_x = 6;
+	pixel_y = 4
+	},
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldoffice)
 "eSp" = (
 /obj/structure/table/wood,
 /obj/item/radio/intercom{
@@ -14063,7 +14064,7 @@
 	dir = 8
 	},
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldoffice)
 "eSH" = (
 /obj/machinery/camera{
 	c_tag = "Permabrig Processing";
@@ -15120,7 +15121,7 @@
 	pixel_x = -23
 	},
 /turf/open/floor/wood,
-/area/command/blueshielquarters)
+/area/command/blueshieldoffice)
 "fkA" = (
 /obj/vehicle/ridden/secway,
 /obj/item/key/security,
@@ -23587,7 +23588,7 @@
 	dir = 1
 	},
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldoffice)
 "ifH" = (
 /obj/structure/bed/badhaybed,
 /obj/item/toy/plush/catgirl,
@@ -35403,11 +35404,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/fore)
-"mnp" = (
-/obj/structure/bed/double,
-/obj/item/bedsheet/blue/double,
-/turf/open/floor/carpet,
-/area/command/blueshielquarters)
 "mnD" = (
 /obj/effect/landmark/xeno_spawn,
 /turf/open/floor/plating/asteroid/snow{
@@ -36210,7 +36206,14 @@
 	dir = 4
 	},
 /obj/structure/table/wood,
-/obj/machinery/recharger,
+/obj/machinery/recharger{
+	pixel_x = 6;
+	pixel_y = 3
+	},
+/obj/machinery/recharger{
+	pixel_x = -6;
+	pixel_y = 3
+	},
 /turf/open/floor/wood,
 /area/command/blueshieldoffice)
 "mCW" = (
@@ -48715,8 +48718,9 @@
 	dir = 4
 	},
 /obj/structure/window/reinforced/spawner,
+/obj/effect/landmark/start/blueshield,
 /turf/open/floor/plasteel/freezer,
-/area/command/blueshielquarters)
+/area/command/blueshieldoffice)
 "qYJ" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on,
 /turf/open/floor/plasteel,
@@ -54139,15 +54143,8 @@
 /area/engineering/storage/tech)
 "sTk" = (
 /obj/structure/closet/secure_closet/blueshield,
-/obj/item/storage/firstaid/brute{
-	pixel_x = 5
-	},
-/obj/item/storage/firstaid/fire,
-/obj/item/storage/firstaid/toxin{
-	pixel_x = -5
-	},
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldoffice)
 "sTw" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
 	dir = 1
@@ -60860,7 +60857,7 @@
 	req_access_txt = "19"
 	},
 /turf/open/floor/plasteel/freezer,
-/area/command/blueshielquarters)
+/area/command/blueshieldoffice)
 "vhT" = (
 /obj/structure/disposalpipe/segment{
 	dir = 10
@@ -63591,9 +63588,6 @@
 	},
 /turf/open/floor/engine,
 /area/commons/fitness/recreation)
-"wbA" = (
-/turf/closed/wall/r_wall,
-/area/command/blueshielquarters)
 "wbD" = (
 /turf/closed/wall,
 /area/engineering/lobby)
@@ -105783,7 +105777,7 @@ fza
 fza
 fza
 roA
-wbA
+uea
 qYF
 eCw
 fky
@@ -106040,7 +106034,7 @@ fza
 fza
 fza
 roA
-wbA
+uea
 vhK
 eCD
 eRR
@@ -106297,11 +106291,11 @@ fza
 fza
 fza
 roA
-wbA
+uea
 ifb
-eCI
+uzA
 eSx
-wbA
+uea
 fHP
 fYw
 gBo
@@ -106554,11 +106548,11 @@ fza
 fza
 roA
 roA
-wbA
+uea
 sTk
-eDr
-mnp
-wbA
+sTk
+sTk
+uea
 fJb
 fYY
 gCr
@@ -106811,11 +106805,11 @@ fza
 fza
 fza
 roA
-wbA
-wbA
-wbA
-wbA
-wbA
+uea
+uea
+uea
+uea
+uea
 fJD
 fZf
 gCt

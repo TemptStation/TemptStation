@@ -2876,6 +2876,12 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel/showroomfloor,
 /area/security/office)
+"ahN" = (
+/obj/effect/landmark/start/blueshield,
+/turf/open/floor/wood{
+	icon_state = "wood-broken"
+	},
+/area/command/blueshieldoffice)
 "ahQ" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -46866,9 +46872,10 @@
 /turf/open/floor/plasteel/dark,
 /area/service/chapel/main/monastery)
 "ckB" = (
-/obj/effect/spawner/structure/window/reinforced,
-/turf/closed/wall,
-/area/maintenance/fore)
+/turf/open/floor/wood{
+	icon_state = "wood-broken7"
+	},
+/area/command/blueshieldoffice)
 "ckD" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -49072,6 +49079,11 @@
 	},
 /turf/open/floor/carpet/black,
 /area/service/chapel/office)
+"csD" = (
+/turf/open/floor/wood{
+	icon_state = "wood-broken3"
+	},
+/area/command/blueshieldoffice)
 "csE" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 1
@@ -52652,6 +52664,17 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/engineering/main)
+"fmM" = (
+/obj/structure/table/wood,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/obj/item/storage/toolbox/mechanical{
+	pixel_x = -2;
+	pixel_y = -1
+	},
+/turf/open/floor/wood,
+/area/command/blueshieldoffice)
 "fmU" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 6
@@ -53298,6 +53321,12 @@
 /obj/machinery/portable_atmospherics/pump,
 /turf/open/floor/plasteel,
 /area/engineering/main)
+"gnV" = (
+/obj/structure/closet/secure_closet/blueshield,
+/turf/open/floor/wood{
+	icon_state = "wood-broken6"
+	},
+/area/command/blueshieldoffice)
 "gpC" = (
 /obj/structure/chair,
 /obj/machinery/light{
@@ -53607,6 +53636,20 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/science/xenobiology)
+"gJd" = (
+/obj/structure/table/wood,
+/obj/machinery/recharger{
+	pixel_x = -6;
+	pixel_y = 3
+	},
+/obj/machinery/recharger{
+	pixel_x = 6;
+	pixel_y = 3
+	},
+/turf/open/floor/wood{
+	icon_state = "wood-broken"
+	},
+/area/command/blueshieldoffice)
 "gJV" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -54171,6 +54214,11 @@
 	},
 /turf/open/floor/engine,
 /area/engineering/main)
+"hGO" = (
+/turf/open/floor/wood{
+	icon_state = "wood-broken4"
+	},
+/area/command/blueshieldoffice)
 "hHr" = (
 /obj/structure/chair/comfy/black{
 	dir = 4
@@ -55642,6 +55690,10 @@
 	},
 /turf/open/floor/engine,
 /area/engineering/main)
+"kes" = (
+/obj/effect/landmark/start/blueshield,
+/turf/open/floor/wood,
+/area/command/blueshieldoffice)
 "kfh" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 9
@@ -57480,6 +57532,11 @@
 /obj/machinery/space_heater,
 /turf/open/floor/plating,
 /area/maintenance/department/science)
+"mSl" = (
+/turf/open/floor/wood{
+	icon_state = "wood-broken"
+	},
+/area/command/blueshieldoffice)
 "mTl" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -58350,6 +58407,10 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/department/engine)
+"omC" = (
+/obj/structure/closet/secure_closet/blueshield,
+/turf/open/floor/wood,
+/area/command/blueshieldoffice)
 "onE" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 8
@@ -59516,6 +59577,20 @@
 	dir = 1
 	},
 /area/hallway/secondary/exit/departure_lounge)
+"pOs" = (
+/obj/machinery/power/apc{
+	areastring = "/area/security/brig";
+	dir = 1;
+	name = "Blueshield's Office APC";
+	pixel_y = 23
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/open/floor/wood{
+	icon_state = "wood-broken"
+	},
+/area/command/blueshieldoffice)
 "pQw" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
@@ -60213,6 +60288,15 @@
 	},
 /turf/open/floor/plating,
 /area/hallway/secondary/entry)
+"qTk" = (
+/obj/structure/closet/secure_closet/blueshield,
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/open/floor/wood{
+	icon_state = "wood-broken3"
+	},
+/area/command/blueshieldoffice)
 "qTV" = (
 /obj/item/radio/intercom{
 	name = "Station Intercom (General)";
@@ -60344,6 +60428,18 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/department/engine)
+"qXA" = (
+/obj/machinery/door/airlock/command/glass{
+	name = "Blueshield";
+	req_access_txt = "72"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/wood{
+	icon_state = "wood-broken6"
+	},
+/area/command/blueshieldoffice)
 "qXE" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -61612,6 +61708,14 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/medical/treatment_center)
+"tjz" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/wood{
+	icon_state = "wood-broken7"
+	},
+/area/command/blueshieldoffice)
 "tkL" = (
 /obj/machinery/atmospherics/pipe/simple/green/visible,
 /obj/machinery/light{
@@ -61779,6 +61883,23 @@
 	},
 /turf/open/floor/engine,
 /area/engineering/main)
+"txG" = (
+/obj/structure/table/wood,
+/obj/item/radio/off{
+	pixel_x = -6;
+	pixel_y = 4
+	},
+/obj/item/radio/off{
+	pixel_y = 4
+	},
+/obj/item/radio/off{
+	pixel_x = 6;
+	pixel_y = 4
+	},
+/turf/open/floor/wood{
+	icon_state = "wood-broken6"
+	},
+/area/command/blueshieldoffice)
 "typ" = (
 /obj/structure/table/glass,
 /obj/item/hemostat,
@@ -62305,6 +62426,16 @@
 /obj/item/ammo_casing/shotgun/beanbag,
 /turf/open/floor/plating,
 /area/maintenance/department/security/brig)
+"utB" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plating,
+/area/maintenance/fore)
 "uug" = (
 /turf/open/floor/plating{
 	icon_state = "platingdmg1"
@@ -63942,6 +64073,15 @@
 /obj/structure/grille,
 /turf/open/floor/plating,
 /area/maintenance/department/engine)
+"wMT" = (
+/obj/effect/landmark/start/blueshield,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/open/floor/wood{
+	icon_state = "wood-broken5"
+	},
+/area/command/blueshieldoffice)
 "wMX" = (
 /obj/effect/spawner/structure/window/plasma/reinforced,
 /turf/open/floor/plating,
@@ -64481,9 +64621,11 @@
 /turf/open/floor/plating,
 /area/maintenance/department/cargo)
 "xyB" = (
-/obj/structure/lattice,
-/turf/open/space/basic,
-/area/space)
+/obj/machinery/vending/wardrobe/blueshield_wardrobe,
+/turf/open/floor/wood{
+	icon_state = "wood-broken4"
+	},
+/area/command/blueshieldoffice)
 "xzp" = (
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/tile/blue{
@@ -90912,9 +91054,9 @@ arx
 apj
 aoz
 xyB
-aaa
-aaa
-xyB
+qTk
+gnV
+omC
 auH
 avI
 auH
@@ -91167,11 +91309,11 @@ aaa
 aqF
 lUz
 apj
+aoz
 ckB
-xyB
-aaa
-aaa
-aaa
+mSl
+kes
+csD
 auH
 avJ
 awS
@@ -91424,11 +91566,11 @@ aaa
 aqF
 lXc
 apj
-ckB
-xyB
-aaa
-aaa
-aaa
+aoz
+pOs
+wMT
+hGO
+ahN
 auH
 avK
 auH
@@ -91681,11 +91823,11 @@ aaa
 aqF
 lUz
 apj
-ckB
-xyB
-xyB
-xyB
-xyB
+aoz
+fmM
+tjz
+gJd
+txG
 auH
 auH
 auH
@@ -91938,9 +92080,9 @@ aaa
 aqF
 lXv
 asK
-ckB
-ckB
-apR
+aoz
+aoz
+qXA
 aoz
 aoz
 aoz
@@ -92197,7 +92339,7 @@ aqF
 apk
 apQ
 aqE
-aqE
+utB
 cxB
 atK
 auJ
