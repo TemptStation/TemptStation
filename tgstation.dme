@@ -4526,7 +4526,7 @@
 #include "modular_splurt\code\modules\vending\security.dm"
 #include "modular_splurt\code\modules\vending\wardrobes.dm"
 #include "modular_tempt\code\datums\elements\crawl_under.dm"
-#include "modular_tempt\code\game\objects\manuals.dm"
+#include "modular_tempt\code\game\objects\items\manuals.dm"
 #include "modular_tempt\code\game\objects\items\milking_machine.dm"
 #include "modular_tempt\code\game\objects\structures\beds.dm"
 #include "modular_tempt\code\game\objects\structures\tables.dm"
