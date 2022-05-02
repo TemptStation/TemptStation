@@ -11,7 +11,7 @@
 		return
 
 	var/mob/living/living = user
-	if((living.mobility_flags & ~MOBILITY_STAND) && (user.loc == living.loc) && (istype(src.w_uniform, /obj/item/clothing/under/color/jumpskirt)))
+	if((user != src) && (living.mobility_flags & ~MOBILITY_STAND) && (src.mobility_flags & MOBILITY_STAND) && (src.loc == living.loc) && (istype(src.w_uniform, /obj/item/clothing/under/color/jumpskirt)))
 		var/string = "Peeking under [src]'s skirt, you can see "
 		var/obj/item/clothing/underwear/worn_underwear = src.w_underwear
 		if(worn_underwear)
@@ -23,10 +23,43 @@
 			else
 				string += "[worn_underwear.color]."
 
+			var/obj/item/organ/genital/penis/penis = getorganslot(ORGAN_SLOT_PENIS)
+			var/obj/item/organ/genital/vagina/vagina = getorganslot(ORGAN_SLOT_VAGINA)
+			if(penis?.aroused_state)
+				string += span_love(" There's a visible bulge on it's front.")
+			else if(vagina?.aroused_state)
+				string += span_love(" They're wet with arousal.")
 
 		else
-			string += "[p_theyre()] not wearing anything - [p_their()] "
+			string += "[p_theyre()] not wearing anything! - [p_their()] "
+			var/list/genitals = list()
 			for(var/obj/item/organ/genital/genital in internal_organs)
 				if(genital.genital_flags & (GENITAL_INTERNAL|GENITAL_HIDDEN))
 					continue
 
+				var/appended
+				if(genital.type == /obj/item/organ/genital/vagina)
+					if(genital.aroused_state)
+						appended += "wet "
+					if(genital.shape != "human")
+						appended += lowertext(genital.shape)
+					if(genital.shape != "cloaca") //their wet cloaca pussy
+						appended += " pussy"
+
+				else if(genital.type == /obj/item/organ/genital/testicles)
+					appended += "nuts"
+				else if(genital.type == /obj/item/organ/genital/penis)
+					if(genital.aroused_state)
+						appended += "fully erect, "
+					if(genital.shape != "human")
+						appended += lowertext(genital.shape)
+					appended += " penis"
+
+				genitals += appended
+
+			string += english_list(genitals, "featureless groin")
+			string += " on full display."
+
+		. += span_purple(string)
+
+#undef PAIRLESS_PANTIES
