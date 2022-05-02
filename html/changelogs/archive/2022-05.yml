@@ -17,3 +17,25 @@
       it
   - bugfix: Moved the redbot notification call to the appropriate portion of the check
       statement
+2022-05-02:
+  CipherSnagger:
+  - rscadd: Adds in the Blue Slided enforcer for the Blueshield
+  - rscadd: Adds in the energy revolver for the Blueshield
+  - rscadd: Weapon spawn beacon into BS's backpack instead of locker
+  - rscadd: Warden and HOS helmets
+  - rscadd: A populated sec belt and medical equipment to the Blueshield locker
+  - rscadd: Port master and Tavern Keep to QM and Barkeep respectively
+  - rscadd: Enforcers, M1911s and WT-550s can now take suppressors
+  - rscadd: Enforcer magazines are now color coded
+  - rscadd: Color variants to the .45 energy ammo
+  - rscdel: Blueshield melee options (apart from CQC)
+  - tweak: 3 Blueshield spawns
+  - tweak: Remodeled the Blueshield offices
+  - tweak: Blueshield office moved on Pubby into Captain's maintenance
+  - tweak: Blueshield is officially under the HOS and not CentCom
+  - tweak: Blueshield took a paycut
+  - tweak: Big Iron can now take a flash light
+  - tweak: HOS weapon steal objective tweaked to include the Enforcer and the objective
+      wording change to reflect this
+  - spellcheck: Fixed the SecHUD Aviators and Bunny suit misspellings (Fixed the bumbling
+      buffoon known as radar651's misspellings)
