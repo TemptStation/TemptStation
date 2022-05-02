@@ -4561,5 +4561,7 @@
 #include "modular_tempt\code\modules\jobs\job_types\blueshield.dm"
 #include "modular_tempt\code\modules\mob\living\living_mobility.dm"
 #include "modular_tempt\code\modules\mob\living\living_signals.dm"
+#include "modular_tempt\code\modules\research\techweb\nodes\bluespace_nodes.dm"
+#include "modular_tempt\code\modules\research\techweb\nodes\tools_nodes.dm"
 #include "tools\Redirector\textprocs.dm"
 // END_INCLUDE
