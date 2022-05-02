@@ -31,12 +31,12 @@ obj/item/ammo_box/c45/lethal
 
 obj/item/ammo_box/c45/stun
 	name = "ammo box (.45 Stun)"
-	icon_state = "45box-c"
+	icon_state = "45box-b"
 	ammo_type = /obj/item/ammo_casing/c45/stun
 
 obj/item/ammo_box/c45/laser
 	name = "ammo box (.45 Laser)"
-	icon_state = "45box-o"
+	icon_state = "45box-dr"
 	ammo_type = /obj/item/ammo_casing/c45/laser
 
 obj/item/ammo_box/c45/hydra

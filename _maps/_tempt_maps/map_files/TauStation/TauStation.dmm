@@ -2714,7 +2714,7 @@
 	req_access_txt = "72"
 	},
 /turf/open/floor/wood,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "aUY" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -13165,17 +13165,17 @@
 	dir = 6
 	},
 /turf/open/floor/wood,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "eCD" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 8
 	},
 /obj/effect/landmark/start/blueshield,
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "eCI" = (
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "eCL" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -13219,7 +13219,7 @@
 "eDr" = (
 /obj/structure/dresser,
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "eEf" = (
 /obj/machinery/navbeacon{
 	codes_txt = "delivery;dir=2";
@@ -14042,7 +14042,7 @@
 	dir = 4
 	},
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "eSp" = (
 /obj/structure/table/wood,
 /obj/item/radio/intercom{
@@ -14063,7 +14063,7 @@
 	dir = 8
 	},
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "eSH" = (
 /obj/machinery/camera{
 	c_tag = "Permabrig Processing";
@@ -15120,7 +15120,7 @@
 	pixel_x = -23
 	},
 /turf/open/floor/wood,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "fkA" = (
 /obj/vehicle/ridden/secway,
 /obj/item/key/security,
@@ -23587,7 +23587,7 @@
 	dir = 1
 	},
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "ifH" = (
 /obj/structure/bed/badhaybed,
 /obj/item/toy/plush/catgirl,
@@ -24408,7 +24408,7 @@
 /area/command/heads_quarters/captain/private)
 "itY" = (
 /obj/structure/table/wood,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/storage/secure/briefcase/permits,
 /obj/structure/window/reinforced,
 /turf/open/floor/carpet,
@@ -25968,7 +25968,7 @@
 	icon_state = "1-2"
 	},
 /obj/effect/landmark/event_spawn,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /turf/open/floor/carpet,
 /area/command/heads_quarters/hos)
 "iVR" = (
@@ -35407,7 +35407,7 @@
 /obj/structure/bed/double,
 /obj/item/bedsheet/blue/double,
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "mnD" = (
 /obj/effect/landmark/xeno_spawn,
 /turf/open/floor/plating/asteroid/snow{
@@ -48716,7 +48716,7 @@
 	},
 /obj/structure/window/reinforced/spawner,
 /turf/open/floor/plasteel/freezer,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "qYJ" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on,
 /turf/open/floor/plasteel,
@@ -54147,7 +54147,7 @@
 	pixel_x = -5
 	},
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "sTw" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
 	dir = 1
@@ -60860,7 +60860,7 @@
 	req_access_txt = "19"
 	},
 /turf/open/floor/plasteel/freezer,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "vhT" = (
 /obj/structure/disposalpipe/segment{
 	dir = 10
@@ -63593,7 +63593,7 @@
 /area/commons/fitness/recreation)
 "wbA" = (
 /turf/closed/wall/r_wall,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "wbD" = (
 /turf/closed/wall,
 /area/engineering/lobby)

@@ -8903,7 +8903,7 @@
 "aCO" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/wood,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "aDa" = (
 /turf/open/floor/plating,
 /area/construction/mining/aux_base)
@@ -21181,7 +21181,7 @@
 	pixel_x = -22
 	},
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "bJC" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/structure/extinguisher_cabinet{
@@ -49906,7 +49906,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "etM" = (
 /obj/structure/toilet/secret/low_loot{
 	pixel_y = 8
@@ -49933,7 +49933,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/white,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "euh" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 1
@@ -53436,7 +53436,7 @@
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "guM" = (
 /obj/structure/window/reinforced{
 	dir = 1;
@@ -58334,7 +58334,7 @@
 /area/command/gateway)
 "jif" = (
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "jig" = (
 /turf/open/floor/plasteel/showroomfloor,
 /area/service/kitchen)
@@ -60062,7 +60062,7 @@
 	req_access_txt = "72"
 	},
 /turf/open/floor/plating,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "kcH" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/effect/turf_decal/tile/brown{
@@ -62237,7 +62237,7 @@
 	pixel_x = 28
 	},
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "ljs" = (
 /obj/structure/disposalpipe/segment{
 	dir = 6
@@ -62410,7 +62410,7 @@
 	req_access_txt = "72"
 	},
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "lpm" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 4
@@ -62460,7 +62460,7 @@
 	req_access_txt = "72"
 	},
 /turf/open/floor/wood,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "lqR" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -63184,7 +63184,7 @@
 	},
 /obj/structure/closet/secure_closet/blueshield,
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "lMh" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -64950,7 +64950,7 @@
 "mGR" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/closed/wall,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "mHn" = (
 /obj/machinery/atmospherics/pipe/simple/orange/hidden,
 /turf/closed/wall,
@@ -66119,7 +66119,7 @@
 /area/service/hydroponics/garden)
 "nui" = (
 /turf/closed/wall,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "nvq" = (
 /obj/effect/landmark/start/lawyer,
 /obj/structure/chair/office/dark{
@@ -66178,7 +66178,7 @@
 /obj/item/bedsheet/blue/double,
 /obj/structure/bed/double,
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "nxb" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/atmos/engine_waste,
 /turf/open/floor/plating/airless,
@@ -66213,7 +66213,7 @@
 	req_access_txt = "72"
 	},
 /turf/open/floor/wood,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "nxU" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -75703,7 +75703,7 @@
 	dir = 8
 	},
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "suE" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/closed/wall/r_wall,
@@ -76482,7 +76482,7 @@
 	dir = 4
 	},
 /turf/closed/wall,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "sRw" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/cable{
@@ -79008,7 +79008,7 @@
 "uoE" = (
 /obj/structure/dresser,
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "uoM" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/preopen{
@@ -79608,7 +79608,7 @@
 	},
 /obj/machinery/vending/wardrobe/blueshield_wardrobe,
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "uIA" = (
 /obj/effect/turf_decal/delivery,
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/visible{
@@ -79921,7 +79921,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/white,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "uUK" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
