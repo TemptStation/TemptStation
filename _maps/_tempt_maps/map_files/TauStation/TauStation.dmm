@@ -28736,12 +28736,6 @@
 /area/ai_monitored/command/nuke_storage)
 "kaU" = (
 /obj/structure/filingcabinet,
-/obj/item/book/manual/nuclear,
-/obj/item/book{
-	desc = "An undeniably handy book.";
-	icon_state = "bookknock";
-	name = "A Simpleton's Guide to Safe-cracking with Stethoscopes"
-	},
 /obj/item/folder/documents,
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/command/nuke_storage)
@@ -30613,11 +30607,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
 /area/maintenance/department/medical)
-"kHC" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/obj/structure/closet/crate/goldcrate,
-/turf/open/floor/plasteel/dark,
-/area/ai_monitored/command/nuke_storage)
 "kHG" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/effect/turf_decal/tile/red{
@@ -30625,11 +30614,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/brig)
-"kHH" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
-/obj/structure/closet/crate/silvercrate,
-/turf/open/floor/plasteel/dark,
-/area/ai_monitored/command/nuke_storage)
 "kIo" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on,
 /turf/open/floor/plasteel/showroomfloor,
@@ -31473,7 +31457,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 5
 	},
-/obj/machinery/ore_silo,
+/obj/structure/closet/crate/silvercrate,
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/command/nuke_storage)
 "kXw" = (
@@ -91920,7 +91904,7 @@ ijz
 gPv
 xWU
 fza
-vZT
+fza
 vZT
 vZT
 vZT
@@ -92177,10 +92161,10 @@ rVM
 eQG
 xWU
 fza
+fza
 vZT
 jZy
 kvO
-kHC
 kXo
 vZT
 lNm
@@ -92434,8 +92418,8 @@ euL
 eTn
 xWU
 roA
+roA
 vZT
-kaa
 kaa
 kaa
 kYp
@@ -92691,10 +92675,10 @@ ilr
 iMI
 xWU
 fza
+fza
 vZT
 kaD
 kwM
-kaa
 kYD
 lsL
 lOE
@@ -92948,9 +92932,9 @@ exd
 qQl
 xWU
 roA
+roA
 vZT
 hIz
-gPK
 gPK
 otO
 vZT
@@ -93205,10 +93189,10 @@ ybN
 rRi
 xWU
 fza
+fza
 vZT
 kaU
 kxv
-kHH
 kZo
 vZT
 lNm
@@ -93462,7 +93446,7 @@ eyE
 eTC
 xWU
 fza
-vZT
+fza
 vZT
 vZT
 vZT

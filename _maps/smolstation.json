@@ -1,6 +1,6 @@
 {
     "map_name": "Smol Station",
-    "map_path": "map_files/SmolStation",
+    "map_path": "_tempt_maps/map_files/SmolStation",
 	"map_file": "SmolStation.dmm",
     "shuttles": {
 	    "cargo": "cargo_delta",
