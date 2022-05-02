@@ -42,7 +42,7 @@
 				if(genital.type == /obj/item/organ/genital/vagina)
 					if(genital.aroused_state)
 						appended += "wet "
-					if(genital.shape != "human")
+					if(lowertext(genital.shape) != "human")
 						appended += lowertext(genital.shape)
 					if(lowertext(genital.shape) != "cloaca") //their wet cloaca pussy
 						appended += " pussy"
@@ -52,7 +52,7 @@
 				else if(genital.type == /obj/item/organ/genital/penis)
 					if(genital.aroused_state)
 						appended += "fully erect, "
-					if(genital.shape != "human")
+					if(lowertext(genital.shape) != "human")
 						appended += lowertext(genital.shape)
 					appended += " penis"
 
