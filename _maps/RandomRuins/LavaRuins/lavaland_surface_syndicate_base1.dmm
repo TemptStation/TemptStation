@@ -1471,7 +1471,7 @@
 "fk" = (
 /obj/machinery/power/apc/syndicate{
 	name = "Experimentation Lab APC";
-	pixel_y = -24
+	pixel_y = -23
 	},
 /obj/structure/cable/yellow{
 	icon_state = "0-4"
@@ -3333,7 +3333,7 @@
 	},
 /obj/machinery/power/apc/syndicate{
 	name = "Dormitories APC";
-	pixel_y = -24
+	pixel_y = -23
 	},
 /obj/structure/cable/yellow{
 	icon_state = "0-8"
@@ -5213,7 +5213,7 @@
 /obj/structure/cable/yellow,
 /obj/machinery/power/apc/syndicate{
 	name = "Bar APC";
-	pixel_y = -24
+	pixel_y = -23
 	},
 /turf/open/floor/wood,
 /area/ruin/lavaland/unpowered/syndicate_lava_base/bar)
@@ -6258,7 +6258,7 @@
 /obj/structure/cable/yellow,
 /obj/machinery/power/apc/syndicate{
 	name = "Telecommunications APC";
-	pixel_y = -24
+	pixel_y = -23
 	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1

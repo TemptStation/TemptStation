@@ -399,6 +399,9 @@
 	mag_type = /obj/item/ammo_box/magazine/mws_mag
 	spawnwithmagazine = FALSE
 	recoil = 0
+	can_flashlight = 1
+	flight_x_offset = 18
+	flight_y_offset = 4
 
 	var/charge_sections = 6
 

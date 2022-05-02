@@ -382,6 +382,7 @@ SLEEPER CODE IS IN game/objects/items/devices/dogborg_sleeper.dm !
 			update_mobility()
 
 //pleasuremaw stuff
+/* tempt edit - moved to modular
 /obj/item/milking_machine/pleasuremaw
 	name = "pleasuremaw"
 	desc = "A module that makes hound maws become slippery, warm, sticky, and soft, perfect place to slip your dick inside and relax, feed and help charge the borgs."
@@ -545,3 +546,4 @@ SLEEPER CODE IS IN game/objects/items/devices/dogborg_sleeper.dm !
 		// 				feed 10u of the regents to target
 		// 			splash target with remaining regents
 	return
+*/
