@@ -1,6 +1,7 @@
 #define PAIRLESS_PANTIES list(\
 	/obj/item/clothing/underwear/briefs/jockstrap,\
 	/obj/item/clothing/underwear/briefs/panties/thong,\
+	/obj/item/clothing/underwear/briefs/panties/thong/babydoll,\
 	/obj/item/clothing/underwear/briefs/mankini\
 )
 
@@ -11,7 +12,7 @@
 		return
 
 	var/mob/living/living = user
-	if((user != src) && (living.mobility_flags & ~MOBILITY_STAND) && (src.mobility_flags & MOBILITY_STAND) && (src.loc == living.loc) && (istype(src.w_uniform, /obj/item/clothing/under/color/jumpskirt)))
+	if((user != src) && !(living.mobility_flags & MOBILITY_STAND) && (mobility_flags & MOBILITY_STAND) && (src.loc == living.loc) && (istype(w_uniform, /obj/item/clothing/under/color/jumpskirt)))
 		var/string = "Peeking under [src]'s skirt, you can see "
 		var/obj/item/clothing/underwear/worn_underwear = src.w_underwear
 		if(worn_underwear)
@@ -21,7 +22,7 @@
 			if(worn_underwear.color)
 				string += "<font color='[worn_underwear.color]'>[worn_underwear.name]</font>."
 			else
-				string += "[worn_underwear.color]."
+				string += "[worn_underwear.name]."
 
 			var/obj/item/organ/genital/penis/penis = getorganslot(ORGAN_SLOT_PENIS)
 			var/obj/item/organ/genital/vagina/vagina = getorganslot(ORGAN_SLOT_VAGINA)
@@ -43,7 +44,7 @@
 						appended += "wet "
 					if(genital.shape != "human")
 						appended += lowertext(genital.shape)
-					if(genital.shape != "cloaca") //their wet cloaca pussy
+					if(lowertext(genital.shape) != "cloaca") //their wet cloaca pussy
 						appended += " pussy"
 
 				else if(genital.type == /obj/item/organ/genital/testicles)
