@@ -49310,7 +49310,7 @@
 "cwP" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/closed/wall,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "cwS" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plating,
@@ -57321,7 +57321,7 @@
 /area/security/prison/upper)
 "ktZ" = (
 /turf/closed/wall,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "kuh" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -58196,7 +58196,7 @@
 	icon_state = "1-2"
 	},
 /turf/closed/wall,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "lxn" = (
 /obj/item/radio/intercom{
 	name = "Station Intercom (General)";
@@ -59400,7 +59400,7 @@
 	},
 /obj/machinery/vending/wardrobe/blueshield_wardrobe,
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "nbr" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/structure/cable{
@@ -60257,7 +60257,7 @@
 	dir = 8
 	},
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "ooF" = (
 /obj/effect/turf_decal/stripes/white/line,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
@@ -60849,7 +60849,7 @@
 	req_access_txt = "72"
 	},
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "pkg" = (
 /turf/open/floor/plating,
 /area/commons/storage/emergency/starboard)
@@ -62324,7 +62324,7 @@
 	dir = 8
 	},
 /turf/closed/wall,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "rgu" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -63096,7 +63096,7 @@
 	pixel_y = -24
 	},
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "slk" = (
 /obj/machinery/door/airlock/maintenance{
 	req_access_txt = "12"
@@ -63225,7 +63225,7 @@
 	},
 /obj/structure/closet/secure_closet/blueshield,
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "sxs" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/structure/table,
@@ -63292,7 +63292,7 @@
 "szD" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/closed/wall,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "sAk" = (
 /obj/structure/cable{
 	icon_state = "1-8"
@@ -64559,7 +64559,7 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "udT" = (
 /obj/machinery/atmospherics/pipe/manifold/purple/visible,
 /turf/open/floor/plasteel,
@@ -65029,7 +65029,7 @@
 	},
 /obj/effect/landmark/start/blueshield,
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "uIO" = (
 /obj/structure/cable{
 	icon_state = "4-8"
