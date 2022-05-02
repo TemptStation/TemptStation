@@ -30,6 +30,7 @@
 	design_ids = list("eng_key", "sci_key", "med_key", "supply_key", "serv_key")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 3000)
 
+/* tempt edit
 /datum/techweb_node/bs_mining
 	id = "bluespace_mining"
 	display_name = "Bluespace Mining Technology"
@@ -37,6 +38,7 @@
 	prereq_ids = list("practical_bluespace", "adv_mining")
 	design_ids = list("bluespace_miner")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 7500)
+*/
 
 /datum/techweb_node/shuttle_route_upgrade_hyper/New()
 	design_ids += "disk_shuttle_smoothsail"
