@@ -29,7 +29,8 @@
 
 /obj/item/storage/secure/briefcase/cop/e45_box/PopulateContents()
 	new /obj/item/gun/ballistic/automatic/pistol/enforcer/nomag(src)
-	new /obj/item/ammo_box/magazine/e45(src)
+	new /obj/item/ammo_box/magazine/e45/taser(src)
+	new /obj/item/ammo_box/magazine/e45/taser(src)
 	new /obj/item/ammo_box/magazine/e45(src)
 	new /obj/item/ammo_box/magazine/e45(src)
 
@@ -37,7 +38,7 @@
 
 /obj/item/storage/secure/briefcase/bsgun/enforcer
 	name = "\improper Enforcer handgun box"
-	desc = "A storage case for a Mk. 58 Enforcer. Get down Mr. Captain."
+	desc = "A storage case for a Mk. 58 Enforcer. Get down Mr.Captain!"
 
 /obj/item/storage/secure/briefcase/bsgun/enforcer/PopulateContents()
 	new /obj/item/gun/ballistic/automatic/pistol/enforcerblue/nomag(src)
@@ -50,7 +51,7 @@
 
 /obj/item/storage/secure/briefcase/bsgun/revolver
 	name = "\improper Energy Revolver box"
-	desc = "A storage case for a high-tech Energy revolver. This is a prototype so don't loose it."
+	desc = "A storage case for a high-tech Energy revolver. This is a prototype so don't lose it."
 
 /obj/item/storage/secure/briefcase/bsgun/revolver/PopulateContents()
 	new /obj/item/gun/energy/e_gun/bsgun(src)

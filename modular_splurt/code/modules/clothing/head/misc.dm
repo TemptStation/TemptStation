@@ -26,14 +26,14 @@
 	name = "press helmet"
 	icon_state = "press_helmet"
 	item_state = "press_helmet"
-	desc = "A lightweight helmet for reporting on security. You swear up and down it is made of kevlar and not old cloth and plastic."
+	desc = "A lightweight helmet for reporting on security. It looks carelessly cobbled together with spare plastic and cloth."
 	icon = 'modular_splurt/icons/obj/clothing/head.dmi'
 	mob_overlay_icon = 'modular_splurt/icons/mob/clothing/head.dmi'
 	flags_inv = HIDEHAIR
 
 /obj/item/clothing/head/helmet/sec/warden
 	name = "Warden's helmet"
-	desc = "A standard issiue helmet for the warden. Protects the head from impacts."
+	desc = "The warden's personalized helmet."
 	icon_state = "wardenhelmet"
 	icon = 'modular_splurt/icons/obj/clothing/head.dmi'
 	mob_overlay_icon = 'modular_splurt/icons/mob/clothing/head.dmi'
@@ -41,7 +41,7 @@
 
 /obj/item/clothing/head/helmet/sec/hos
 	name = "Head of Security's helmet"
-	desc = "A standard issiue helmet for the Head of Security. Protects the head from impacts."
+	desc = "The Head of Security's personalized helmet."
 	icon_state = "hoshelmet"
 	icon = 'modular_splurt/icons/obj/clothing/head.dmi'
 	mob_overlay_icon = 'modular_splurt/icons/mob/clothing/head.dmi'
@@ -51,8 +51,8 @@
 //CBRN/MOPP helmets
 
 /obj/item/clothing/head/helmet/cbrn
-	name = "CBRN hood"
-	desc = "Chemical, Biological, Radiological and Nuclear. A hood design for harsh environmental conditions short of no atmosphere"
+	name = "CBRN Hood"
+	desc = "Chemical, Biological, Radiological and Nuclear. A hood designed for harsh environmental conditions short of atmospheric hazards."
 	icon_state = "cbrnhood"
 	item_state = "cbrnhood"
 	icon = 'modular_splurt/icons/obj/clothing/head.dmi'
@@ -70,16 +70,16 @@
 	rad_flags = RAD_PROTECT_CONTENTS | RAD_NO_CONTAMINATE
 
 /obj/item/clothing/head/helmet/cbrn/mopp
-	name = "MOPP hood"
-	desc = "Mission Oriented Protective Posture. A hood design for harsh combat conditions short of no atmosphere. This one has a helmet towed onto the hood for added protection."
+	name = "MOPP Hood"
+	desc = "Mission Oriented Protective Posture. A hood designed for harsh combat conditions short of atmospheric hazards. This one has a helmet stitched onto the hood for added protection."
 	icon_state = "mopphood"
 	item_state = "mopphood"
 	can_flashlight = 1
 	armor = list("melee" = 40, "bullet" = 30, "laser" = 30,"energy" = 10, "bomb" = 25, "bio" = 100, "rad" = 100, "fire" = 40, "acid" = 100)
 
 /obj/item/clothing/head/helmet/cbrn/mopp/advance
-	name = "advance MOPP hood"
-	desc = "Mission Oriented Protective Posture. A hood design for harsh combat conditions short of no atmosphere. This is an advance versoin for ERT units and Central Command Staff."
+	name = "Advanced MOPP Hood"
+	desc = "Mission Oriented Protective Posture. A hood designed for harsh combat conditions short of atmospheric conditions. This is an advanced version for ERT units and Central Command Staff."
 	can_flashlight = 1
 	armor = list("melee" = 50, "bullet" = 40, "laser" = 40,"energy" = 20, "bomb" = 35, "bio" = 110, "rad" = 110, "fire" = 50, "acid" = 110)
 	clothing_flags = NONE
@@ -98,7 +98,7 @@
 
 /datum/design/cbrn/mopphood
 	name = "MOPP Hood"
-	desc = "A MOPP hood with an intergreted helmet"
+	desc = "A MOPP hood with an integrated helmet."
 	id = "mopp_hood"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/plastic = 200, /datum/material/uranium = 50, /datum/material/iron = 200)
