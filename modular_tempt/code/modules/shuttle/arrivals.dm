@@ -1,2 +1,2 @@
 /obj/docking_port/mobile/arrivals
-	movement_force = list("KNOCKDOWN" = 6, "THROW" = 2)
+	var/list/movement_force = list("KNOCKDOWN" = 8, "THROW" = 2)
