@@ -76,6 +76,9 @@
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/circuit/green/anim,
 /area/ruin/space/has_grav/powered)
+"z" = (
+/turf/template_noop,
+/area/template_noop)
 "C" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
@@ -155,36 +158,36 @@
 /area/ruin/space/has_grav/powered)
 
 (1,1,1) = {"
+z
+z
+z
+z
+z
+z
+z
+z
+z
+z
 c
 c
 c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
+z
+z
+z
+z
+z
+z
+z
+z
+z
+z
 "}
 (2,1,1) = {"
-c
-c
-c
-c
-c
+z
+z
+z
+z
+z
 T
 T
 T
@@ -198,16 +201,16 @@ T
 T
 T
 T
-c
-c
-c
-c
-c
+z
+z
+z
+z
+z
 "}
 (3,1,1) = {"
-c
-c
-c
+z
+z
+z
 T
 T
 T
@@ -225,13 +228,13 @@ T
 T
 T
 T
-c
-c
-c
+z
+z
+z
 "}
 (4,1,1) = {"
-c
-c
+z
+z
 T
 T
 T
@@ -251,12 +254,12 @@ j
 T
 T
 T
-c
-c
+z
+z
 "}
 (5,1,1) = {"
-c
-c
+z
+z
 T
 T
 j
@@ -276,11 +279,11 @@ j
 j
 T
 T
-c
-c
+z
+z
 "}
 (6,1,1) = {"
-c
+z
 T
 T
 j
@@ -302,10 +305,10 @@ j
 j
 T
 T
-c
+z
 "}
 (7,1,1) = {"
-c
+z
 T
 T
 j
@@ -327,10 +330,10 @@ j
 j
 T
 T
-c
+z
 "}
 (8,1,1) = {"
-c
+z
 T
 j
 j
@@ -352,10 +355,10 @@ j
 j
 j
 T
-c
+z
 "}
 (9,1,1) = {"
-c
+z
 T
 j
 j
@@ -377,10 +380,10 @@ j
 j
 j
 T
-c
+z
 "}
 (10,1,1) = {"
-c
+z
 T
 j
 j
@@ -402,7 +405,7 @@ j
 j
 j
 T
-c
+z
 "}
 (11,1,1) = {"
 c
@@ -480,7 +483,7 @@ T
 c
 "}
 (14,1,1) = {"
-c
+z
 T
 j
 j
@@ -502,10 +505,10 @@ j
 j
 j
 T
-c
+z
 "}
 (15,1,1) = {"
-c
+z
 T
 j
 j
@@ -527,10 +530,10 @@ j
 j
 j
 T
-c
+z
 "}
 (16,1,1) = {"
-c
+z
 T
 j
 j
@@ -552,10 +555,10 @@ j
 j
 j
 T
-c
+z
 "}
 (17,1,1) = {"
-c
+z
 T
 T
 j
@@ -577,10 +580,10 @@ j
 j
 T
 T
-c
+z
 "}
 (18,1,1) = {"
-c
+z
 T
 T
 j
@@ -602,11 +605,11 @@ j
 j
 T
 T
-c
+z
 "}
 (19,1,1) = {"
-c
-c
+z
+z
 T
 T
 j
@@ -626,12 +629,12 @@ j
 j
 T
 T
-c
-c
+z
+z
 "}
 (20,1,1) = {"
-c
-c
+z
+z
 T
 T
 T
@@ -651,13 +654,13 @@ j
 T
 T
 T
-c
-c
+z
+z
 "}
 (21,1,1) = {"
-c
-c
-c
+z
+z
+z
 T
 T
 T
@@ -675,16 +678,16 @@ T
 T
 T
 T
-c
-c
-c
+z
+z
+z
 "}
 (22,1,1) = {"
-c
-c
-c
-c
-c
+z
+z
+z
+z
+z
 T
 T
 T
@@ -698,34 +701,34 @@ T
 T
 T
 T
-c
-c
-c
-c
-c
+z
+z
+z
+z
+z
 "}
 (23,1,1) = {"
+z
+z
+z
+z
+z
+z
+z
+z
+z
+z
 c
 c
 c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
+z
+z
+z
+z
+z
+z
+z
+z
+z
+z
 "}

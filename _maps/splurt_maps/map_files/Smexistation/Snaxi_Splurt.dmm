@@ -13136,7 +13136,7 @@
 "ete" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /turf/closed/wall/r_wall,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "ets" = (
 /obj/machinery/camera{
 	c_tag = "Medbay Treatment Center";
@@ -27924,7 +27924,7 @@
 /obj/item/reagent_containers/food/drinks/flask,
 /obj/item/reagent_containers/food/drinks/bottle/whiskey,
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "kXY" = (
 /obj/structure/cable{
 	icon_state = "1-8"
@@ -33121,7 +33121,7 @@
 	req_access_txt = "19"
 	},
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "ntO" = (
 /obj/effect/turf_decal/tile/purple{
 	dir = 1
@@ -35294,7 +35294,7 @@
 	pixel_y = 23
 	},
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "onm" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -40246,7 +40246,7 @@
 /area/medical/paramedic)
 "quq" = (
 /turf/closed/wall/r_wall,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "qur" = (
 /turf/open/floor/plating,
 /area/cargo/storage)
@@ -44233,7 +44233,7 @@
 	dir = 6
 	},
 /turf/closed/wall/r_wall,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "skT" = (
 /obj/machinery/light{
 	dir = 4
@@ -44623,7 +44623,7 @@
 	dir = 4
 	},
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "sve" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable{
@@ -50598,7 +50598,7 @@
 	dir = 4
 	},
 /turf/closed/wall/r_wall,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "vhT" = (
 /obj/machinery/space_heater,
 /turf/open/floor/plasteel,
@@ -54155,7 +54155,7 @@
 	},
 /obj/effect/landmark/start/blueshield,
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "wKC" = (
 /obj/machinery/firealarm{
 	dir = 8;

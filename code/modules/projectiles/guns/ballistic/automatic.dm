@@ -128,7 +128,7 @@
 	item_state = "arg"
 	fire_sound = "sound/weapons/gunshot_smg_alt.ogg"
 	mag_type = /obj/item/ammo_box/magazine/wt550m9
-	can_suppress = FALSE
+	can_suppress = TRUE
 	burst_size = 2
 	burst_shot_delay = 1
 	can_bayonet = TRUE
@@ -149,7 +149,7 @@
 	spread = 0
 
 /obj/item/gun/ballistic/automatic/wt550/update_icon_state()
-	icon_state = "wt550[magazine ? "-[CEILING(((get_ammo(FALSE) / magazine.max_ammo) * 20) /4, 1)*4]" : "-0"]" //Sprites only support up to 20.
+	icon_state = "wt550[magazine ? "-[CEILING(((get_ammo(FALSE) / magazine.max_ammo) * 20) /4, 1)*4]" : "-0"][suppressed ? "-suppressed" : ""]]" //Sprites only support up to 20.
 
 /obj/item/gun/ballistic/automatic/mini_uzi
 	name = "\improper Type U3 Uzi"

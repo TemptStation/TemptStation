@@ -28,4 +28,4 @@
 	custom_spawn_text = "Remember: you're a miner - not a hunter. Hunting monsters is not a requirement of your job, the only requirement of your job is to provide materials for the station - but hunting monsters is a requirement to be respected. Don't be afraid to make like the French and run away if you're inexperienced with fighting the mining area's locals."
 
 /datum/job/blueshield
-	custom_spawn_text = "<font color='red' size='4'><b>YOU ARE NOT PART OF COMMAND. YOU WILL NEVER BE PART OF COMMAND OR CENTRAL COMMAND. IF YOU ACT LIKE YOU ARE, YOU'RE GONNA HAVE A BAD TIME. </b>You exist to protect Command.</font>"
+	custom_spawn_text = "<font color='red' size='4'><b>You are not part of command. </b>You exist to protect members of Command. The Chain of Command takes priority, but that may change if lower level Heads come to face greater risk.</font>"

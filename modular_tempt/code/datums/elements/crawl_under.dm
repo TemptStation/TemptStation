@@ -54,11 +54,15 @@
 		to_chat(user, span_warning("You fail to crawl under [source]!"))
 		return
 
+	user.pass_flags |= PASSCRAWL
 	ADD_TRAIT(user, IGNORE_FAKE_Z_AXIS, ELEMENT_CRAWL_UNDER)
+	step(user, get_dir(user, source))
+	if(!(source in user.loc))
+		REMOVE_TRAIT(user, IGNORE_FAKE_Z_AXIS, ELEMENT_CRAWL_UNDER)
+		user.pass_flags &= ~PASSCRAWL
+		return
 	ADD_TRAIT(user, TRAIT_FLOORED, ELEMENT_CRAWL_UNDER)
 	user.layer = source.layer - 0.01 //just a lil under it
-	user.pass_flags |= PASSCRAWL
-	step(user, get_dir(user, source))
 
 /datum/element/crawl_under/proc/uncrawl_from(obj/structure/source, atom/movable/movable)
 	if(QDELETED(source) || QDELETED(movable) || !get_turf(movable)) //sanity

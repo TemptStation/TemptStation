@@ -10,12 +10,12 @@
 
 /obj/item/gun/ballistic/automatic/pistol/enforcer
 	name = "\improper Mk. 58 Enforcer (.45)"
-	desc = "A polymer frame pistol made by Nanotreason. Won't show up on Space port X-rays and cost more then you make in a month."
+	desc = "A polymer frame pistol made by NanoTrasen. Won't show up on space port X-rays and costs more than you make in a month."
 	icon = 'modular_splurt/icons/obj/guns/projectile.dmi'
 	icon_state = "enforcer_black"
 	w_class = WEIGHT_CLASS_NORMAL
 	mag_type = /obj/item/ammo_box/magazine/e45
-	can_suppress = FALSE
+	can_suppress = TRUE
 	can_flashlight = 1
 	flight_x_offset = 18
 	flight_y_offset = 14
@@ -30,43 +30,62 @@
 
 /obj/item/gun/ballistic/automatic/pistol/enforcer/update_icon_state()
 	if(current_skin)
-		icon_state = "[unique_reskin[current_skin]][chambered ? "" : "-e"]"
+		icon_state = "[unique_reskin[current_skin]][suppressed ? "-suppressed" : ""][chambered ? "" : "-e"]"
 	else
-		icon_state = "[initial(icon_state)][chambered ? "" : "-e"]"
+		icon_state = "[initial(icon_state)][suppressed ? "-suppressed" : ""][chambered ? "" : "-e"]"
 
 /obj/item/gun/ballistic/automatic/pistol/enforcer/nomag
 	spawnwithmagazine = FALSE
 
 /obj/item/gun/ballistic/automatic/pistol/enforcerred
 	name = "\improper HOS's Mk. 58 Enforcer (.45)"
-	desc = "A polymer frame pistol made by Nanotreason. Won't show up on Space port X-rays and cost more then you make in a month. Respect mah Authorita!"
+	desc = "A polymer frame pistol produced by NanoTrasen. Won't show up on space port X-rays and costs more than you make in a month."
 	icon = 'modular_splurt/icons/obj/guns/projectile.dmi'
 	icon_state = "enforcer_red"
 	w_class = WEIGHT_CLASS_NORMAL
 	mag_type = /obj/item/ammo_box/magazine/e45
-	can_suppress = FALSE
+	can_suppress = TRUE
 	can_flashlight = 1
 	flight_x_offset = 18
 	flight_y_offset = 14
 
 /obj/item/gun/ballistic/automatic/pistol/enforcerred/update_icon_state()
-	icon_state = "[initial(icon_state)][chambered ? "" : "-e"]"
+	icon_state = "[initial(icon_state)][suppressed ? "-suppressed" : ""][chambered ? "" : "-e"]"
 
 
 /obj/item/gun/ballistic/automatic/pistol/enforcergold
 	name = "\improper Gold Mk. 58 Enforcer (.45)"
-	desc = "A titianium gold plated Enfocer. A vulger display of power. A show of force in a public execution."
+	desc = "A titanium-gold-plated Enforcer. A vulgar display of power and a show of force in public executions."
 	icon = 'modular_splurt/icons/obj/guns/projectile.dmi'
 	icon_state = "enforcer_gold"
 	w_class = WEIGHT_CLASS_NORMAL
 	mag_type = /obj/item/ammo_box/magazine/e45
-	can_suppress = FALSE
+	can_suppress = TRUE
 	can_flashlight = 1
 	flight_x_offset = 18
 	flight_y_offset = 14
 
 /obj/item/gun/ballistic/automatic/pistol/enforcergold/update_icon_state()
-	icon_state = "[initial(icon_state)][chambered ? "" : "-e"]"
+	icon_state = "[initial(icon_state)][suppressed ? "-suppressed" : ""][chambered ? "" : "-e"]"
+
+
+/obj/item/gun/ballistic/automatic/pistol/enforcerblue //Blueshield Sidearm
+	name = "\improper Blue Mk. 58 Enforcer (.45)"
+	desc = "A polymer frame pistol produced by NanoTrasen. Won't show up on space port X-rays and costs more than you make in a month."
+	icon = 'modular_splurt/icons/obj/guns/projectile.dmi'
+	icon_state = "enforcer_blue"
+	w_class = WEIGHT_CLASS_NORMAL
+	mag_type = /obj/item/ammo_box/magazine/e45
+	can_suppress = TRUE
+	can_flashlight = 1
+	flight_x_offset = 18
+	flight_y_offset = 14
+
+/obj/item/gun/ballistic/automatic/pistol/enforcerblue/update_icon_state()
+	icon_state = "[initial(icon_state)][suppressed ? "-suppressed" : ""][chambered ? "" : "-e"]"
+
+/obj/item/gun/ballistic/automatic/pistol/enforcerblue/nomag
+	spawnwithmagazine = FALSE
 
 /obj/item/gun/ballistic/automatic/pistol/m9mmpistol
 	name = "\improper Cheap 9mm Handgun"
@@ -92,7 +111,7 @@
 
 /obj/item/gun/ballistic/automatic/pistol/m22pistol
 	name = "\improper Cheap .22 Handgun"
-	desc = "An extremly cheap .22 handgun produced by a Martain weapons maker. Great for mouse hunting, not much else."
+	desc = "An extremely cheap .22 handgun produced by a Martian weapons maker. Great for mouse hunting but not much else."
 	icon = 'modular_splurt/icons/obj/guns/projectile.dmi'
 	icon_state = "silenced22"
 	w_class = WEIGHT_CLASS_NORMAL

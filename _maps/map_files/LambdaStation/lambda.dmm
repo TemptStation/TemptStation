@@ -63256,7 +63256,7 @@
 	dir = 4
 	},
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "dZS" = (
 /obj/effect/turf_decal/delivery,
 /obj/machinery/vending/snack/random,
@@ -64490,7 +64490,7 @@
 	req_access_txt = "19"
 	},
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "fMb" = (
 /obj/effect/turf_decal/trimline/neutral/filled/line{
 	dir = 1
@@ -65163,7 +65163,7 @@
 	dir = 6
 	},
 /turf/closed/wall,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "gRb" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3{
@@ -67511,7 +67511,7 @@
 	dir = 4
 	},
 /turf/closed/wall,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "loE" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
 	dir = 8
@@ -67554,7 +67554,7 @@
 	pixel_y = 23
 	},
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "luG" = (
 /obj/machinery/door/firedoor,
 /obj/effect/turf_decal/trimline/neutral/filled/line{
@@ -67662,7 +67662,7 @@
 "lEQ" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /turf/closed/wall,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "lEY" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/shutters/preopen{
@@ -69309,7 +69309,7 @@
 /area/engineering/break_room)
 "oHB" = (
 /turf/closed/wall,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "oKd" = (
 /obj/machinery/camera{
 	c_tag = "Atmospherics Tank - Air";
@@ -70326,7 +70326,7 @@
 	},
 /obj/effect/landmark/start/blueshield,
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "qMO" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable/yellow{
@@ -73838,7 +73838,7 @@
 /obj/item/reagent_containers/food/drinks/flask,
 /obj/item/reagent_containers/food/drinks/bottle/whiskey,
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "ybs" = (
 /obj/structure/reagent_dispensers/watertank,
 /obj/item/storage/box/lights/mixed,

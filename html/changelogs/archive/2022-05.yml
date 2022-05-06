@@ -1,0 +1,46 @@
+2022-05-01:
+  CipherSnagger:
+  - rscadd: Qareen antagonist
+  - imageadd: copy of revenant sprites in modular_splurt - will be modified soon
+  - code_imp: added a limit on the Tetris prizes + null and type checks for several
+      runtimes
+  - refactor: _lewd.dm - for the tgui chugging when in an interact_with menu - no
+      longer runtimes
+  - admin: message for when someone uses a Tetris machine - along with their score
+      and prizes
+  NullFag:
+  - rscadd: headshot images are a thing now
+  - bugfix: fixed table undercrawl
+  prodso:
+  - tweak: Reformatted new space law and added it to the modular maps
+  - tweak: Created a changelog bot and updated the make_changelogs workflow to use
+      it
+  - bugfix: Moved the redbot notification call to the appropriate portion of the check
+      statement
+2022-05-02:
+  CipherSnagger:
+  - rscadd: Adds in the Blue Slided enforcer for the Blueshield
+  - rscadd: Adds in the energy revolver for the Blueshield
+  - rscadd: Weapon spawn beacon into BS's backpack instead of locker
+  - rscadd: Warden and HOS helmets
+  - rscadd: A populated sec belt and medical equipment to the Blueshield locker
+  - rscadd: Port master and Tavern Keep to QM and Barkeep respectively
+  - rscadd: Enforcers, M1911s and WT-550s can now take suppressors
+  - rscadd: Enforcer magazines are now color coded
+  - rscadd: Color variants to the .45 energy ammo
+  - rscdel: Blueshield melee options (apart from CQC)
+  - tweak: 3 Blueshield spawns
+  - tweak: Remodeled the Blueshield offices
+  - tweak: Blueshield office moved on Pubby into Captain's maintenance
+  - tweak: Blueshield is officially under the HOS and not CentCom
+  - tweak: Blueshield took a paycut
+  - tweak: Big Iron can now take a flash light
+  - tweak: HOS weapon steal objective tweaked to include the Enforcer and the objective
+      wording change to reflect this
+  - spellcheck: Fixed the SecHUD Aviators and Bunny suit misspellings (Fixed the bumbling
+      buffoon known as radar651's misspellings)
+  prodso:
+  - rscadd: Added cuddling interaction
+2022-05-06:
+  NullFag:
+  - tweak: bark box resupplies are no longer contraband

@@ -36,9 +36,12 @@
     </style>
   </head>
   <body>
-    <h1>Space Law</h1>
-    <br>Original Sin Edition <br>
-    <h2>NanoTrasen Employee Rights</h2>Every NanoTrasen employee has the right to an attorney and due process of law. <br>
+    <h1 id="space_law">Space Law</h1>
+    <br>Original Sin Edition<br>
+	<br>
+
+    <h1>NanoTrasen Employee Rights</h1>
+    Every NanoTrasen employee has the right to an attorney and due process of law. <br>
     <br>Every NanoTrasen employee has the right to an effective remedy through the company's legal department for acts violating the fundamental rights granted by the corporation. <br>
     <br>Every NanoTrasen employee has the right to threaten to file or file a department complaint, report a department head, or participate in a department investigation or lawsuit without being retaliated against for doing so. <br>
     <br>Every NanoTrasen employee has the right to expect a working environment within the efficiency and productivity standards of the company. <br>
@@ -46,9 +49,9 @@
     <br>No NanoTrasen employee shall be subjected to cruel, inhuman or degrading and unwarranted treatment or punishment from Command or Security. <br>
     <br>
     <h1>Crime Codes</h1>
-    <h2>
-      <u>1. Infractions</u>
-    </h2>Low issue crimes, typically related to behavior issues or comments that can lead to issues on the station. Punishments can typically vary from verbal warnings to pay cuts and fines to minimum confinement time. <br>
+
+    <h2><u>1. Infractions</u></h2>
+    Low issue crimes, typically related to behavior issues or comments that can lead to issues on the station. Punishments can typically vary from verbal warnings to pay cuts and fines to minimum confinement time. <br>
     <u>Guidelines: Small fine of 50 to 500 credits or 2 to 5 minutes Brig or appropriate alternative punishment.</u>
     <br>
     <b>101: Disorderly Conduct:</b>Any behavior that is destructive or disruptive to others. This includes damaging property, continuous shoving/fighting, and disturbing the peace with unnecessary noise/actions. <br>
@@ -103,7 +106,7 @@
 
     <h2><u>4. Severe Crimes</u></h2>
     Crimes that cause extensive issues to the station, punishments can extend from extended confinement, permanent confinement, or reconditioning by Central Command. There is a chance of parole. <br>
-    <u>Guidelines: Trial, Permabrig, Labour Camp, Execution only as the result of a trial, or appropriate alternative punishment.</u><br>
+    <u>Guidelines: Trial or Permabrig or Labour Camp or Execution only as the result of a trial or appropriate alternative punishment.</u><br>
     <b>401: Aggravated Assault:</b> Assault with a deadly weapon, assault against a head of staff or security officer, and/or assault with deadly or cruel intent.<br>
     <b>402: Severe Trespass:</b> To be within a command area captain's office or head office/teleporter room without permission from an applicable command staff member. *Cannot stack with B&E.<br>
     <b>403: Breaking and Entering into Command:</b> Breaking into a command area such as the captain's office or head office/teleporter without valid reason, for the purpose of theft or temporary entry. *Cannot stack with Trespass.<br>
@@ -155,7 +158,7 @@ Lobotomization<br>
 Cyborgization (colloquially: borging)<br>
 Any other creative form of appropriate punishment.<br>
 
-<h2>Civil Law:</h2>
+<h1>Civil Law:</h1>
 Civil offenses where one party has wronged another. Should be brought forth by hired legal representation and falls behind criminal trials/matters in terms of priority.<br>
 <u>Refusal to abide by civil sentences shall be judged as 315 - Criminal Contempt.</u><br>
 <b>Breach of Contract:</b> A failure, without legal excuse, to perform any promise that forms all or part of a contract willfully signed by two or more parties and recognized by the corporation.<br>

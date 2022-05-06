@@ -49840,7 +49840,7 @@
 /obj/item/export/bottle/whiskey,
 /obj/item/reagent_containers/food/drinks/flask,
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "cvq" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -54727,7 +54727,7 @@
 	pixel_x = -22
 	},
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "iBJ" = (
 /obj/machinery/camera{
 	c_tag = "Telecomms External Fore";
@@ -54834,7 +54834,7 @@
 	dir = 1
 	},
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "iLh" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
 	dir = 9
@@ -55795,7 +55795,7 @@
 /area/maintenance/department/engine)
 "ktn" = (
 /turf/open/floor/wood,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "kuS" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -55904,7 +55904,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "kDf" = (
 /obj/machinery/light/small,
 /turf/open/floor/carpet/black,
@@ -56399,7 +56399,7 @@
 	req_access_txt = "72"
 	},
 /turf/open/floor/wood,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "lhq" = (
 /obj/machinery/computer/security,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
@@ -56489,7 +56489,7 @@
 	},
 /obj/structure/closet/secure_closet/blueshield,
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "lqc" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -57063,7 +57063,7 @@
 	dir = 8
 	},
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "mlr" = (
 /obj/structure/disposalpipe/junction{
 	dir = 4
@@ -58675,7 +58675,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/white,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "oGw" = (
 /obj/item/clothing/mask/gas,
 /turf/open/floor/plating{
@@ -59102,7 +59102,7 @@
 	pixel_x = 28
 	},
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "pkM" = (
 /obj/machinery/door/airlock/external{
 	req_access_txt = "22"
@@ -59812,7 +59812,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/machinery/vending/wardrobe/blueshield_wardrobe,
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "qkM" = (
 /obj/machinery/atmospherics/components/trinary/filter/flipped/critical{
 	dir = 4
@@ -60635,7 +60635,7 @@
 /obj/item/bedsheet/blue/double,
 /obj/structure/bed/double,
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "rvj" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -60861,7 +60861,7 @@
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "rTd" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/structure/cable/yellow{
@@ -61123,7 +61123,7 @@
 	req_access_txt = "72"
 	},
 /turf/open/floor/wood,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "ssx" = (
 /obj/item/shard,
 /turf/open/floor/plating,
@@ -63002,7 +63002,7 @@
 /area/maintenance/department/cargo)
 "vuh" = (
 /turf/closed/wall,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "vuP" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 4
@@ -63058,7 +63058,7 @@
 	req_access_txt = "72"
 	},
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "vzp" = (
 /obj/effect/turf_decal/tile/brown,
 /obj/item/stack/ore/iron,
@@ -64236,7 +64236,7 @@
 "xgS" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/closed/wall,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "xhj" = (
 /obj/effect/decal/cleanable/cobweb{
 	icon_state = "cobweb2"
@@ -64400,7 +64400,7 @@
 	dir = 4
 	},
 /turf/closed/wall,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "xug" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 10
@@ -64520,7 +64520,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/white,
-/area/command/blueshielquarters)
+/area/command/blueshieldquarters)
 "xCV" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable{
