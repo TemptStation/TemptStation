@@ -4554,6 +4554,7 @@
 #include "modular_tempt\code\game\objects\structures\curtains.dm"
 #include "modular_tempt\code\game\objects\structures\tables.dm"
 #include "modular_tempt\code\game\turfs\simulated\floor\mineral_floor.dm"
+#include "modular_tempt\code\modules\cargo\packs\vending.dm"
 #include "modular_tempt\code\modules\clothing\under\_under.dm"
 #include "modular_tempt\code\modules\jobs\alt_titles.dm"
 #include "modular_tempt\code\modules\jobs\job_spawntext.dm"
