@@ -12,7 +12,12 @@
 		return
 
 	var/mob/living/living = user
-	if((user != src) && !(living.mobility_flags & MOBILITY_STAND) && (mobility_flags & MOBILITY_STAND) && (src.loc == living.loc) && (istype(w_uniform, /obj/item/clothing/under/color/jumpskirt)))
+	var/obj/item/clothing/under/worn_uniform = w_uniform
+	if((user != src) &&\
+		!(living.mobility_flags & MOBILITY_STAND) &&\
+		(mobility_flags & MOBILITY_STAND) && (src.loc == living.loc) &&\
+		(w_uniform?.is_skirt)\
+	)
 		var/string = "Peeking under [src]'s skirt, you can see "
 		var/obj/item/clothing/underwear/worn_underwear = src.w_underwear
 		if(worn_underwear)
