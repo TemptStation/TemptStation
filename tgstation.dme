@@ -4556,6 +4556,7 @@
 #include "modular_tempt\code\game\turfs\simulated\floor\mineral_floor.dm"
 #include "modular_tempt\code\modules\cargo\packs\vending.dm"
 #include "modular_tempt\code\modules\clothing\under\_under.dm"
+#include "modular_tempt\code\modules\clothing\under\color.dm"
 #include "modular_tempt\code\modules\clothing\under\misc.dm"
 #include "modular_tempt\code\modules\clothing\under\skirt_dress.dm"
 #include "modular_tempt\code\modules\clothing\under\suits.dm"
