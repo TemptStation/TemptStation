@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <base href="../../" />
+    <link rel="stylesheet" href="dmdoc.css" />
+    <title>code&#x2F;__DEFINES&#x2F;traits.dm - TemptStation 13</title>
+</head>
+<body>
+<header>
+    <a href="index.html">TemptStation 13</a> -
+    <a href="index.html#modules">Modules</a> -
+    <a href="index.html#types">Types</a>
+ &mdash; <a href="code/__DEFINES/traits.html#define">Define Details</a></header>
+<main>
+<h1>code/__DEFINES/traits.dm 
+            <a href="https://github.com/TemptStation/TemptStation/blob/5f7f5e2d50e65c4156bb54f881dfbb375603963b/code/__DEFINES/traits.dm">
+        <img src="git.png" width="16" height="16" title="code&#x2F;__DEFINES&#x2F;traits.dm"/></a></h1>
+
+<table class="summary" cellspacing="0">
+        <tr><th><a href="code/__DEFINES/traits.html#define/TRAIT_IMMOBILIZED">TRAIT_IMMOBILIZED</a></th><td>Prevents voluntary movement.</td></tr>
+        <tr><th><a href="code/__DEFINES/traits.html#define/TRAIT_HANDS_BLOCKED">TRAIT_HANDS_BLOCKED</a></th><td>Prevents usage of manipulation appendages (picking, holding or using items, manipulating storage).</td></tr>
+        <tr><th><a href="code/__DEFINES/traits.html#define/TRAIT_NO_STAMINA_BUFFER_REGENERATION">TRAIT_NO_STAMINA_BUFFER_REGENERATION</a></th><td>Prevents stamina buffer regeneration</td></tr>
+        <tr><th><a href="code/__DEFINES/traits.html#define/TRAIT_NO_STAMINA_REGENERATION">TRAIT_NO_STAMINA_REGENERATION</a></th><td>Prevents stamina regeneration</td></tr>
+        <tr><th><a href="code/__DEFINES/traits.html#define/TRAIT_LIVING_NO_DENSITY">TRAIT_LIVING_NO_DENSITY</a></th><td>forces update_density to make us not dense</td></tr>
+        <tr><th><a href="code/__DEFINES/traits.html#define/TRAIT_HUMAN_NO_RENDER">TRAIT_HUMAN_NO_RENDER</a></th><td>forces us to not render our overlays</td></tr>
+        <tr><th><a href="code/__DEFINES/traits.html#define/TRAIT_BEING_CARRIED">TRAIT_BEING_CARRIED</a></th><td>Used for fireman carry to have mobe not be dropped when passing by a prone individual.</td></tr>
+        <tr><th><a href="code/__DEFINES/traits.html#define/TRAIT_MOBILITY_NOMOVE">TRAIT_MOBILITY_NOMOVE</a></th><td>Disallow movement</td></tr>
+        <tr><th><a href="code/__DEFINES/traits.html#define/TRAIT_MOBILITY_NOPICKUP">TRAIT_MOBILITY_NOPICKUP</a></th><td>Disallow pickup</td></tr>
+        <tr><th><a href="code/__DEFINES/traits.html#define/TRAIT_MOBILITY_NOUSE">TRAIT_MOBILITY_NOUSE</a></th><td>Disallow item use</td></tr>
+        <tr><th><a href="code/__DEFINES/traits.html#define/TRAIT_MOBILITY_NOREST">TRAIT_MOBILITY_NOREST</a></th><td>Disallow resting/unresting</td></tr>
+        <tr><th><a href="code/__DEFINES/traits.html#define/TRAIT_COMBAT_MODE_LOCKED">TRAIT_COMBAT_MODE_LOCKED</a></th><td>COMBAT MODE/SPRINT MODE TRAITS
+Prevents combat mode from being active.</td></tr>
+        <tr><th><a href="code/__DEFINES/traits.html#define/TRAIT_SPRINT_LOCKED">TRAIT_SPRINT_LOCKED</a></th><td>Prevents sprinting from being active.</td></tr>
+        <tr><th><a href="code/__DEFINES/traits.html#define/TRAIT_KEEP_TOGETHER">TRAIT_KEEP_TOGETHER</a></th><td>Used for managing KEEP_TOGETHER in [appearance_flags]</td></tr>
+        <tr><th><a href="code/__DEFINES/traits.html#define/TURF_Z_TRANSPARENT_TRAIT">TURF_Z_TRANSPARENT_TRAIT</a></th><td>Turf trait for when a turf is transparent</td></tr>
+        <tr><th><a href="code/__DEFINES/traits.html#define/ACTIVE_BLOCK_TRAIT">ACTIVE_BLOCK_TRAIT</a></th><td>This trait is added by the active directional block system.</td></tr>
+        <tr><th><a href="code/__DEFINES/traits.html#define/ACTIVE_PARRY_TRAIT">ACTIVE_PARRY_TRAIT</a></th><td>This trait is added by the parry system.</td></tr>
+        <tr><th><a href="code/__DEFINES/traits.html#define/MAPPING_HELPER_TRAIT">MAPPING_HELPER_TRAIT</a></th><td>obtained from mapping helper</td></tr>
+        <tr><th><a href="code/__DEFINES/traits.html#define/MAFIA_TRAIT">MAFIA_TRAIT</a></th><td>Trait associated with mafia</td></tr></table><h2 id="define">Define Details</h2>
+<h3 id="define/ACTIVE_BLOCK_TRAIT"><aside class="declaration">#define </aside>ACTIVE_BLOCK_TRAIT
+            <a href="https://github.com/TemptStation/TemptStation/blob/5f7f5e2d50e65c4156bb54f881dfbb375603963b/code/__DEFINES/traits.dm#L354">
+        <img src="git.png" width="16" height="16" title="code&#x2F;__DEFINES&#x2F;traits.dm 354"/></a>
+    </h3>
+    <p>This trait is added by the active directional block system.</p><h3 id="define/ACTIVE_PARRY_TRAIT"><aside class="declaration">#define </aside>ACTIVE_PARRY_TRAIT
+            <a href="https://github.com/TemptStation/TemptStation/blob/5f7f5e2d50e65c4156bb54f881dfbb375603963b/code/__DEFINES/traits.dm#L356">
+        <img src="git.png" width="16" height="16" title="code&#x2F;__DEFINES&#x2F;traits.dm 356"/></a>
+    </h3>
+    <p>This trait is added by the parry system.</p><h3 id="define/MAFIA_TRAIT"><aside class="declaration">#define </aside>MAFIA_TRAIT
+            <a href="https://github.com/TemptStation/TemptStation/blob/5f7f5e2d50e65c4156bb54f881dfbb375603963b/code/__DEFINES/traits.dm#L365">
+        <img src="git.png" width="16" height="16" title="code&#x2F;__DEFINES&#x2F;traits.dm 365"/></a>
+    </h3>
+    <p>Trait associated with mafia</p><h3 id="define/MAPPING_HELPER_TRAIT"><aside class="declaration">#define </aside>MAPPING_HELPER_TRAIT
+            <a href="https://github.com/TemptStation/TemptStation/blob/5f7f5e2d50e65c4156bb54f881dfbb375603963b/code/__DEFINES/traits.dm#L363">
+        <img src="git.png" width="16" height="16" title="code&#x2F;__DEFINES&#x2F;traits.dm 363"/></a>
+    </h3>
+    <p>obtained from mapping helper</p><h3 id="define/TRAIT_BEING_CARRIED"><aside class="declaration">#define </aside>TRAIT_BEING_CARRIED
+            <a href="https://github.com/TemptStation/TemptStation/blob/5f7f5e2d50e65c4156bb54f881dfbb375603963b/code/__DEFINES/traits.dm#L233">
+        <img src="git.png" width="16" height="16" title="code&#x2F;__DEFINES&#x2F;traits.dm 233"/></a>
+    </h3>
+    <p>Used for fireman carry to have mobe not be dropped when passing by a prone individual.</p><h3 id="define/TRAIT_COMBAT_MODE_LOCKED"><aside class="declaration">#define </aside>TRAIT_COMBAT_MODE_LOCKED
+            <a href="https://github.com/TemptStation/TemptStation/blob/5f7f5e2d50e65c4156bb54f881dfbb375603963b/code/__DEFINES/traits.dm#L256">
+        <img src="git.png" width="16" height="16" title="code&#x2F;__DEFINES&#x2F;traits.dm 256"/></a>
+    </h3>
+    <p>COMBAT MODE/SPRINT MODE TRAITS
+Prevents combat mode from being active.</p><h3 id="define/TRAIT_HANDS_BLOCKED"><aside class="declaration">#define </aside>TRAIT_HANDS_BLOCKED
+            <a href="https://github.com/TemptStation/TemptStation/blob/5f7f5e2d50e65c4156bb54f881dfbb375603963b/code/__DEFINES/traits.dm#L76">
+        <img src="git.png" width="16" height="16" title="code&#x2F;__DEFINES&#x2F;traits.dm 76"/></a>
+    </h3>
+    <p>Prevents usage of manipulation appendages (picking, holding or using items, manipulating storage).</p><h3 id="define/TRAIT_HUMAN_NO_RENDER"><aside class="declaration">#define </aside>TRAIT_HUMAN_NO_RENDER
+            <a href="https://github.com/TemptStation/TemptStation/blob/5f7f5e2d50e65c4156bb54f881dfbb375603963b/code/__DEFINES/traits.dm#L230">
+        <img src="git.png" width="16" height="16" title="code&#x2F;__DEFINES&#x2F;traits.dm 230"/></a>
+    </h3>
+    <p>forces us to not render our overlays</p><h3 id="define/TRAIT_IMMOBILIZED"><aside class="declaration">#define </aside>TRAIT_IMMOBILIZED
+            <a href="https://github.com/TemptStation/TemptStation/blob/5f7f5e2d50e65c4156bb54f881dfbb375603963b/code/__DEFINES/traits.dm#L74">
+        <img src="git.png" width="16" height="16" title="code&#x2F;__DEFINES&#x2F;traits.dm 74"/></a>
+    </h3>
+    <p>Prevents voluntary movement.</p><h3 id="define/TRAIT_KEEP_TOGETHER"><aside class="declaration">#define </aside>TRAIT_KEEP_TOGETHER
+            <a href="https://github.com/TemptStation/TemptStation/blob/5f7f5e2d50e65c4156bb54f881dfbb375603963b/code/__DEFINES/traits.dm#L266">
+        <img src="git.png" width="16" height="16" title="code&#x2F;__DEFINES&#x2F;traits.dm 266"/></a>
+    </h3>
+    <p>Used for managing KEEP_TOGETHER in [appearance_flags]</p><h3 id="define/TRAIT_LIVING_NO_DENSITY"><aside class="declaration">#define </aside>TRAIT_LIVING_NO_DENSITY
+            <a href="https://github.com/TemptStation/TemptStation/blob/5f7f5e2d50e65c4156bb54f881dfbb375603963b/code/__DEFINES/traits.dm#L228">
+        <img src="git.png" width="16" height="16" title="code&#x2F;__DEFINES&#x2F;traits.dm 228"/></a>
+    </h3>
+    <p>forces update_density to make us not dense</p><h3 id="define/TRAIT_MOBILITY_NOMOVE"><aside class="declaration">#define </aside>TRAIT_MOBILITY_NOMOVE
+            <a href="https://github.com/TemptStation/TemptStation/blob/5f7f5e2d50e65c4156bb54f881dfbb375603963b/code/__DEFINES/traits.dm#L241">
+        <img src="git.png" width="16" height="16" title="code&#x2F;__DEFINES&#x2F;traits.dm 241"/></a>
+    </h3>
+    <p>Disallow movement</p><h3 id="define/TRAIT_MOBILITY_NOPICKUP"><aside class="declaration">#define </aside>TRAIT_MOBILITY_NOPICKUP
+            <a href="https://github.com/TemptStation/TemptStation/blob/5f7f5e2d50e65c4156bb54f881dfbb375603963b/code/__DEFINES/traits.dm#L243">
+        <img src="git.png" width="16" height="16" title="code&#x2F;__DEFINES&#x2F;traits.dm 243"/></a>
+    </h3>
+    <p>Disallow pickup</p><h3 id="define/TRAIT_MOBILITY_NOREST"><aside class="declaration">#define </aside>TRAIT_MOBILITY_NOREST
+            <a href="https://github.com/TemptStation/TemptStation/blob/5f7f5e2d50e65c4156bb54f881dfbb375603963b/code/__DEFINES/traits.dm#L247">
+        <img src="git.png" width="16" height="16" title="code&#x2F;__DEFINES&#x2F;traits.dm 247"/></a>
+    </h3>
+    <p>Disallow resting/unresting</p><h3 id="define/TRAIT_MOBILITY_NOUSE"><aside class="declaration">#define </aside>TRAIT_MOBILITY_NOUSE
+            <a href="https://github.com/TemptStation/TemptStation/blob/5f7f5e2d50e65c4156bb54f881dfbb375603963b/code/__DEFINES/traits.dm#L245">
+        <img src="git.png" width="16" height="16" title="code&#x2F;__DEFINES&#x2F;traits.dm 245"/></a>
+    </h3>
+    <p>Disallow item use</p><h3 id="define/TRAIT_NO_STAMINA_BUFFER_REGENERATION"><aside class="declaration">#define </aside>TRAIT_NO_STAMINA_BUFFER_REGENERATION
+            <a href="https://github.com/TemptStation/TemptStation/blob/5f7f5e2d50e65c4156bb54f881dfbb375603963b/code/__DEFINES/traits.dm#L223">
+        <img src="git.png" width="16" height="16" title="code&#x2F;__DEFINES&#x2F;traits.dm 223"/></a>
+    </h3>
+    <p>Prevents stamina buffer regeneration</p><h3 id="define/TRAIT_NO_STAMINA_REGENERATION"><aside class="declaration">#define </aside>TRAIT_NO_STAMINA_REGENERATION
+            <a href="https://github.com/TemptStation/TemptStation/blob/5f7f5e2d50e65c4156bb54f881dfbb375603963b/code/__DEFINES/traits.dm#L224">
+        <img src="git.png" width="16" height="16" title="code&#x2F;__DEFINES&#x2F;traits.dm 224"/></a>
+    </h3>
+    <p>Prevents stamina regeneration</p><h3 id="define/TRAIT_SPRINT_LOCKED"><aside class="declaration">#define </aside>TRAIT_SPRINT_LOCKED
+            <a href="https://github.com/TemptStation/TemptStation/blob/5f7f5e2d50e65c4156bb54f881dfbb375603963b/code/__DEFINES/traits.dm#L258">
+        <img src="git.png" width="16" height="16" title="code&#x2F;__DEFINES&#x2F;traits.dm 258"/></a>
+    </h3>
+    <p>Prevents sprinting from being active.</p><h3 id="define/TURF_Z_TRANSPARENT_TRAIT"><aside class="declaration">#define </aside>TURF_Z_TRANSPARENT_TRAIT
+            <a href="https://github.com/TemptStation/TemptStation/blob/5f7f5e2d50e65c4156bb54f881dfbb375603963b/code/__DEFINES/traits.dm#L352">
+        <img src="git.png" width="16" height="16" title="code&#x2F;__DEFINES&#x2F;traits.dm 352"/></a>
+    </h3>
+    <p>Turf trait for when a turf is transparent</p></main>
+<footer>
+    tgstation.dme
+    <a href="https://github.com/TemptStation/TemptStation/tree/5f7f5e2d50e65c4156bb54f881dfbb375603963b">5f7f5e2</a>
+        (master) &mdash; <a href="https://github.com/SpaceManiac/SpacemanDMM/blob/master/src/dmdoc/README.md">dmdoc 1.4.0</a></footer>
+</body>
+</html>
