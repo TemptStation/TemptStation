@@ -46,3 +46,6 @@
   - tweak: bark box resupplies are no longer contraband
   - rscadd: you can now peek under jumpskirts
   - tweak: shuttles now knock you back
+2022-05-10:
+  NullFag:
+  - bugfix: fixes skirt peeking only working on assistants' jumpskirts
