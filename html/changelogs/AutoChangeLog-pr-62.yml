@@ -1,0 +1,4 @@
+author: NullFag
+delete-after: true
+changes:
+  - bugfix: fixes skirt peeking only working on assistants' jumpskirts
