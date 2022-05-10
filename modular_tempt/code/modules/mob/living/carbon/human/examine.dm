@@ -16,7 +16,7 @@
 	if((user != src) &&\
 		!(living.mobility_flags & MOBILITY_STAND) &&\
 		(mobility_flags & MOBILITY_STAND) && (src.loc == living.loc) &&\
-		(w_uniform?.is_skirt)\
+		(worn_uniform?.is_skirt)\
 	)
 		var/string = "Peeking under [src]'s skirt, you can see "
 		var/obj/item/clothing/underwear/worn_underwear = src.w_underwear
