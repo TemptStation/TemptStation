@@ -96,7 +96,9 @@
 /turf/open/floor/mineral/titanium,
 /area/shuttle/labor)
 "p" = (
-/obj/structure/closet/crate,
+/obj/structure/closet/crate{
+	anchored = 1
+	},
 /turf/open/floor/mineral/titanium,
 /area/shuttle/labor)
 "q" = (

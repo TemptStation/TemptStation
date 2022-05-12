@@ -100,7 +100,9 @@
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/escape)
 "s" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/emcloset{
+	anchored = 1
+	},
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/escape)
 "t" = (

@@ -157,7 +157,9 @@
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/labor)
 "r" = (
-/obj/structure/closet/crate,
+/obj/structure/closet/crate{
+	anchored = 1
+	},
 /obj/effect/turf_decal/delivery,
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/mineral/titanium/yellow,

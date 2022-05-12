@@ -388,7 +388,9 @@
 /turf/open/floor/plasteel/dark,
 /area/shuttle/escape)
 "aI" = (
-/obj/structure/closet/syndicate/personal,
+/obj/structure/closet/syndicate/personal{
+	anchored = 1
+	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
@@ -472,7 +474,9 @@
 /turf/open/floor/plasteel/dark,
 /area/shuttle/escape)
 "aQ" = (
-/obj/structure/closet/syndicate/personal,
+/obj/structure/closet/syndicate/personal{
+	anchored = 1
+	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
@@ -492,7 +496,9 @@
 /turf/open/floor/plasteel/dark,
 /area/shuttle/escape)
 "aS" = (
-/obj/structure/closet/firecloset,
+/obj/structure/closet/firecloset{
+	anchored = 1
+	},
 /obj/effect/turf_decal/bot_white,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -540,7 +546,9 @@
 /turf/open/floor/plasteel/dark,
 /area/shuttle/escape)
 "aW" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/emcloset{
+	anchored = 1
+	},
 /obj/effect/turf_decal/bot_white,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -617,7 +625,9 @@
 /turf/open/floor/plasteel/recharge_floor,
 /area/shuttle/escape)
 "bf" = (
-/obj/structure/closet/crate/internals,
+/obj/structure/closet/crate/internals{
+	anchored = 1
+	},
 /obj/effect/turf_decal/bot_white,
 /obj/item/clothing/suit/hazardvest{
 	desc = "A high-visibility lifejacket complete with whistle and slot for oxygen tanks.";
@@ -1138,7 +1148,9 @@
 /turf/open/floor/plasteel/dark,
 /area/shuttle/escape)
 "bX" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/emcloset{
+	anchored = 1
+	},
 /obj/effect/turf_decal/bot_white,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
@@ -1352,6 +1364,7 @@
 	},
 /obj/effect/turf_decal/tile/neutral,
 /obj/item/kirbyplants{
+	anchored = 1;
 	icon_state = "plant-22"
 	},
 /turf/open/floor/plasteel/dark,
@@ -1816,7 +1829,9 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
 	},
-/obj/structure/closet/firecloset,
+/obj/structure/closet/firecloset{
+	anchored = 1
+	},
 /obj/effect/turf_decal/bot_white,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
@@ -1843,12 +1858,15 @@
 	},
 /obj/effect/turf_decal/tile/neutral,
 /obj/item/kirbyplants{
+	anchored = 1;
 	icon_state = "plant-22"
 	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/escape)
 "cT" = (
-/obj/structure/closet/crate,
+/obj/structure/closet/crate{
+	anchored = 1
+	},
 /obj/effect/turf_decal/stripes/line,
 /obj/item/stack/sheet/metal/fifty,
 /obj/effect/turf_decal/tile/neutral,
@@ -1858,7 +1876,9 @@
 /turf/open/floor/plasteel/dark,
 /area/shuttle/escape)
 "cU" = (
-/obj/structure/closet/crate,
+/obj/structure/closet/crate{
+	anchored = 1
+	},
 /obj/effect/turf_decal/stripes/line,
 /obj/item/stack/sheet/glass/fifty,
 /obj/effect/turf_decal/tile/neutral,
@@ -1868,7 +1888,9 @@
 /turf/open/floor/plasteel/dark,
 /area/shuttle/escape)
 "cV" = (
-/obj/structure/closet/syndicate,
+/obj/structure/closet/syndicate{
+	anchored = 1
+	},
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
@@ -1877,7 +1899,9 @@
 /turf/open/floor/plasteel/dark,
 /area/shuttle/escape)
 "cW" = (
-/obj/structure/closet/syndicate,
+/obj/structure/closet/syndicate{
+	anchored = 1
+	},
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
 	},
@@ -1888,7 +1912,9 @@
 /turf/open/floor/plasteel/dark,
 /area/shuttle/escape)
 "cX" = (
-/obj/structure/closet/crate/secure/weapon,
+/obj/structure/closet/crate/secure/weapon{
+	anchored = 1
+	},
 /obj/effect/turf_decal/stripes/corner,
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{

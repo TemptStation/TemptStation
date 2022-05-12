@@ -527,7 +527,9 @@
 	name = "protective hat";
 	pixel_y = 9
 	},
-/obj/structure/closet/crate/internals,
+/obj/structure/closet/crate/internals{
+	anchored = 1
+	},
 /obj/machinery/light{
 	dir = 1
 	},
@@ -961,7 +963,9 @@
 	name = "protective hat";
 	pixel_y = 9
 	},
-/obj/structure/closet/crate/internals,
+/obj/structure/closet/crate/internals{
+	anchored = 1
+	},
 /obj/effect/turf_decal/tile/green,
 /obj/effect/turf_decal/tile/green{
 	dir = 4
@@ -1015,6 +1019,7 @@
 /area/shuttle/escape)
 "bV" = (
 /obj/item/kirbyplants{
+	anchored = 1;
 	icon_state = "plant-22"
 	},
 /obj/effect/turf_decal/tile/green{
@@ -1030,6 +1035,7 @@
 /area/shuttle/escape)
 "bW" = (
 /obj/item/kirbyplants{
+	anchored = 1;
 	icon_state = "plant-22"
 	},
 /obj/effect/turf_decal/tile/green{
@@ -1095,6 +1101,7 @@
 /area/shuttle/escape)
 "cd" = (
 /obj/item/kirbyplants{
+	anchored = 1;
 	icon_state = "plant-22"
 	},
 /obj/effect/turf_decal/tile/green{
@@ -1108,6 +1115,7 @@
 /area/shuttle/escape)
 "ce" = (
 /obj/item/kirbyplants{
+	anchored = 1;
 	icon_state = "plant-22"
 	},
 /obj/effect/turf_decal/tile/green,

@@ -37,11 +37,15 @@
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/arrival)
 "h" = (
-/obj/structure/closet/wardrobe/black,
+/obj/structure/closet/wardrobe/black{
+	anchored = 1
+	},
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/arrival)
 "i" = (
-/obj/structure/closet/wardrobe/mixed,
+/obj/structure/closet/wardrobe/mixed{
+	anchored = 1
+	},
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/arrival)
 "j" = (
@@ -113,7 +117,9 @@
 /turf/open/floor/plating/airless,
 /area/shuttle/arrival)
 "s" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/emcloset{
+	anchored = 1
+	},
 /obj/item/storage/firstaid/o2,
 /obj/item/tank/internals/emergency_oxygen,
 /obj/item/clothing/mask/breath,

@@ -328,7 +328,9 @@
 	name = "protective hat";
 	pixel_y = 9
 	},
-/obj/structure/closet/crate/internals,
+/obj/structure/closet/crate/internals{
+	anchored = 1
+	},
 /obj/effect/turf_decal/bot,
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
@@ -428,7 +430,9 @@
 /turf/open/floor/plasteel/dark,
 /area/shuttle/escape)
 "bb" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/emcloset{
+	anchored = 1
+	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
@@ -671,6 +675,7 @@
 /area/shuttle/escape)
 "by" = (
 /obj/structure/closet/crate{
+	anchored = 1;
 	name = "emergency supplies crate"
 	},
 /obj/item/storage/toolbox/emergency,
@@ -719,7 +724,7 @@
 /area/shuttle/escape)
 "bC" = (
 /obj/structure/closet/crate/medical{
-	name = "medical crate"
+	anchored = 1
 	},
 /obj/item/storage/firstaid/regular,
 /obj/item/storage/firstaid/o2{
@@ -857,7 +862,9 @@
 	name = "protective hat";
 	pixel_y = 9
 	},
-/obj/structure/closet/crate/internals,
+/obj/structure/closet/crate/internals{
+	anchored = 1
+	},
 /obj/machinery/light{
 	dir = 8
 	},
@@ -922,7 +929,9 @@
 	name = "protective hat";
 	pixel_y = 9
 	},
-/obj/structure/closet/crate/internals,
+/obj/structure/closet/crate/internals{
+	anchored = 1
+	},
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel/dark,
 /area/shuttle/escape)

@@ -48,6 +48,7 @@
 /area/shuttle/escape)
 "k" = (
 /obj/item/kirbyplants{
+	anchored = 1;
 	icon_state = "plant-22"
 	},
 /turf/open/floor/mineral/titanium/blue,
@@ -145,6 +146,7 @@
 /area/shuttle/escape)
 "B" = (
 /obj/item/kirbyplants{
+	anchored = 1;
 	icon_state = "plant-21"
 	},
 /turf/open/floor/mineral/titanium,

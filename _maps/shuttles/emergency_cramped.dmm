@@ -72,7 +72,9 @@
 /turf/open/floor/plating,
 /area/shuttle/escape)
 "m" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/emcloset{
+	anchored = 1
+	},
 /turf/open/floor/plating,
 /area/shuttle/escape)
 "n" = (
@@ -82,7 +84,9 @@
 /turf/open/floor/plating,
 /area/shuttle/escape)
 "o" = (
-/obj/structure/closet/crate,
+/obj/structure/closet/crate{
+	anchored = 1
+	},
 /obj/effect/spawner/lootdrop/maintenance{
 	lootcount = 8;
 	name = "8maintenance loot spawner"
@@ -91,7 +95,9 @@
 /turf/open/floor/plasteel,
 /area/shuttle/escape)
 "p" = (
-/obj/structure/closet/crate/secure/loot,
+/obj/structure/closet/crate/secure/loot{
+	anchored = 1
+	},
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
 /area/shuttle/escape)
@@ -103,7 +109,9 @@
 /turf/open/floor/plating,
 /area/shuttle/escape)
 "r" = (
-/obj/structure/closet/crate/secure/weapon,
+/obj/structure/closet/crate/secure/weapon{
+	anchored = 1
+	},
 /obj/effect/spawner/lootdrop/armory_contraband,
 /obj/effect/turf_decal/bot,
 /obj/machinery/light{
@@ -132,14 +140,18 @@
 /turf/open/floor/plating/airless,
 /area/shuttle/escape)
 "v" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/emcloset{
+	anchored = 1
+	},
 /obj/machinery/light{
 	dir = 4
 	},
 /turf/open/floor/plating,
 /area/shuttle/escape)
 "w" = (
-/obj/structure/closet/crate/secure/weapon,
+/obj/structure/closet/crate/secure/weapon{
+	anchored = 1
+	},
 /obj/effect/spawner/lootdrop/armory_contraband,
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,

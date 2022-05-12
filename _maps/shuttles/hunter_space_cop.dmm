@@ -63,7 +63,9 @@
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/hunter)
 "aj" = (
-/obj/structure/closet/crate/eva,
+/obj/structure/closet/crate/eva{
+	anchored = 1
+	},
 /obj/effect/turf_decal/box,
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/hunter)

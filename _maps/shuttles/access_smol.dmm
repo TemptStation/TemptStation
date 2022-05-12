@@ -64,7 +64,6 @@
 /area/shuttle/access_smol)
 "F" = (
 /obj/structure/closet/emcloset/anchored,
-/obj/structure/closet/emcloset/anchored,
 /obj/machinery/light/small{
 	dir = 1
 	},

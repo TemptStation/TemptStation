@@ -503,7 +503,9 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/obj/structure/closet/firecloset/full,
+/obj/structure/closet/firecloset/full{
+	anchored = 1
+	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/escape)
 "DO" = (
@@ -814,7 +816,9 @@
 /turf/open/floor/plasteel/dark,
 /area/shuttle/escape)
 "Sk" = (
-/obj/structure/closet/firecloset/full,
+/obj/structure/closet/firecloset/full{
+	anchored = 1
+	},
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /turf/open/floor/plasteel/dark,
 /area/shuttle/escape)

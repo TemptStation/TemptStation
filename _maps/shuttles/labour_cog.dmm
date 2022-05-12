@@ -24,7 +24,9 @@
 /turf/open/floor/plating/airless,
 /area/shuttle/labor)
 "d" = (
-/obj/structure/closet/crate/internals,
+/obj/structure/closet/crate/internals{
+	anchored = 1
+	},
 /obj/item/clothing/suit/hazardvest{
 	desc = "A high-visibility lifejacket complete with whistle and slot for oxygen tanks.";
 	name = "emergency lifejacket"

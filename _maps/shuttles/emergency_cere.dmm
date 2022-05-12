@@ -421,6 +421,7 @@
 /area/shuttle/escape)
 "aM" = (
 /obj/item/kirbyplants{
+	anchored = 1;
 	icon_state = "plant-22"
 	},
 /obj/item/radio/intercom{
@@ -447,6 +448,7 @@
 /area/shuttle/escape)
 "aP" = (
 /obj/item/kirbyplants{
+	anchored = 1;
 	icon_state = "plant-22"
 	},
 /obj/item/radio/intercom{
@@ -674,7 +676,9 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/obj/structure/closet,
+/obj/structure/closet{
+	anchored = 1
+	},
 /obj/machinery/light{
 	dir = 4
 	},
@@ -727,7 +731,9 @@
 /area/shuttle/escape)
 "bD" = (
 /obj/effect/turf_decal/delivery,
-/obj/structure/closet/crate,
+/obj/structure/closet/crate{
+	anchored = 1
+	},
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
 	dir = 4
@@ -866,7 +872,9 @@
 /area/shuttle/escape)
 "bP" = (
 /obj/effect/turf_decal/delivery,
-/obj/structure/closet,
+/obj/structure/closet{
+	anchored = 1
+	},
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
 	dir = 4
@@ -969,6 +977,7 @@
 /area/shuttle/escape)
 "ca" = (
 /obj/item/kirbyplants{
+	anchored = 1;
 	icon_state = "plant-21"
 	},
 /turf/open/floor/plasteel,
@@ -995,6 +1004,7 @@
 	dir = 4
 	},
 /obj/item/kirbyplants{
+	anchored = 1;
 	icon_state = "plant-21"
 	},
 /turf/open/floor/plasteel,
@@ -1099,7 +1109,9 @@
 /turf/open/floor/plasteel/white,
 /area/shuttle/escape)
 "cn" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/emcloset{
+	anchored = 1
+	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
@@ -1464,7 +1476,9 @@
 /turf/open/floor/plasteel/freezer,
 /area/shuttle/escape)
 "cT" = (
-/obj/structure/closet/secure_closet/engineering_personal,
+/obj/structure/closet/secure_closet/engineering_personal{
+	anchored = 1
+	},
 /obj/effect/turf_decal/tile/yellow{
 	dir = 1
 	},
@@ -1526,7 +1540,9 @@
 /turf/open/floor/plasteel/freezer,
 /area/shuttle/escape)
 "cZ" = (
-/obj/structure/closet/secure_closet/engineering_personal,
+/obj/structure/closet/secure_closet/engineering_personal{
+	anchored = 1
+	},
 /obj/effect/turf_decal/tile/yellow{
 	dir = 1
 	},

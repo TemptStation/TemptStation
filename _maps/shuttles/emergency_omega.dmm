@@ -195,6 +195,7 @@
 /area/shuttle/escape)
 "as" = (
 /obj/item/kirbyplants{
+	anchored = 1;
 	icon_state = "plant-21";
 	pixel_x = -3;
 	pixel_y = 3
@@ -318,6 +319,7 @@
 /area/shuttle/escape)
 "aC" = (
 /obj/item/kirbyplants{
+	anchored = 1;
 	icon_state = "plant-21";
 	pixel_x = -3;
 	pixel_y = 3
@@ -443,7 +445,9 @@
 	name = "protective hat";
 	pixel_y = 9
 	},
-/obj/structure/closet/crate/internals,
+/obj/structure/closet/crate/internals{
+	anchored = 1
+	},
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
 /area/shuttle/escape)
@@ -531,6 +535,7 @@
 /area/shuttle/escape)
 "aS" = (
 /obj/item/kirbyplants{
+	anchored = 1;
 	icon_state = "plant-21";
 	pixel_x = -3;
 	pixel_y = 3
@@ -583,7 +588,7 @@
 /area/shuttle/escape)
 "aY" = (
 /obj/structure/closet/crate/medical{
-	name = "medical crate"
+	anchored = 1
 	},
 /obj/item/storage/firstaid/regular,
 /obj/item/storage/firstaid/o2{
@@ -680,6 +685,7 @@
 /area/shuttle/escape)
 "bg" = (
 /obj/structure/closet/crate{
+	anchored = 1;
 	name = "emergency supplies crate"
 	},
 /obj/item/storage/toolbox/emergency,

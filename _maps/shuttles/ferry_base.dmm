@@ -60,7 +60,9 @@
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/transport)
 "p" = (
-/obj/structure/closet/crate,
+/obj/structure/closet/crate{
+	anchored = 1
+	},
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/transport)
 "q" = (

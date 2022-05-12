@@ -74,6 +74,7 @@
 /obj/effect/turf_decal/bot,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/closet/crate{
+	anchored = 1;
 	icon_state = "crateopen"
 	},
 /turf/open/floor/plating,
@@ -98,6 +99,7 @@
 /obj/effect/turf_decal/bot,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/closet/crate/large{
+	anchored = 1;
 	icon_state = "crittercrate"
 	},
 /turf/open/floor/plating,
@@ -136,6 +138,7 @@
 "B" = (
 /obj/effect/turf_decal/bot,
 /obj/structure/closet/crate{
+	anchored = 1;
 	icon_state = "crateopen"
 	},
 /turf/open/floor/plating,
@@ -162,6 +165,7 @@
 /obj/effect/turf_decal/bot,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/closet/crate/engineering{
+	anchored = 1;
 	icon_state = "engi_crateopen"
 	},
 /turf/open/floor/plating,

@@ -28,6 +28,7 @@
 /area/shuttle/transport)
 "h" = (
 /obj/structure/closet/secure_closet/freezer/meat{
+	anchored = 1;
 	name = "\"meat\" fridge"
 	},
 /obj/item/reagent_containers/food/snacks/meat/slab/bear,
@@ -116,7 +117,9 @@
 /turf/open/floor/plasteel/freezer,
 /area/shuttle/transport)
 "t" = (
-/obj/structure/closet/chefcloset,
+/obj/structure/closet/chefcloset{
+	anchored = 1
+	},
 /turf/open/floor/plasteel/freezer,
 /area/shuttle/transport)
 "u" = (

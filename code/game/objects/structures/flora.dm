@@ -320,6 +320,15 @@
 	addtimer(CALLBACK(src, /datum.proc/_AddElement, list(/datum/element/beauty, 500)), 0)
 	AddComponent(/datum/component/two_handed, require_twohands=TRUE, force_unwielded=10, force_wielded=10)
 
+/obj/item/kirbyplants/attackby(obj/item/I, mob/living/user, params)
+	. = ..()
+	if(I.tool_behaviour == TOOL_SCREWDRIVER)
+		I.play_tool_sound(src, 100)
+		user.visible_message(anchored ? span_notice("[user] unscrews \the [src] from the floor.") : span_notice("[user] screws \the [src] to the floor."),
+			anchored ? span_notice("You unscrew \the [src] from the floor.") : span_notice("You screw \the [src] to the floor.")
+		)
+		set_anchored(!anchored)
+
 /obj/item/kirbyplants/random
 	icon = 'icons/obj/flora/_flora.dmi'
 	icon_state = "random_plant"

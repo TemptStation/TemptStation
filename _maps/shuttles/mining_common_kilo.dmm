@@ -107,7 +107,9 @@
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/mining)
 "o" = (
-/obj/structure/closet/crate,
+/obj/structure/closet/crate{
+	anchored = 1
+	},
 /obj/effect/turf_decal/delivery,
 /obj/machinery/airalarm{
 	dir = 4;

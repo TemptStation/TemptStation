@@ -111,6 +111,7 @@
 	pixel_y = 32
 	},
 /obj/item/kirbyplants{
+	anchored = 1;
 	icon_state = "plant-21";
 	pixel_x = -3;
 	pixel_y = 3
@@ -184,6 +185,7 @@
 "aB" = (
 /obj/structure/window/reinforced,
 /obj/item/kirbyplants{
+	anchored = 1;
 	icon_state = "plant-11"
 	},
 /obj/effect/turf_decal/tile/green,
@@ -252,7 +254,9 @@
 /turf/open/floor/plasteel/dark,
 /area/shuttle/escape)
 "aG" = (
-/obj/structure/closet/secure_closet/freezer/fridge,
+/obj/structure/closet/secure_closet/freezer/fridge{
+	anchored = 1
+	},
 /obj/structure/window/reinforced{
 	dir = 8;
 	layer = 2.9
@@ -590,6 +594,7 @@
 /area/shuttle/escape)
 "bu" = (
 /obj/item/kirbyplants{
+	anchored = 1;
 	icon_state = "plant-22"
 	},
 /turf/open/floor/mineral/plastitanium/red/brig,
