@@ -1,9 +1,9 @@
-## S.P.L.U.R.T. Station 13
-Based and maintained from Sandstorm Station 13, which is based and maintained from Citadel, which is based and mantained from /tg/station. (yup)
+## TemptStation 13
+Based and maintained from S.P.L.U.R.T. Station 13, which is based and maintained from Sandstorm Station 13, which is based and maintained from Citadel, which is based from /tg/station.
 
-[![CI Suite](https://github.com/SPLURT-Station/S.P.L.U.R.T-Station-13/workflows/CI%20Suite/badge.svg)](https://github.com/SPLURT-Station/S.P.L.U.R.T-Station-13//actions?query=workflow%3A%22CI+Suite%22)
-[![Percentage of issues still open](http://isitmaintained.com/badge/open/SPLURT-Station/S.P.L.U.R.T-Station-13.svg)](http://isitmaintained.com/project/SPLURT-Station/S.P.L.U.R.T-Station-13 "Percentage of issues still open")
-[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/SPLURT-Station/S.P.L.U.R.T-Station-13.svg)](http://isitmaintained.com/project/SPLURT-Station/S.P.L.U.R.T-Station-13 "Average time to resolve an issue")
+[![CI Suite](https://github.com/TemptStation/TemptStation/workflows/CI%20Suite/badge.svg)](https://github.com/TemptStation/TemptStation//actions?query=workflow%3A%22CI+Suite%22)
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/TemptStation/TemptStation.svg)](http://isitmaintained.com/project/TemptStation/TemptStation "Percentage of issues still open")
+[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/TemptStation/TemptStation.svg)](http://isitmaintained.com/project/TemptStation/TemptStation "Average time to resolve an issue")
 
 [![forthebadge](http://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)](https://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/pretty-risque.svg)](https://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](http://forthebadge.com) [![forinfinityandbyond](https://user-images.githubusercontent.com/5211576/29499758-4efff304-85e6-11e7-8267-62919c3688a9.gif)](https://www.reddit.com/r/SS13/comments/5oplxp/what_is_the_main_problem_with_byond_as_an_engine/dclbu1a)
 
@@ -28,10 +28,14 @@ Based and maintained from Sandstorm Station 13, which is based and maintained fr
 * **Code:** <https://github.com/SandPoot/Sandstorm-Station-13>
 * **Discord:**  <https://discord.gg/quXTqa6cp9> (updated 19/01/2022)
 
-**S.P.L.U.R.T. Station Information**
+**S.P.L.U.R.T. Station (upstream) Information**
 * **Code:** https://github.com/SPLURT-Station/S.P.L.U.R.T-Station-13
 * **Discord:** https://discord.gg/wynHVMzHzC
 * **Ko-fi:** https://ko-fi.com/splurt
+
+**TemptStation Information**
+* **Code:** https://github.com/TemptStation/TemptStation
+* **Discord:** https://discord.gg/VhDRKNKYmT
 
 ## DOWNLOADING
 
