@@ -32,10 +32,10 @@
 	return ..()
 
 
-/datum/element/crawl_under/proc/check_crawl(obj/structure/source, mob/living/user) //not checking if it's a structure. y'all should know better.
+/datum/element/crawl_under/proc/check_crawl(obj/structure/source, atom/movable/target, mob/living/user) //not checking if it's a structure. y'all should know better.
 	SIGNAL_HANDLER
 
-	if(!istype(user)) //valid user, also checks for if it exists
+	if(!istype(target) || target != user) //valid user, also checks for if it exists
 		return
 	if(user.mobility_flags & MOBILITY_STAND || user.incapacitated(TRUE, FALSE, TRUE))
 		return
