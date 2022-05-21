@@ -1723,7 +1723,7 @@
 "auR" = (
 /obj/structure/table/wood,
 /obj/item/storage/fancy/donut_box,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/structure/extinguisher_cabinet{
 	pixel_y = -31
 	},
@@ -2183,7 +2183,7 @@
 /area/science/robotics/lab)
 "ayP" = (
 /obj/structure/table/wood,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /turf/open/floor/carpet,
 /area/command/meeting_room)
 "azc" = (
@@ -13136,7 +13136,7 @@
 "ete" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /turf/closed/wall/r_wall,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "ets" = (
 /obj/machinery/camera{
 	c_tag = "Medbay Treatment Center";
@@ -16429,7 +16429,7 @@
 /area/commons/toilet)
 "fPN" = (
 /obj/structure/table/wood,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/flashlight/lamp/green{
 	pixel_x = -7;
 	pixel_y = 1
@@ -25684,7 +25684,7 @@
 /obj/structure/reagent_dispensers/peppertank{
 	pixel_y = 32
 	},
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /turf/open/floor/plasteel/dark,
 /area/security)
 "jVC" = (
@@ -26506,7 +26506,7 @@
 /obj/effect/turf_decal/tile/red{
 	dir = 8
 	},
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /turf/open/floor/plasteel/dark,
 /area/security/checkpoint/auxiliary)
 "koL" = (
@@ -27924,7 +27924,7 @@
 /obj/item/reagent_containers/food/drinks/flask,
 /obj/item/reagent_containers/food/drinks/bottle/whiskey,
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "kXY" = (
 /obj/structure/cable{
 	icon_state = "1-8"
@@ -33121,7 +33121,7 @@
 	req_access_txt = "19"
 	},
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "ntO" = (
 /obj/effect/turf_decal/tile/purple{
 	dir = 1
@@ -35294,7 +35294,7 @@
 	pixel_y = 23
 	},
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "onm" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -40246,7 +40246,7 @@
 /area/medical/paramedic)
 "quq" = (
 /turf/closed/wall/r_wall,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "qur" = (
 /turf/open/floor/plating,
 /area/cargo/storage)
@@ -44233,7 +44233,7 @@
 	dir = 6
 	},
 /turf/closed/wall/r_wall,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "skT" = (
 /obj/machinery/light{
 	dir = 4
@@ -44623,7 +44623,7 @@
 	dir = 4
 	},
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "sve" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable{
@@ -45947,11 +45947,11 @@
 /area/ai_monitored/turret_protected/ai)
 "sZL" = (
 /obj/structure/table/wood,
-/obj/item/book/manual/splurt_space_law{
+/obj/item/book/manual/local_space_law{
 	pixel_x = -4;
 	pixel_y = 4
 	},
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/toy/figure/lawyer,
 /obj/machinery/light_switch{
 	pixel_x = -6;
@@ -47561,7 +47561,7 @@
 /area/engineering/supermatter)
 "tLI" = (
 /obj/structure/table/reinforced,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /turf/open/floor/plasteel/dark,
 /area/security/warden)
 "tLJ" = (
@@ -49612,7 +49612,7 @@
 	pixel_x = -7;
 	pixel_y = 4
 	},
-/obj/item/book/manual/splurt_space_law{
+/obj/item/book/manual/local_space_law{
 	pixel_x = 6;
 	pixel_y = 2
 	},
@@ -50598,7 +50598,7 @@
 	dir = 4
 	},
 /turf/closed/wall/r_wall,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "vhT" = (
 /obj/machinery/space_heater,
 /turf/open/floor/plasteel,
@@ -54155,7 +54155,7 @@
 	},
 /obj/effect/landmark/start/blueshield,
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "wKC" = (
 /obj/machinery/firealarm{
 	dir = 8;

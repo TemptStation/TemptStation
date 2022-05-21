@@ -52075,7 +52075,7 @@
 /turf/open/floor/carpet,
 /area/maintenance/department/crew_quarters/dorms)
 "epT" = (
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/clothing/ears/earmuffs,
 /obj/item/clothing/glasses/sunglasses,
 /obj/structure/table/reinforced,
@@ -52468,7 +52468,7 @@
 /area/maintenance/department/cargo)
 "eZC" = (
 /obj/structure/table,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/machinery/camera{
 	c_tag = "Engineering Security Post";
 	dir = 4
@@ -52498,7 +52498,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/machinery/vending/wardrobe/blueshield_wardrobe,
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "fbv" = (
 /obj/machinery/light{
 	dir = 1
@@ -52513,7 +52513,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/effect/turf_decal/tile/red{
 	dir = 1
 	},
@@ -52983,7 +52983,7 @@
 /area/command/heads_quarters/rd)
 "fRC" = (
 /obj/structure/table/wood,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /turf/open/floor/carpet,
 /area/command/heads_quarters/hos)
 "fRL" = (
@@ -53127,7 +53127,7 @@
 	},
 /obj/structure/closet/secure_closet/blueshield,
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "ggg" = (
 /obj/machinery/atmospherics/pipe/simple/general/visible{
 	dir = 6
@@ -54148,7 +54148,7 @@
 	pixel_x = -22
 	},
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "hGB" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 1
@@ -54913,7 +54913,7 @@
 "iRw" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/closed/wall,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "iSz" = (
 /obj/structure/cable{
 	icon_state = "2-8"
@@ -55289,7 +55289,7 @@
 /area/science/xenobiology)
 "jyd" = (
 /obj/structure/table/wood,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/pen/fountain,
 /obj/item/stamp/law,
 /turf/open/floor/carpet,
@@ -55449,7 +55449,7 @@
 	dir = 4;
 	network = list("ss13","rd")
 	},
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
@@ -56234,7 +56234,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "kSb" = (
 /obj/structure/chair/office/light{
 	dir = 8
@@ -56490,7 +56490,7 @@
 	dir = 8
 	},
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "lms" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 9
@@ -57497,7 +57497,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/white,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "mSc" = (
 /obj/machinery/space_heater,
 /turf/open/floor/plating,
@@ -58461,7 +58461,7 @@
 /area/engineering/main)
 "orB" = (
 /turf/closed/wall,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "ost" = (
 /obj/structure/table/glass,
 /obj/item/paper_bin{
@@ -59342,7 +59342,7 @@
 	dir = 4
 	},
 /turf/closed/wall,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "pBj" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 8
@@ -59865,7 +59865,7 @@
 	dir = 1
 	},
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "qsv" = (
 /obj/machinery/rnd/production/techfab/department/security,
 /turf/open/floor/plasteel/dark,
@@ -60855,7 +60855,7 @@
 /obj/item/export/bottle/whiskey,
 /obj/item/reagent_containers/food/drinks/flask,
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "sbk" = (
 /obj/structure/girder,
 /turf/open/floor/plating,
@@ -61391,7 +61391,7 @@
 /area/maintenance/department/engine)
 "sXr" = (
 /obj/structure/table,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/red{
 	dir = 4
@@ -62310,7 +62310,7 @@
 /area/ai_monitored/security/armory)
 "utf" = (
 /turf/open/floor/wood,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "utg" = (
 /obj/item/ammo_casing/shotgun/beanbag,
 /turf/open/floor/plating,
@@ -62629,7 +62629,7 @@
 /area/commons/fitness/recreation)
 "uOx" = (
 /obj/structure/table,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /turf/open/floor/plasteel/dark,
 /area/security/courtroom)
 "uQR" = (
@@ -62730,7 +62730,7 @@
 	pixel_x = 28
 	},
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "vco" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plating,
@@ -63145,7 +63145,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/white,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "vGg" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 9
@@ -63236,7 +63236,7 @@
 	req_access_txt = "72"
 	},
 /turf/open/floor/wood,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "vQx" = (
 /obj/machinery/door/window/brigdoor/security/cell{
 	id = "Cell 1";
@@ -63512,7 +63512,7 @@
 	req_access_txt = "72"
 	},
 /turf/open/floor/wood,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "wjQ" = (
 /obj/machinery/light{
 	dir = 8
@@ -64298,7 +64298,7 @@
 /obj/item/bedsheet/blue/double,
 /obj/structure/bed/double,
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "xmp" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
@@ -64329,7 +64329,7 @@
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "xnv" = (
 /obj/machinery/autolathe,
 /turf/open/floor/plasteel/dark,
@@ -64486,7 +64486,7 @@
 	req_access_txt = "72"
 	},
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "xBh" = (
 /obj/structure/sign/warning/vacuum/external{
 	pixel_y = 32
@@ -64587,7 +64587,7 @@
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
 	},
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /turf/open/floor/plasteel,
 /area/security/courtroom)
 "xJy" = (

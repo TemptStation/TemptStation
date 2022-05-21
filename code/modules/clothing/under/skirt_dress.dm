@@ -8,6 +8,7 @@
 	body_parts_covered = CHEST|GROIN|ARMS
 	fitted = FEMALE_UNIFORM_TOP
 	can_adjust = FALSE
+	is_skirt = TRUE
 
 /obj/item/clothing/under/dress/skirt/blue
 	name = "blue skirt"

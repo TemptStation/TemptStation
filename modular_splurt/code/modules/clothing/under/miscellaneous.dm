@@ -46,7 +46,7 @@
 
 /obj/item/clothing/under/bunnysuit
 	name = "bunny outfit"
-	desc = "A simple black bunnt outfit."
+	desc = "A simple black bunny outfit."
 	icon = 'modular_splurt/icons/obj/clothing/uniforms.dmi'
 	mob_overlay_icon = 'modular_splurt/icons/mob/clothing/uniform.dmi'
 	icon_state = "bunnysuit"
@@ -56,7 +56,7 @@
 
 /obj/item/clothing/under/bunnysuit/white
 	name = "white bunny outfit"
-	desc = "A simple white bunnt outfit."
+	desc = "A simple white bunny outfit."
 	icon = 'modular_splurt/icons/obj/clothing/uniforms.dmi'
 	mob_overlay_icon = 'modular_splurt/icons/mob/clothing/uniform.dmi'
 	icon_state = "whitebunnysuit"
@@ -110,10 +110,11 @@
 
 /obj/item/clothing/under/rank/brigdoc/skirt
 	name = "brig physician skirt"
-	desc = "The uniform of the Brig Physician. Do know harm, with a skirt"
+	desc = "The uniform of the Brig Physician. Do know harm, but with a skirt."
 	icon_state = "brigphysf"
 	item_state = "brigphysf"
 	mutantrace_variation = STYLE_DIGITIGRADE|STYLE_NO_ANTHRO_ICON
+	is_skirt = TRUE
 
 /obj/item/clothing/under/rank/blueshield
 	name = "blueshield outfit"
@@ -142,6 +143,7 @@
 	desc = "The formal uniform of the Blueshield. It makes you feel protected while looking great. A lot better than the stuffy pants."
 	icon_state = "blueshieldskirt"
 	item_state = "blueshieldskirt"
+	is_skirt = TRUE
 
 /obj/item/clothing/under/rank/blueshield/skirt
 	name = "blueshield skirt"
@@ -149,6 +151,7 @@
 	icon_state = "blueshieldf"
 	item_state = "blueshieldf"
 	mutantrace_variation = STYLE_DIGITIGRADE|STYLE_NO_ANTHRO_ICON
+	is_skirt = TRUE
 
 /obj/item/clothing/under/plasmaman/security/blueshield
 	name = "security plasma envirosuit"
@@ -189,6 +192,7 @@
 	icon_state = "bridgesecf"
 	item_state = "bridgesecf"
 	mutantrace_variation = STYLE_DIGITIGRADE|STYLE_NO_ANTHRO_ICON
+	is_skirt = TRUE
 
 /obj/item/clothing/under/rank/bridgeofficer/formal
 	name = "bridge officer formal outfit"

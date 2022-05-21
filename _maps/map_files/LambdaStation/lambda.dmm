@@ -43687,7 +43687,7 @@
 "bRP" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /turf/closed/wall,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "bRQ" = (
 /obj/structure/closet/secure_closet/personal/patient,
 /obj/effect/turf_decal/trimline/blue/filled/line{
@@ -64068,15 +64068,15 @@
 /area/solars/starboard/aft)
 "fii" = (
 /obj/structure/table,
-/obj/item/book/manual/splurt_space_law{
+/obj/item/book/manual/local_space_law{
 	pixel_x = -3;
 	pixel_y = 5
 	},
-/obj/item/book/manual/splurt_space_law{
+/obj/item/book/manual/local_space_law{
 	pixel_x = -3;
 	pixel_y = 5
 	},
-/obj/item/book/manual/splurt_space_law{
+/obj/item/book/manual/local_space_law{
 	pixel_x = -3;
 	pixel_y = 5
 	},
@@ -65119,7 +65119,7 @@
 	dir = 4
 	},
 /obj/structure/table/wood,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/paper/fluff/gateway,
 /obj/item/coin/plasma,
 /obj/item/melee/chainofcommand,
@@ -66033,7 +66033,7 @@
 /area/hallway/secondary/entry)
 "ito" = (
 /obj/structure/table/wood,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/pen/red,
 /turf/open/floor/plasteel/grimy,
 /area/service/lawoffice)
@@ -66333,7 +66333,7 @@
 	dir = 1
 	},
 /obj/structure/table,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /turf/open/floor/plasteel,
 /area/security/checkpoint/medical)
 "jas" = (
@@ -66631,7 +66631,7 @@
 	dir = 4
 	},
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "jKe" = (
 /obj/machinery/atmospherics/pipe/manifold/yellow/visible{
 	dir = 4
@@ -67051,7 +67051,7 @@
 /area/command/heads_quarters/ce)
 "koT" = (
 /obj/structure/table/reinforced,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
@@ -67193,7 +67193,7 @@
 /area/science/mixing)
 "kIG" = (
 /obj/structure/table,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/red{
 	dir = 4
@@ -67287,7 +67287,7 @@
 "kUs" = (
 /obj/structure/table/wood,
 /obj/item/paper/guides/jobs/security/courtroom,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
@@ -68369,7 +68369,7 @@
 	},
 /obj/effect/landmark/start/blueshield,
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "mJj" = (
 /obj/effect/turf_decal/tile/yellow,
 /obj/effect/turf_decal/tile/yellow{
@@ -69678,7 +69678,7 @@
 /obj/item/reagent_containers/food/drinks/flask,
 /obj/item/reagent_containers/food/drinks/bottle/whiskey,
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "pmK" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/external{
@@ -69878,7 +69878,7 @@
 /area/hallway/primary/aft)
 "pEz" = (
 /obj/structure/table/reinforced,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/radio/intercom{
 	dir = 4;
 	pixel_x = 27
@@ -70795,7 +70795,7 @@
 /area/engineering/break_room)
 "rHI" = (
 /obj/structure/table,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/radio/intercom{
 	dir = 4;
 	pixel_x = 27
@@ -70820,7 +70820,7 @@
 /area/engineering/break_room)
 "rIv" = (
 /turf/closed/wall,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "rIV" = (
 /obj/structure/closet/wardrobe/cargotech,
 /obj/effect/turf_decal/trimline/yellow/filled/line{
@@ -71808,7 +71808,7 @@
 /obj/item/storage/secure/briefcase{
 	pixel_x = -2
 	},
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/cartridge/detective,
 /obj/machinery/power/apc{
 	areastring = "/area/command/heads_quarters/hos";
@@ -72258,7 +72258,7 @@
 	req_access_txt = "19"
 	},
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "uQB" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/siphon/atmos/toxin_output,
 /turf/open/floor/engine/plasma,
@@ -73150,7 +73150,7 @@
 	dir = 6
 	},
 /turf/closed/wall,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "wDn" = (
 /obj/structure/window/reinforced/spawner,
 /obj/machinery/atmospherics/pipe/simple/green/visible{
@@ -73209,7 +73209,7 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/red,
-/obj/item/book/manual/splurt_space_law{
+/obj/item/book/manual/local_space_law{
 	pixel_x = -4;
 	pixel_y = 4
 	},
@@ -73448,7 +73448,7 @@
 	pixel_y = 23
 	},
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "xfQ" = (
 /obj/machinery/atmospherics/pipe/manifold/green/visible{
 	dir = 4
@@ -73501,7 +73501,7 @@
 /area/security/brig)
 "xkn" = (
 /obj/structure/table/wood,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/machinery/light/small,
 /obj/item/camera/detective,
 /turf/open/floor/plasteel/grimy,
@@ -73621,7 +73621,7 @@
 	dir = 4
 	},
 /turf/closed/wall,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "xzG" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/atmospherics/pipe/simple/dark/visible,

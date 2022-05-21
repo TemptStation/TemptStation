@@ -16,7 +16,7 @@
 	exp_requirements = 180
 	exp_type = EXP_TYPE_CREW
 	considered_combat_role = TRUE
-	custom_spawn_text = "<font color='red'> Allocate research points efficiently. Keep track of your Mechs, ensuring that any and all Combat Mechs do not leave the Robotics bay OR the Security Wing outside of Amber/Red Alert. Do Toxins if you're bored need points. Assist the station in performing upgrades. Don't let the slimes get loose from Xenobiology. You are third in line to be Acting Captain.</font>"
+	custom_spawn_text = "<font color='red'>Allocate research points efficiently. Keep track of your mechs, ensuring that any and all combat mechs do not leave the robotics bay OR the security wing outside of amber/red alert. Do toxins if you're bored and need points. Assist the station in performing upgrades. Don't let the slimes get loose from Xenobiology.<br>You are third in line to be Acting Captain.</font>"
 	outfit = /datum/outfit/job/rd
 	plasma_outfit = /datum/outfit/plasmaman/rd
 

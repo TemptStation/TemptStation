@@ -12,7 +12,7 @@
 	alt_titles = list("Chief of Security", "Sheriff")
 
 /datum/job/qm
-	alt_titles = list("Resource Manager", "Logistics Supervisor")
+	alt_titles = list("Supply Chief", "Resource Manager", "Logistics Supervisor", "Port Master")
 
 /datum/job/rd
 	alt_titles = list("Chief Science Officer", "Research Overseer")
@@ -26,10 +26,10 @@
 
 //Service
 /datum/job/assistant
-	alt_titles = list("Civilian", "Visitor", "Businessman", "Trader", "Entertainer", "Intern")
+	alt_titles = list("Civilian", "Visitor", "Businessman", "Trader", "Entertainer", "Intern", "Morale Officer", "Stripper", "Off-Duty", "Escort", "Tourist", "Clerk", "Blacksmith", "Test Subject")
 
 /datum/job/bartender
-	alt_titles = list("Barista")
+	alt_titles = list("Barista", "Mixologist", "Sommelier", "Bar Owner", "Barmaid", "Expediter", "Tavernkeep")
 
 /datum/job/chaplain
 	alt_titles = list("Priest", "Cult Leader", "Pope", "Bichop")

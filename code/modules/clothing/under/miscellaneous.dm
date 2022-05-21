@@ -36,6 +36,7 @@
 	can_adjust = FALSE
 	fitted = FEMALE_UNIFORM_TOP
 	mutantrace_variation = STYLE_DIGITIGRADE|STYLE_NO_ANTHRO_ICON
+	is_skirt = TRUE
 
 /obj/item/clothing/under/misc/mailman
 	name = "mailman's jumpsuit"
@@ -196,6 +197,7 @@
 	can_adjust = FALSE
 	body_parts_covered = CHEST|GROIN|ARMS
 	mutantrace_variation = STYLE_DIGITIGRADE|STYLE_NO_ANTHRO_ICON
+	is_skirt = TRUE
 
 /obj/item/clothing/under/misc/squatter
 	name = "slav squatter tracksuit"

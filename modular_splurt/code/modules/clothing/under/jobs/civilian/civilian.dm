@@ -2,7 +2,7 @@
 	name = "head of personnel's parade uniform"
 	desc = "A male head of personnel's luxury-wear, for special occasions."
 	icon = 'modular_splurt/icons/obj/clothing/uniforms.dmi'
-	mob_overlay_icon = 'modular_splurt/icons/mob/clothing/uniform.dmi'
+	mob_overlay_icon = 'modular_tempt/icons/mob/clothing/uniform.dmi'
 	icon_state = "hop_parade_male"
 	item_state = "hop_parade_male"
 	can_adjust = FALSE

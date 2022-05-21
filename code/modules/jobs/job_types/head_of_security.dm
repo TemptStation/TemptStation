@@ -16,7 +16,7 @@
 	exp_type = EXP_TYPE_CREW
 	considered_combat_role = TRUE
 	exp_type_department = EXP_TYPE_SECURITY
-	custom_spawn_text = "<font color='red'>Discipline Security Officers that are being Shitcurity. Grant Off-Duty to the Slutcurity on Green/Blue Alert. You may demote the Warden only with Central Command approval, however bad Security Officers should be taken with a Case-by-Case Basis, Demotions being the absolute final straw. By Default, the Detective is NOT a part of the Security Force, but may perform arrests. You are Seventh and Final in the True Chain of Command for a reason. Should the entire Chain of Command have been disposed or be non-existent, it falls to -you- to maintain any semblance of order. This doesn't mean 'Be a Tyrant', it means 'Do your Best'.</font>"
+	custom_spawn_text = "<font color='red'>Discipline security officers that are acting aloof. You may demote the Warden only with Captain's approval, however bad security officers can be disciplined freely. By default, the detective is NOT a part of the security force.<br>You are seventh in line for Acting Captain; should the entire chain of command have been disposed or be non-existent, it falls to -you- to maintain any semblance of order.</font>"
 
 	outfit = /datum/outfit/job/hos
 	plasma_outfit = /datum/outfit/plasmaman/hos

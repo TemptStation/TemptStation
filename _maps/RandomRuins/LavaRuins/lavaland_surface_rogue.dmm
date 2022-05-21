@@ -72,6 +72,9 @@
 	},
 /turf/open/floor/plasteel/rockvault,
 /area/ruin/space/has_grav/powered)
+"v" = (
+/turf/template_noop,
+/area/template_noop)
 "x" = (
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/circuit/green/anim,
@@ -155,36 +158,36 @@
 /area/ruin/space/has_grav/powered)
 
 (1,1,1) = {"
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
 c
 c
 c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
 "}
 (2,1,1) = {"
-c
-c
-c
-c
-c
+v
+v
+v
+v
+v
 T
 T
 T
@@ -198,16 +201,16 @@ T
 T
 T
 T
-c
-c
-c
-c
-c
+v
+v
+v
+v
+v
 "}
 (3,1,1) = {"
-c
-c
-c
+v
+v
+v
 T
 T
 T
@@ -225,13 +228,13 @@ T
 T
 T
 T
-c
-c
-c
+v
+v
+v
 "}
 (4,1,1) = {"
-c
-c
+v
+v
 T
 T
 T
@@ -251,12 +254,12 @@ j
 T
 T
 T
-c
-c
+v
+v
 "}
 (5,1,1) = {"
-c
-c
+v
+v
 T
 T
 j
@@ -276,11 +279,11 @@ j
 j
 T
 T
-c
-c
+v
+v
 "}
 (6,1,1) = {"
-c
+v
 T
 T
 j
@@ -302,10 +305,10 @@ j
 j
 T
 T
-c
+v
 "}
 (7,1,1) = {"
-c
+v
 T
 T
 j
@@ -327,10 +330,10 @@ j
 j
 T
 T
-c
+v
 "}
 (8,1,1) = {"
-c
+v
 T
 j
 j
@@ -352,10 +355,10 @@ j
 j
 j
 T
-c
+v
 "}
 (9,1,1) = {"
-c
+v
 T
 j
 j
@@ -377,10 +380,10 @@ j
 j
 j
 T
-c
+v
 "}
 (10,1,1) = {"
-c
+v
 T
 j
 j
@@ -402,7 +405,7 @@ j
 j
 j
 T
-c
+v
 "}
 (11,1,1) = {"
 c
@@ -480,7 +483,7 @@ T
 c
 "}
 (14,1,1) = {"
-c
+v
 T
 j
 j
@@ -502,10 +505,10 @@ j
 j
 j
 T
-c
+v
 "}
 (15,1,1) = {"
-c
+v
 T
 j
 j
@@ -527,10 +530,10 @@ j
 j
 j
 T
-c
+v
 "}
 (16,1,1) = {"
-c
+v
 T
 j
 j
@@ -552,10 +555,10 @@ j
 j
 j
 T
-c
+v
 "}
 (17,1,1) = {"
-c
+v
 T
 T
 j
@@ -577,10 +580,10 @@ j
 j
 T
 T
-c
+v
 "}
 (18,1,1) = {"
-c
+v
 T
 T
 j
@@ -602,11 +605,11 @@ j
 j
 T
 T
-c
+v
 "}
 (19,1,1) = {"
-c
-c
+v
+v
 T
 T
 j
@@ -626,12 +629,12 @@ j
 j
 T
 T
-c
-c
+v
+v
 "}
 (20,1,1) = {"
-c
-c
+v
+v
 T
 T
 T
@@ -651,13 +654,13 @@ j
 T
 T
 T
-c
-c
+v
+v
 "}
 (21,1,1) = {"
-c
-c
-c
+v
+v
+v
 T
 T
 T
@@ -675,16 +678,16 @@ T
 T
 T
 T
-c
-c
-c
+v
+v
+v
 "}
 (22,1,1) = {"
-c
-c
-c
-c
-c
+v
+v
+v
+v
+v
 T
 T
 T
@@ -698,34 +701,34 @@ T
 T
 T
 T
-c
-c
-c
-c
-c
+v
+v
+v
+v
+v
 "}
 (23,1,1) = {"
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
 c
 c
 c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
-c
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
 "}

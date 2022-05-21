@@ -2220,7 +2220,7 @@
 /turf/open/floor/plasteel,
 /area/tdome/arena_source)
 "fR" = (
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/taperecorder,
 /obj/structure/table/wood,
 /obj/effect/turf_decal/tile/neutral{
@@ -8046,7 +8046,7 @@
 "sj" = (
 /obj/structure/table/wood,
 /obj/item/folder/red,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/restraints/handcuffs,
 /obj/item/assembly/flash/handheld,
 /obj/effect/turf_decal/tile/neutral{
@@ -9998,7 +9998,7 @@
 /area/centcom/holding)
 "wk" = (
 /obj/structure/table/reinforced,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/taperecorder,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -12045,7 +12045,7 @@
 /area/slavers)
 "Bq" = (
 /obj/structure/table/reinforced,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/taperecorder,
 /turf/open/floor/plasteel/grimy,
 /area/centcom/ferry)
@@ -16194,7 +16194,7 @@
 /area/tdome/tdomeadmin)
 "JJ" = (
 /obj/structure/table/reinforced,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/taperecorder,
 /obj/machinery/firealarm{
 	dir = 8;
@@ -17482,7 +17482,7 @@
 /area/centcom/holding)
 "Ne" = (
 /obj/structure/table/wood/fancy,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /turf/open/floor/holofloor{
 	dir = 8;
 	icon_state = "dark"
@@ -17865,7 +17865,7 @@
 "Ot" = (
 /obj/structure/table/wood,
 /obj/item/folder/red,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/restraints/handcuffs,
 /obj/item/assembly/flash/handheld,
 /obj/machinery/airalarm{
@@ -17916,7 +17916,7 @@
 /turf/open/floor/plating,
 /area/syndicate_mothership)
 "OA" = (
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/structure/table/wood,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -18713,7 +18713,7 @@
 "Rv" = (
 /obj/structure/table/wood,
 /obj/item/folder/red,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/restraints/handcuffs,
 /obj/item/assembly/flash/handheld,
 /obj/effect/turf_decal/tile/neutral{
@@ -20483,7 +20483,7 @@
 /area/slavers)
 "YE" = (
 /obj/structure/table/reinforced,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/taperecorder,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1

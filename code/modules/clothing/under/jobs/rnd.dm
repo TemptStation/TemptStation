@@ -14,6 +14,7 @@
 	body_parts_covered = CHEST|GROIN|ARMS
 	fitted = FEMALE_UNIFORM_TOP
 	mutantrace_variation = STYLE_DIGITIGRADE|STYLE_NO_ANTHRO_ICON
+	is_skirt = TRUE
 
 /obj/item/clothing/under/rank/rnd/research_director/alt
 	desc = "Maybe you'll engineer your own half-man, half-pig creature some day. Its fabric provides minor protection from biological contaminants."
@@ -33,6 +34,7 @@
 	can_adjust = FALSE
 	fitted = FEMALE_UNIFORM_TOP
 	mutantrace_variation = STYLE_DIGITIGRADE|STYLE_NO_ANTHRO_ICON
+	is_skirt = TRUE
 
 /obj/item/clothing/under/rank/rnd/research_director/turtleneck
 	desc = "A dark purple turtleneck and tan khakis, for a director with a superior sense of style."
@@ -52,6 +54,7 @@
 	can_adjust = FALSE
 	fitted = FEMALE_UNIFORM_TOP
 	mutantrace_variation = STYLE_DIGITIGRADE|STYLE_NO_ANTHRO_ICON
+	is_skirt = TRUE
 
 /obj/item/clothing/under/rank/rnd/scientist
 	desc = "It's made of a special fiber that provides minor protection against explosives. It has markings that denote the wearer as a scientist."
@@ -77,6 +80,7 @@
 	can_adjust = FALSE
 	fitted = FEMALE_UNIFORM_TOP
 	mutantrace_variation = STYLE_DIGITIGRADE|STYLE_NO_ANTHRO_ICON
+	is_skirt = TRUE
 
 /obj/item/clothing/under/rank/rnd/roboticist
 	desc = "It's a slimming black with reinforced seams; great for industrial work."
@@ -100,3 +104,4 @@
 	can_adjust = FALSE
 	fitted = FEMALE_UNIFORM_TOP
 	mutantrace_variation = STYLE_DIGITIGRADE|STYLE_NO_ANTHRO_ICON
+	is_skirt = TRUE

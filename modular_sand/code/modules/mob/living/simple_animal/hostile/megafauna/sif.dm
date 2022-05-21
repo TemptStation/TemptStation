@@ -208,22 +208,18 @@ Difficulty: Medium
 
 //Chance to dodge projectiles when angered or enraged
 /mob/living/simple_animal/hostile/megafauna/sif/bullet_act(obj/item/projectile/P)
-	var/passed = 0
+	var/passed = FALSE
 
-	if(angered)
-		switch(rand(0,100))
-			if(0 to 1)
-				passed = 1
+	if(angered && prob(1))
+		passed = TRUE
 
-	if(enraged)
-		switch(rand(0,100))
-			if(0 to 5)
-				passed = 1
+	if(enraged && prob(5))
+		passed = TRUE
 
-	if(passed == 1)
+	if(passed)
 		visible_message("<span class='danger'>[src] dodged the projectile!</span>", "<span class='userdanger'>You dodge the projectile!</span>")
 		playsound(src, pick('sound/weapons/bulletflyby.ogg', 'sound/weapons/bulletflyby2.ogg', 'sound/weapons/bulletflyby3.ogg'), 300, 1)
-		return 0
+		return FALSE
 
 	return ..()
 

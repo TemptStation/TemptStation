@@ -65,7 +65,7 @@
 		return
 	if(prob(0.01))
 		message += "\" and tips their hat. \"Spy's sappin' my chem dispenser!"//How did I not think of this earlier
-		message_admins("I really appreciate all the hard work you put into adminning citadel, I hope you're all having a good day and I hope this hidden and rare message_admins brightens up your day.")
+		message_admins("I really appreciate all the hard work you put into adminning Tempt, I hope you're all having a good day and I hope this hidden and rare message_admins brightens up your day.")
 	else
 		message += "\" and tips their hat. \"[pick("Yeehaw!", "Boy howdy.", "Darn tootin'.", "Well don't that beat all.", "Whoooowee, would ya look at that!", "Whoooowee! Makin' bacon!", "Cream Gravy!", "Yippekeeyah-heeyapeeah-kayoh!", "Move 'em out!", "Giddy up!")]"
 	speech_args[SPEECH_MESSAGE] = trim(message)

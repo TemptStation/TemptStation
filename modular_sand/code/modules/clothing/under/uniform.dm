@@ -15,3 +15,4 @@
 	anthro_mob_worn_overlay = 'modular_sand/icons/mob/clothing/uniform_digi.dmi'
 	icon_state = "cog_skirt"
 	can_adjust = FALSE
+	is_skirt = TRUE

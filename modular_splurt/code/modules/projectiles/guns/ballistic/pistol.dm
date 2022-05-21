@@ -10,13 +10,13 @@
 
 /obj/item/gun/ballistic/automatic/pistol/enforcer
 	name = "\improper Mk. 58 Enforcer (.45)"
-	desc = "A polymer frame pistol made by Nanotreason. Won't show up on Space port X-rays and cost more then you make in a month."
-	icon = 'modular_splurt/icons/obj/guns/projectile.dmi'
+	desc = "A polymer frame pistol made by NanoTrasen. Won't show up on space port X-rays and costs more than you make in a month."
+	icon = 'modular_tempt/icons/obj/guns/projectile.dmi'
 	icon_state = "enforcer_black"
 	w_class = WEIGHT_CLASS_NORMAL
 	mag_type = /obj/item/ammo_box/magazine/e45
-	can_suppress = FALSE
-	can_flashlight = 1
+	can_suppress = TRUE
+	can_flashlight = TRUE
 	flight_x_offset = 18
 	flight_y_offset = 14
 	obj_flags = UNIQUE_RENAME
@@ -30,43 +30,29 @@
 
 /obj/item/gun/ballistic/automatic/pistol/enforcer/update_icon_state()
 	if(current_skin)
-		icon_state = "[unique_reskin[current_skin]][chambered ? "" : "-e"]"
+		icon_state = "[unique_reskin[current_skin]][suppressed ? "-suppressed" : ""][chambered ? "" : "-e"]"
 	else
-		icon_state = "[initial(icon_state)][chambered ? "" : "-e"]"
+		icon_state = "[initial(icon_state)][suppressed ? "-suppressed" : ""][chambered ? "" : "-e"]"
 
 /obj/item/gun/ballistic/automatic/pistol/enforcer/nomag
 	spawnwithmagazine = FALSE
 
-/obj/item/gun/ballistic/automatic/pistol/enforcerred
-	name = "\improper HOS's Mk. 58 Enforcer (.45)"
-	desc = "A polymer frame pistol made by Nanotreason. Won't show up on Space port X-rays and cost more then you make in a month. Respect mah Authorita!"
-	icon = 'modular_splurt/icons/obj/guns/projectile.dmi'
+/obj/item/gun/ballistic/automatic/pistol/enforcer/red
+	name = "\improper HoS's Mk. 58 Enforcer (.45)"
 	icon_state = "enforcer_red"
-	w_class = WEIGHT_CLASS_NORMAL
-	mag_type = /obj/item/ammo_box/magazine/e45
-	can_suppress = FALSE
-	can_flashlight = 1
-	flight_x_offset = 18
-	flight_y_offset = 14
 
-/obj/item/gun/ballistic/automatic/pistol/enforcerred/update_icon_state()
-	icon_state = "[initial(icon_state)][chambered ? "" : "-e"]"
+/obj/item/gun/ballistic/automatic/pistol/enforcer/blue
+	name = "\improper Blue Mk. 58 Enforcer (.45)"
+	icon_state = "enforcer_blue"
 
+/obj/item/gun/ballistic/automatic/pistol/enforcer/blue/nomag
+	spawnwithmagazine = FALSE
 
-/obj/item/gun/ballistic/automatic/pistol/enforcergold
+/obj/item/gun/ballistic/automatic/pistol/enforcer/gold
 	name = "\improper Gold Mk. 58 Enforcer (.45)"
-	desc = "A titianium gold plated Enfocer. A vulger display of power. A show of force in a public execution."
-	icon = 'modular_splurt/icons/obj/guns/projectile.dmi'
+	desc = "A titanium-gold-plated Enforcer. A vulgar display of power and a show of force in public executions."
 	icon_state = "enforcer_gold"
-	w_class = WEIGHT_CLASS_NORMAL
-	mag_type = /obj/item/ammo_box/magazine/e45
-	can_suppress = FALSE
-	can_flashlight = 1
-	flight_x_offset = 18
-	flight_y_offset = 14
 
-/obj/item/gun/ballistic/automatic/pistol/enforcergold/update_icon_state()
-	icon_state = "[initial(icon_state)][chambered ? "" : "-e"]"
 
 /obj/item/gun/ballistic/automatic/pistol/m9mmpistol
 	name = "\improper Cheap 9mm Handgun"

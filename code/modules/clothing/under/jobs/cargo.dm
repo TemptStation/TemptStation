@@ -14,6 +14,7 @@
 	can_adjust = FALSE
 	fitted = FEMALE_UNIFORM_TOP
 	mutantrace_variation = STYLE_DIGITIGRADE|STYLE_NO_ANTHRO_ICON
+	is_skirt = TRUE
 
 /obj/item/clothing/under/rank/cargo/tech
 	name = "cargo technician's jumpsuit"
@@ -33,13 +34,14 @@
 
 /obj/item/clothing/under/rank/cargo/tech/skirt
 	name = "cargo technician's jumpskirt"
-	desc = "Skiiiiirts! They're comfy and easy to wear"
+	desc = "Skiiiiirts! They're comfy and easy to wear!"
 	icon_state = "cargo_skirt"
 	item_state = "lb_suit"
 	body_parts_covered = CHEST|GROIN|ARMS
 	can_adjust = FALSE
 	fitted = FEMALE_UNIFORM_TOP
 	mutantrace_variation = STYLE_DIGITIGRADE|STYLE_NO_ANTHRO_ICON
+	is_skirt = TRUE
 
 /obj/item/clothing/under/rank/cargo/tech/long
 	name = "cargo technician's jumpsuit (trousers)"

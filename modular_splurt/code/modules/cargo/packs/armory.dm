@@ -84,7 +84,7 @@
 	desc = "A gold handgun meant for the Captain."
 	access = ACCESS_CAPTAIN
 	cost = 6000
-	contains = list(/obj/item/gun/ballistic/automatic/pistol/enforcergold,
+	contains = list(/obj/item/gun/ballistic/automatic/pistol/enforcer/gold,
     /obj/item/ammo_box/magazine/e45/lethal,
     /obj/item/ammo_box/magazine/e45/lethal,
     /obj/item/ammo_box/magazine/e45,

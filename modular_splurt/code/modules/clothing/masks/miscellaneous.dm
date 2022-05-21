@@ -109,7 +109,7 @@
 	vision_correction = 1
 
 /obj/item/clothing/glasses/hud/security/sunglasses/aviators
-	name = "secuirity HUD aviators"
+	name = "Security HUD aviators"
 	desc = "aviators with a security HUD."
 	icon = 'modular_splurt/icons/obj/clothing/glasses.dmi'
 	icon_state = "aviator_sec"
@@ -117,7 +117,7 @@
 
 
 /obj/item/clothing/glasses/hud/security/sunglasses/aviators/prescription
-	name = "prescription secuirity HUD aviators"
+	name = "prescription security HUD aviators"
 	desc = "aviators with a security HUD with prescription lenses."
 	vision_correction = 1
 

@@ -169,9 +169,7 @@
 	log_game("[key_name(src)] was respawned to lobby [penalize? "with" : "without"] restrictions.")
 	var/mob/dead/new_player/N = transfer_to_lobby()
 
-	to_chat(N, "<span class='userdanger'>You have been respawned to the lobby. \
-	Remember to take heed of rules regarding round knowledge - notably, that ALL past lives are forgotten. \
-	Any character you join as has NO knowledge of round events unless specified otherwise by an admin.</span>")
+	to_chat(N, span_bold("Please roleplay correctly!"))
 
 /**
  * Actual proc that removes us and puts us back on lobby

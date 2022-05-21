@@ -27,6 +27,7 @@
 	var/max_accessories = 3
 	//SKYRAT EDIT END
 	var/mutable_appearance/accessory_overlay
+	var/is_skirt = FALSE //used for skirt peeking
 
 /obj/item/clothing/under/worn_overlays(isinhands = FALSE, icon_file, used_state, style_flags = NONE)
 	. = ..()

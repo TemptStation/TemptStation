@@ -12859,7 +12859,7 @@
 	req_access_txt = "72"
 	},
 /turf/open/floor/wood,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "aYr" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/space_heater,
@@ -15345,7 +15345,7 @@
 /obj/item/paper_bin,
 /obj/item/pen,
 /turf/open/floor/wood,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "bla" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/reagent_dispensers/fueltank,
@@ -30959,7 +30959,7 @@
 	},
 /obj/structure/closet/secure_closet/blueshield,
 /turf/open/floor/wood,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "ckj" = (
 /obj/structure/cable/white{
 	icon_state = "0-4"
@@ -64290,7 +64290,7 @@
 "dPu" = (
 /obj/effect/landmark/start/blueshield,
 /turf/open/floor/wood,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "dPF" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable/white{
@@ -72547,7 +72547,7 @@
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "eOt" = (
 /obj/machinery/atmospherics/pipe/simple/green/visible{
 	dir = 9
@@ -73185,7 +73185,7 @@
 "fby" = (
 /obj/structure/table/wood,
 /obj/item/storage/secure/briefcase,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
@@ -79775,7 +79775,7 @@
 /obj/structure/rack,
 /obj/effect/decal/cleanable/dirt,
 /obj/item/crowbar/red,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plating,
 /area/maintenance/starboard)
@@ -82331,7 +82331,7 @@
 	pixel_y = -26
 	},
 /turf/open/floor/wood,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "ifX" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
@@ -84062,7 +84062,7 @@
 /obj/structure/bed/double,
 /obj/item/bedsheet/blue/double,
 /turf/open/floor/wood,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "iEP" = (
 /obj/structure/cable/white{
 	icon_state = "1-2"
@@ -84291,7 +84291,7 @@
 /obj/structure/table/wood,
 /obj/item/folder,
 /turf/open/floor/wood,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "iJr" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 8
@@ -84878,7 +84878,7 @@
 "iRg" = (
 /obj/structure/table/wood,
 /obj/item/crowbar/red,
-/obj/item/book/manual/splurt_space_law{
+/obj/item/book/manual/local_space_law{
 	pixel_x = 3;
 	pixel_y = 3
 	},
@@ -86786,7 +86786,7 @@
 	pixel_x = -32
 	},
 /obj/structure/table/reinforced,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/radio,
 /obj/machinery/button/door{
 	desc = "A remote control switch for the medbay foyer.";
@@ -88196,8 +88196,8 @@
 /area/engineering/atmospherics_engine)
 "jVo" = (
 /obj/structure/table/wood,
-/obj/item/book/manual/splurt_space_law,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/taperecorder{
 	pixel_x = 3
 	},
@@ -90189,7 +90189,7 @@
 /area/engineering/storage)
 "kCE" = (
 /obj/structure/table/reinforced,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/taperecorder,
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
 	dir = 1
@@ -91062,7 +91062,7 @@
 "kSP" = (
 /obj/structure/table/wood,
 /obj/item/folder/red,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /turf/open/floor/wood,
 /area/command/meeting_room/council)
 "kSZ" = (
@@ -99340,7 +99340,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "nNu" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
@@ -99970,7 +99970,7 @@
 	pixel_x = -32
 	},
 /obj/structure/table/reinforced,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/radio,
 /obj/machinery/button/door{
 	desc = "A remote control switch.";
@@ -103327,7 +103327,7 @@
 /obj/structure/cable/white{
 	icon_state = "1-8"
 	},
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/camera/detective,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -105571,7 +105571,7 @@
 	dir = 1
 	},
 /obj/item/folder/red,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/effect/turf_decal/tile/red{
 	dir = 1
 	},
@@ -108318,7 +108318,7 @@
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "qWS" = (
 /obj/item/radio/intercom{
 	name = "Station Intercom";
@@ -109872,7 +109872,7 @@
 "rzy" = (
 /obj/structure/sign/nanotrasen,
 /turf/closed/wall,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "rzU" = (
 /obj/structure/sign/warning/vacuum{
 	pixel_x = -32
@@ -112802,7 +112802,7 @@
 	},
 /obj/structure/curtain,
 /turf/open/floor/plasteel/white,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "swp" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/atmos/nitrous_input{
 	dir = 4
@@ -115044,7 +115044,7 @@
 /area/command/heads_quarters/rd)
 "tjH" = (
 /obj/structure/table/reinforced,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/radio,
 /obj/structure/reagent_dispensers/peppertank{
 	pixel_x = 32
@@ -115764,7 +115764,7 @@
 	req_access_txt = "72"
 	},
 /turf/open/floor/plasteel/white,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "tup" = (
 /obj/structure/table/wood,
 /obj/structure/cable/white{
@@ -116431,7 +116431,7 @@
 	dir = 4
 	},
 /turf/closed/wall,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "tDT" = (
 /obj/machinery/power/rad_collector/anchored,
 /obj/machinery/atmospherics/pipe/manifold/general/visible{
@@ -117045,7 +117045,7 @@
 	dir = 4
 	},
 /turf/closed/wall,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "tQR" = (
 /obj/machinery/door/firedoor,
 /obj/effect/decal/cleanable/dirt,
@@ -117920,7 +117920,7 @@
 /area/command/teleporter)
 "uey" = (
 /obj/structure/table/reinforced,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/radio,
 /obj/machinery/status_display/ai{
 	pixel_y = 32
@@ -121193,7 +121193,7 @@
 /obj/structure/dresser,
 /obj/machinery/light/small,
 /turf/open/floor/wood,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "vsP" = (
 /obj/structure/table/wood/poker,
 /obj/effect/decal/cleanable/dirt,
@@ -121426,7 +121426,7 @@
 	dir = 8;
 	pixel_x = 24
 	},
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/radio,
 /obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/red{
@@ -125630,7 +125630,7 @@
 /area/service/library/abandoned)
 "wZX" = (
 /turf/closed/wall,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "wZZ" = (
 /obj/structure/table/wood,
 /obj/item/clipboard,
@@ -126222,7 +126222,7 @@
 	pixel_x = -32
 	},
 /turf/open/floor/wood,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "xjy" = (
 /obj/structure/window/reinforced,
 /obj/structure/window/reinforced{
@@ -127497,7 +127497,7 @@
 /area/service/lawoffice)
 "xHa" = (
 /turf/open/floor/wood,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "xHp" = (
 /obj/effect/landmark/start/chaplain,
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
@@ -128766,7 +128766,7 @@
 	},
 /obj/machinery/vending/wardrobe/blueshield_wardrobe,
 /turf/open/floor/wood,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "yfd" = (
 /obj/structure/table/wood,
 /obj/item/camera_film{
@@ -128810,7 +128810,7 @@
 "yfC" = (
 /obj/machinery/light/small,
 /turf/open/floor/plasteel/white,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "yfG" = (
 /obj/machinery/hydroponics/constructable,
 /obj/structure/sign/nanotrasen{

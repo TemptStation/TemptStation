@@ -17803,7 +17803,7 @@
 	dir = 4
 	},
 /obj/structure/table/wood,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/flashlight/lamp/green{
 	pixel_x = -7;
 	pixel_y = 1
@@ -25131,7 +25131,7 @@
 "iOM" = (
 /obj/structure/table/wood,
 /obj/item/storage/fancy/donut_box,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/structure/extinguisher_cabinet{
 	pixel_y = -31
 	},
@@ -36178,7 +36178,7 @@
 /obj/structure/reagent_dispensers/peppertank{
 	pixel_y = 32
 	},
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /turf/open/floor/plasteel/dark,
 /area/security/office)
 "qbr" = (
@@ -43167,7 +43167,7 @@
 /area/hallway/secondary/exit/departure_lounge)
 "uGn" = (
 /obj/structure/table/wood,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /turf/open/floor/carpet,
 /area/command/meeting_room)
 "uGQ" = (
@@ -43464,7 +43464,7 @@
 /area/service/chapel/office)
 "uPS" = (
 /obj/structure/table/wood,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/flashlight/lamp/green{
 	pixel_x = -7;
 	pixel_y = 1
@@ -43840,7 +43840,7 @@
 	pixel_x = -7;
 	pixel_y = 4
 	},
-/obj/item/book/manual/splurt_space_law{
+/obj/item/book/manual/local_space_law{
 	pixel_x = 6;
 	pixel_y = 2
 	},
@@ -46074,7 +46074,7 @@
 	dir = 4
 	},
 /obj/structure/table/wood,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/pen/red,
 /turf/open/floor/plasteel/cult,
 /area/service/lawoffice)

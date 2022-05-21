@@ -15,6 +15,7 @@
 	can_adjust = FALSE
 	fitted = FEMALE_UNIFORM_TOP
 	mutantrace_variation = STYLE_DIGITIGRADE|STYLE_NO_ANTHRO_ICON
+	is_skirt = TRUE
 
 /obj/item/clothing/under/suit/sl
 	desc = "It's a very amish looking suit."
@@ -47,6 +48,7 @@
 	desc = "A formal trouser suit for women, intended for the station's finest."
 	icon_state = "black_suit_fem"
 	item_state = "black_suit_fem"
+	is_skirt = TRUE
 
 /obj/item/clothing/under/suit/green
 	name = "green suit"

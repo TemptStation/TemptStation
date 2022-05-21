@@ -50596,7 +50596,7 @@
 	icon_state = "1-2"
 	},
 /turf/closed/wall,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "cJW" = (
 /obj/machinery/computer/gateway_control,
 /turf/open/floor/plasteel,
@@ -51591,7 +51591,7 @@
 	pixel_y = 26;
 	req_access_txt = "5"
 	},
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/effect/turf_decal/tile/red{
 	dir = 1
 	},
@@ -51631,7 +51631,7 @@
 /area/service/chapel/main)
 "duq" = (
 /obj/structure/table/wood,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
@@ -54017,7 +54017,7 @@
 /turf/open/floor/plating,
 /area/security/prison/upper)
 "gfy" = (
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/structure/table/wood,
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -54206,7 +54206,7 @@
 	pixel_y = -24
 	},
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "gvX" = (
 /turf/open/floor/plasteel/yellowsiding,
 /area/commons/fitness/pool)
@@ -54992,7 +54992,7 @@
 	},
 /obj/effect/landmark/start/blueshield,
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "hBw" = (
 /obj/structure/lattice,
 /turf/closed/wall,
@@ -55224,8 +55224,8 @@
 /area/maintenance/starboard/aft)
 "hUY" = (
 /obj/structure/table,
-/obj/item/book/manual/splurt_space_law,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel,
 /area/security/office)
@@ -55491,7 +55491,7 @@
 /turf/open/floor/plasteel,
 /area/engineering/atmos)
 "iqp" = (
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/structure/table,
 /obj/effect/turf_decal/tile/red{
 	dir = 1
@@ -55570,7 +55570,7 @@
 /turf/open/floor/plasteel/white,
 /area/medical/surgery)
 "iwn" = (
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/structure/table/wood,
 /turf/open/floor/carpet,
 /area/command/meeting_room)
@@ -56068,7 +56068,7 @@
 	},
 /obj/structure/closet/secure_closet/blueshield,
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "jnV" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -56086,7 +56086,7 @@
 /area/maintenance/port/fore)
 "jos" = (
 /obj/structure/table,
-/obj/item/book/manual/splurt_space_law{
+/obj/item/book/manual/local_space_law{
 	pixel_x = -3;
 	pixel_y = 5
 	},
@@ -56162,7 +56162,7 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "juG" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/firedoor,
@@ -56679,7 +56679,7 @@
 	dir = 8
 	},
 /turf/closed/wall,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "jTy" = (
 /obj/machinery/washing_machine,
 /obj/effect/turf_decal/tile/blue{
@@ -56909,7 +56909,7 @@
 	},
 /obj/machinery/vending/wardrobe/blueshield_wardrobe,
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "keM" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/preopen{
@@ -58075,7 +58075,7 @@
 /area/maintenance/port/fore)
 "lzq" = (
 /obj/structure/table/wood,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/coin/plasma,
 /turf/open/floor/wood,
 /area/command/heads_quarters/captain)
@@ -61477,7 +61477,7 @@
 /area/maintenance/port/fore)
 "pXb" = (
 /turf/closed/wall,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "pXG" = (
 /obj/structure/table/wood,
 /obj/item/candle{
@@ -61520,7 +61520,7 @@
 "qag" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/closed/wall,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "qaW" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
@@ -62717,7 +62717,7 @@
 /obj/item/book/manual/wiki/experimentor,
 /obj/item/book/manual/wiki/research_and_development,
 /obj/item/book/manual/wiki/robotics_cyborgs,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/book/manual/wiki/medicine,
 /obj/item/book/manual/wiki/medical_cloning,
 /obj/item/book/manual/wiki/infections,
@@ -63708,8 +63708,8 @@
 /area/security/prison/upper)
 "sZC" = (
 /obj/structure/table,
-/obj/item/book/manual/splurt_space_law,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/stack/sheet/glass/fifty{
 	pixel_x = 3;
 	pixel_y = 3
@@ -65260,7 +65260,7 @@
 	req_access_txt = "72"
 	},
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "vcN" = (
 /obj/machinery/light{
 	dir = 4
@@ -66349,7 +66349,7 @@
 "wwK" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/closed/wall,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "wwX" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/machinery/holopad/secure,
@@ -66513,7 +66513,7 @@
 /area/service/abandoned_gambling_den)
 "wPo" = (
 /obj/structure/table,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/red{
 	dir = 4
@@ -66925,7 +66925,7 @@
 /area/security/brig)
 "xnn" = (
 /obj/structure/table,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden,
 /obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/red{
@@ -67552,8 +67552,8 @@
 /area/hallway/primary/fore)
 "ydb" = (
 /obj/structure/table/wood,
-/obj/item/book/manual/splurt_space_law,
-/obj/item/book/manual/splurt_space_law,
+/obj/item/book/manual/local_space_law,
+/obj/item/book/manual/local_space_law,
 /obj/item/pen/red,
 /turf/open/floor/wood,
 /area/service/lawoffice)
@@ -67603,7 +67603,7 @@
 	dir = 8
 	},
 /turf/open/floor/carpet,
-/area/command/blueshielquarters)
+/area/command/blueshield_quarters)
 "yhx" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 5
